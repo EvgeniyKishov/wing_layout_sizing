@@ -1,0 +1,45 @@
+{
+  "status": "feasible",
+  "feasible": true,
+  "objective_mass_kg": 548.5060187578904,
+  "final": {
+    "phase": "buckling",
+    "iteration": 32,
+    "folder": "buckling\\iteration_032",
+    "mass_kg": 548.5060187578904,
+    "raw_peak_MPa": 506.2783084978192,
+    "filtered_peak_MPa": 298.0273504173681,
+    "seconds": 98.57870799998636,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.037805183543242e-06,
+        -2.771403160295449e-07,
+        8.983063162304461e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010572830215096474,
+        -0.00013779348228126764,
+        4.40804742538603e-05
+      ]
+    },
+    "BLF": 1.024109559268217,
+    "eigenvalues": [
+      1.024109559268217,
+      1.025423410682805,
+      1.025867408028549,
+      1.026538007055986,
+      1.027308887187045
+    ],
+    "rule": "uniform_restoration",
+    "switch_reason": "restoration_latched"
+  },
+  "ribs": 16,
+  "spars": [
+    0.1,
+    0.7
+  ],
+  "completed_solves": 57,
+  "solver_seconds": 4682.17745469982,
+  "invocation_wall_seconds": 4776.5443382000085,
+  "restoration_policy": "stagnation"
+}

@@ -1,0 +1,2105 @@
+[
+  {
+    "phase": "fsd",
+    "iteration": 0,
+    "folder": "fsd\\iteration_000",
+    "mass_kg": 2025.8923908941304,
+    "raw_peak_MPa": 233.80097627492322,
+    "filtered_peak_MPa": 163.87397752859525,
+    "seconds": 44.785004600009415,
+    "reaction_balance": {
+      "force_residual_N": [
+        -7.420102065225365e-06,
+        3.8363026760634966e-05,
+        0.00045887960004620254
+      ],
+      "moment_residual_Nm": [
+        0.0046500940807163715,
+        0.014447624853346497,
+        0.00015451799117727205
+      ]
+    },
+    "active_variables": 30912,
+    "active_fraction": 1.0,
+    "active_below_band": 30912,
+    "active_above_band": 0,
+    "interior_variables": 30912,
+    "change": 0.9375,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 1,
+    "folder": "fsd\\iteration_001",
+    "mass_kg": 319.2869498608742,
+    "raw_peak_MPa": 833.704608070728,
+    "filtered_peak_MPa": 416.4575649258972,
+    "seconds": 41.574008700001286,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.3585635037525208e-06,
+        4.3366526369936764e-07,
+        9.159490582533181e-05
+      ],
+      "moment_residual_Nm": [
+        0.001013279426842928,
+        -0.00013411068357527256,
+        4.6063581976341084e-05
+      ]
+    },
+    "active_variables": 10363,
+    "active_fraction": 0.3352419772256729,
+    "active_below_band": 8858,
+    "active_above_band": 1505,
+    "interior_variables": 12109,
+    "change": 0.5875490171503093,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 2,
+    "folder": "fsd\\iteration_002",
+    "mass_kg": 304.9551759063089,
+    "raw_peak_MPa": 787.2061531902282,
+    "filtered_peak_MPa": 390.7624966139689,
+    "seconds": 40.97489979999955,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.321838960346213e-06,
+        3.2419438866782e-07,
+        8.729466935619712e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010277722030878067,
+        -0.0001400691398885101,
+        4.5361351112660486e-05
+      ]
+    },
+    "active_variables": 8101,
+    "active_fraction": 0.2620665113871636,
+    "active_below_band": 7343,
+    "active_above_band": 758,
+    "interior_variables": 10522,
+    "change": 0.42159035046095716,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 3,
+    "folder": "fsd\\iteration_003",
+    "mass_kg": 302.06085583096655,
+    "raw_peak_MPa": 724.7132523636342,
+    "filtered_peak_MPa": 336.0053475398041,
+    "seconds": 41.84296030001133,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.5725086036109133e-06,
+        2.8022714104736224e-07,
+        8.984046871773899e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010570026934146881,
+        -0.0001381021284032613,
+        4.5086952013662085e-05
+      ]
+    },
+    "active_variables": 6033,
+    "active_fraction": 0.1951669254658385,
+    "active_below_band": 5990,
+    "active_above_band": 43,
+    "interior_variables": 9025,
+    "change": 0.32953656600789016,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.8423968857892021,
+      0.044886814073704526,
+      0.009490968850555214
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 4,
+    "folder": "fsd\\iteration_004",
+    "mass_kg": 300.86113183806935,
+    "raw_peak_MPa": 686.8724464208392,
+    "filtered_peak_MPa": 335.54148656393517,
+    "seconds": 43.94007889999193,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.1784987868377357e-06,
+        2.687861524464097e-07,
+        8.80678417161107e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010275195818394423,
+        -0.00013028268585912883,
+        4.011279270343948e-05
+      ]
+    },
+    "active_variables": 4452,
+    "active_fraction": 0.14402173913043478,
+    "active_below_band": 4425,
+    "active_above_band": 27,
+    "interior_variables": 7980,
+    "change": 0.27990287171781036,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.044886814073704526,
+      0.009490968850555214,
+      0.003971795648915717
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 5,
+    "folder": "fsd\\iteration_005",
+    "mass_kg": 300.2453634971948,
+    "raw_peak_MPa": 669.2640568570375,
+    "filtered_peak_MPa": 337.1185338326681,
+    "seconds": 41.30598229999305,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.107277791514207e-06,
+        1.0126859706360847e-07,
+        8.172911475412548e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009638716001063585,
+        -0.0001283246383536607,
+        4.2976530494343024e-05
+      ]
+    },
+    "active_variables": 3814,
+    "active_fraction": 0.12338250517598344,
+    "active_below_band": 3791,
+    "active_above_band": 23,
+    "interior_variables": 7477,
+    "change": 0.24250233580371172,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.009490968850555214,
+      0.003971795648915717,
+      0.0020466862472816936
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 6,
+    "folder": "fsd\\iteration_006",
+    "mass_kg": 299.8941164061064,
+    "raw_peak_MPa": 660.6412976391265,
+    "filtered_peak_MPa": 335.76544250629945,
+    "seconds": 41.107744899985846,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.683290975051932e-06,
+        4.854341568716336e-07,
+        7.430560071952641e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008687470108270645,
+        -0.00011341049685142934,
+        2.6008048735093325e-05
+      ]
+    },
+    "active_variables": 3540,
+    "active_fraction": 0.11451863354037267,
+    "active_below_band": 3520,
+    "active_above_band": 20,
+    "interior_variables": 7261,
+    "change": 0.2084224240800654,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.003971795648915717,
+      0.0020466862472816936,
+      0.0011698668282405565
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 7,
+    "folder": "fsd\\iteration_007",
+    "mass_kg": 299.7207263304564,
+    "raw_peak_MPa": 654.0651946163209,
+    "filtered_peak_MPa": 330.9945315113647,
+    "seconds": 41.09688540000934,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.11725324309009e-06,
+        -2.4155497158062644e-08,
+        8.886388968676329e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010129206348210573,
+        -0.0001363359042443335,
+        4.318213450460462e-05
+      ]
+    },
+    "active_variables": 3415,
+    "active_fraction": 0.11047489648033126,
+    "active_below_band": 3397,
+    "active_above_band": 18,
+    "interior_variables": 7132,
+    "change": 0.18540373873853866,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0020466862472816936,
+      0.0011698668282405565,
+      0.0005781709815713481
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 8,
+    "folder": "fsd\\iteration_008",
+    "mass_kg": 299.62953470583403,
+    "raw_peak_MPa": 648.8824391473254,
+    "filtered_peak_MPa": 324.5334544669828,
+    "seconds": 41.119447100005345,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.5944230230834364e-06,
+        3.1543777367915027e-07,
+        8.55255639180541e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009814410004764795,
+        -0.00013290884089656174,
+        3.236650809412822e-05
+      ]
+    },
+    "active_variables": 3326,
+    "active_fraction": 0.10759575569358178,
+    "active_below_band": 3313,
+    "active_above_band": 13,
+    "interior_variables": 6979,
+    "change": 0.16162565765934922,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0011698668282405565,
+      0.0005781709815713481,
+      0.00030425531707076864
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 9,
+    "folder": "fsd\\iteration_009",
+    "mass_kg": 299.6031385374911,
+    "raw_peak_MPa": 644.04916807604,
+    "filtered_peak_MPa": 317.72713844961424,
+    "seconds": 39.53467019999516,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.8786884627152176e-06,
+        2.2174936020746827e-07,
+        8.227676153182983e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009664958342909813,
+        -0.0001242960279341787,
+        4.219427137286402e-05
+      ]
+    },
+    "active_variables": 3247,
+    "active_fraction": 0.10504011387163562,
+    "active_below_band": 3242,
+    "active_above_band": 5,
+    "interior_variables": 6848,
+    "change": 0.150910982625167,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0005781709815713481,
+      0.00030425531707076864,
+      8.809601619837147e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 10,
+    "folder": "fsd\\iteration_010",
+    "mass_kg": 299.6298040907828,
+    "raw_peak_MPa": 639.80085576115,
+    "filtered_peak_MPa": 311.741690481268,
+    "seconds": 40.89636489999248,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.097882253972784e-06,
+        3.549068878783146e-07,
+        0.00010109134018421173
+      ],
+      "moment_residual_Nm": [
+        0.0011897971853613853,
+        -0.0001547908177599311,
+        4.967838140146341e-05
+      ]
+    },
+    "active_variables": 3182,
+    "active_fraction": 0.10293737060041408,
+    "active_below_band": 3182,
+    "active_above_band": 0,
+    "interior_variables": 6752,
+    "change": 0.136977990527552,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00030425531707076864,
+      8.809601619837147e-05,
+      8.900291706513695e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 11,
+    "folder": "fsd\\iteration_011",
+    "mass_kg": 299.6770114938221,
+    "raw_peak_MPa": 635.896618557464,
+    "filtered_peak_MPa": 306.97209184005663,
+    "seconds": 43.672307799977716,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.7876741316722473e-06,
+        2.1509526959562209e-07,
+        9.110054816119373e-05
+      ],
+      "moment_residual_Nm": [
+        0.001059911446645856,
+        -0.0001393113925587386,
+        4.8182611863012426e-05
+      ]
+    },
+    "active_variables": 3154,
+    "active_fraction": 0.1020315734989648,
+    "active_below_band": 3154,
+    "active_above_band": 0,
+    "interior_variables": 6674,
+    "change": 0.11691662315788964,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      8.809601619837147e-05,
+      8.900291706513695e-05,
+      0.00015755242767836124
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 12,
+    "folder": "fsd\\iteration_012",
+    "mass_kg": 299.75667448005237,
+    "raw_peak_MPa": 632.7993579840761,
+    "filtered_peak_MPa": 303.92971895561067,
+    "seconds": 41.36117930000182,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.013655089034728e-06,
+        5.025797236157814e-07,
+        8.806789992377162e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010293156374245882,
+        -0.00013473574654199183,
+        4.132506091991672e-05
+      ]
+    },
+    "active_variables": 3099,
+    "active_fraction": 0.10025232919254658,
+    "active_below_band": 3099,
+    "active_above_band": 0,
+    "interior_variables": 6594,
+    "change": 0.10535870784863977,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      8.900291706513695e-05,
+      0.00015755242767836124,
+      0.0002658294869973088
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 13,
+    "folder": "fsd\\iteration_013",
+    "mass_kg": 299.8700647082951,
+    "raw_peak_MPa": 630.3704750438039,
+    "filtered_peak_MPa": 303.4933815519267,
+    "seconds": 41.26068450001185,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.3736412799735263e-06,
+        4.81715687783435e-07,
+        8.441958925686777e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009707361459732056,
+        -0.0001287456543650478,
+        3.5234585993748624e-05
+      ]
+    },
+    "active_variables": 3047,
+    "active_fraction": 0.09857013457556936,
+    "active_below_band": 3047,
+    "active_above_band": 0,
+    "interior_variables": 6516,
+    "change": 0.09835075110870206,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00015755242767836124,
+      0.0002658294869973088,
+      0.00037827424006293937
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 14,
+    "folder": "fsd\\iteration_014",
+    "mass_kg": 299.99705018572274,
+    "raw_peak_MPa": 628.3152882401854,
+    "filtered_peak_MPa": 303.058245097957,
+    "seconds": 39.741991599992616,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.2793574316892773e-06,
+        1.1509928299346939e-07,
+        7.838619058020413e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009182703215628862,
+        -0.00012052655802108347,
+        3.3360654015268665e-05
+      ]
+    },
+    "active_variables": 3046,
+    "active_fraction": 0.09853778467908902,
+    "active_below_band": 3046,
+    "active_above_band": 0,
+    "interior_variables": 6473,
+    "change": 0.09021574625872042,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0002658294869973088,
+      0.00037827424006293937,
+      0.0004234683363648386
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 15,
+    "folder": "fsd\\iteration_015",
+    "mass_kg": 300.13130952744154,
+    "raw_peak_MPa": 626.4932849248931,
+    "filtered_peak_MPa": 302.6825089111669,
+    "seconds": 43.191597099998035,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.7707264393939113e-06,
+        2.9802868084516376e-07,
+        7.819381426088512e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008933618664741516,
+        -0.00011989750782959163,
+        4.049077688250691e-05
+      ]
+    },
+    "active_variables": 3024,
+    "active_fraction": 0.09782608695652174,
+    "active_below_band": 3024,
+    "active_above_band": 0,
+    "interior_variables": 6414,
+    "change": 0.08614784325347224,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00037827424006293937,
+      0.0004234683363648386,
+      0.00044753553955175624
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 16,
+    "folder": "fsd\\iteration_016",
+    "mass_kg": 300.2795898046017,
+    "raw_peak_MPa": 624.5152066251356,
+    "filtered_peak_MPa": 302.27890495780025,
+    "seconds": 43.02723340000375,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.7047379944633576e-06,
+        2.882438820961397e-07,
+        6.916976417414844e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007918782066553831,
+        -0.00010714787640608847,
+        3.84848781322944e-05
+      ]
+    },
+    "active_variables": 2999,
+    "active_fraction": 0.09701733954451346,
+    "active_below_band": 2999,
+    "active_above_band": 0,
+    "interior_variables": 6366,
+    "change": 0.0803935004996541,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0004234683363648386,
+      0.00044753553955175624,
+      0.000494051345038351
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 17,
+    "folder": "fsd\\iteration_017",
+    "mass_kg": 300.4408120129743,
+    "raw_peak_MPa": 622.6431812131007,
+    "filtered_peak_MPa": 301.8533523110994,
+    "seconds": 47.68624099998851,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.923229655811156e-06,
+        3.8162738746905234e-07,
+        6.881635636091232e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007995136547833681,
+        -0.00010630613542161882,
+        5.259803720036871e-05
+      ]
+    },
+    "active_variables": 2957,
+    "active_fraction": 0.09565864389233955,
+    "active_below_band": 2957,
+    "active_above_band": 0,
+    "interior_variables": 6312,
+    "change": 0.08397707347731498,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00044753553955175624,
+      0.000494051345038351,
+      0.0005369069821811365
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 18,
+    "folder": "fsd\\iteration_018",
+    "mass_kg": 300.61561150296205,
+    "raw_peak_MPa": 620.9342556152543,
+    "filtered_peak_MPa": 301.0184030090337,
+    "seconds": 41.22787219999009,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.9984540219629707e-06,
+        3.1206172934616916e-07,
+        8.681026520207524e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009937400463968515,
+        -0.00013331655645743012,
+        3.938401869163499e-05
+      ]
+    },
+    "active_variables": 2976,
+    "active_fraction": 0.09627329192546584,
+    "active_below_band": 2976,
+    "active_above_band": 0,
+    "interior_variables": 6274,
+    "change": 0.08973582914380906,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.000494051345038351,
+      0.0005369069821811365,
+      0.0005818100703982525
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 19,
+    "folder": "fsd\\iteration_019",
+    "mass_kg": 300.79213614477965,
+    "raw_peak_MPa": 619.4091634634553,
+    "filtered_peak_MPa": 299.91563101217827,
+    "seconds": 41.32933510001749,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.955202717203065e-06,
+        -6.255049811443314e-10,
+        8.002988761290908e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009304394479840994,
+        -0.00012333359336480498,
+        3.932891377189662e-05
+      ]
+    },
+    "active_variables": 3020,
+    "active_fraction": 0.09769668737060042,
+    "active_below_band": 3020,
+    "active_above_band": 0,
+    "interior_variables": 6245,
+    "change": 0.09238539743635032,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0005369069821811365,
+      0.0005818100703982525,
+      0.0005872104942755246
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 20,
+    "folder": "fsd\\iteration_020",
+    "mass_kg": 300.97421044712115,
+    "raw_peak_MPa": 617.9660634167357,
+    "filtered_peak_MPa": 299.0623114109317,
+    "seconds": 41.15291519998573,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.1557499937662215e-06,
+        2.714741640374996e-07,
+        9.175718878395855e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010799875017255545,
+        -0.00014411978190764785,
+        3.8561871861020336e-05
+      ]
+    },
+    "active_variables": 3022,
+    "active_fraction": 0.09776138716356107,
+    "active_below_band": 3022,
+    "active_above_band": 0,
+    "interior_variables": 6204,
+    "change": 0.0949077962714513,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0005818100703982525,
+      0.0005872104942755246,
+      0.0006053160321115155
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 21,
+    "folder": "fsd\\iteration_021",
+    "mass_kg": 301.16575064681524,
+    "raw_peak_MPa": 616.5941147552968,
+    "filtered_peak_MPa": 298.2392561572802,
+    "seconds": 41.098603899998125,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.04546682880391e-06,
+        2.7413784664531704e-07,
+        8.539896225556731e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009666855912655592,
+        -0.00012616554158739746,
+        2.9526201160479104e-05
+      ]
+    },
+    "active_variables": 3014,
+    "active_fraction": 0.09750258799171843,
+    "active_below_band": 3014,
+    "active_above_band": 0,
+    "interior_variables": 6177,
+    "change": 0.10027091055003423,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0005872104942755246,
+      0.0006053160321115155,
+      0.0006364007049293041
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 22,
+    "folder": "fsd\\iteration_022",
+    "mass_kg": 301.36808214386593,
+    "raw_peak_MPa": 615.2834780191223,
+    "filtered_peak_MPa": 297.53423366469724,
+    "seconds": 41.067181199992774,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.0662611127118e-06,
+        1.9751564650505316e-07,
+        8.004411938600242e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009156852029263973,
+        -0.00012182650971226394,
+        5.433833848655922e-05
+      ]
+    },
+    "active_variables": 3011,
+    "active_fraction": 0.09740553830227744,
+    "active_below_band": 3011,
+    "active_above_band": 0,
+    "interior_variables": 6149,
+    "change": 0.07835078020916197,
+    "fsd_stop": "feasible_mass_stagnation",
+    "mass_window_relative_changes": [
+      0.0006053160321115155,
+      0.0006364007049293041,
+      0.000671827711538064
+    ],
+    "mass_stagnation": true
+  },
+  {
+    "phase": "buckling",
+    "iteration": 0,
+    "folder": "buckling\\iteration_000",
+    "mass_kg": 301.36808214386593,
+    "raw_peak_MPa": 615.2834780191223,
+    "filtered_peak_MPa": 297.53423366469724,
+    "seconds": 68.09592530000373,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.908594294443901e-06,
+        4.2862575355684385e-07,
+        7.891069981269538e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009011051151901484,
+        -0.00011976464884355664,
+        5.197912969379104e-05
+      ]
+    },
+    "BLF": 0.005242702004564822,
+    "eigenvalues": [
+      0.005242702004564822,
+      0.005522479960135876,
+      0.006241256160491468,
+      0.006503025308104004,
+      0.006828478792992954
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 1,
+    "folder": "buckling\\iteration_001",
+    "mass_kg": 312.347930453173,
+    "raw_peak_MPa": 635.0629640561117,
+    "filtered_peak_MPa": 305.97777576958464,
+    "seconds": 65.31068629998481,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.170395248413115e-06,
+        5.887545739824418e-07,
+        9.930072701536119e-05
+      ],
+      "moment_residual_Nm": [
+        0.001174527918919921,
+        -0.0001364005438517779,
+        -3.376519634912256e-05
+      ]
+    },
+    "BLF": 0.04049537827924387,
+    "eigenvalues": [
+      0.04049537827924387,
+      0.0431742621784567,
+      0.04966719688589387,
+      0.050098605428777,
+      0.05589242321915382
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 2,
+    "folder": "buckling\\iteration_002",
+    "mass_kg": 340.88630672845187,
+    "raw_peak_MPa": 587.4432332575626,
+    "filtered_peak_MPa": 321.1286973669455,
+    "seconds": 85.49007530001109,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.8591414345792145e-06,
+        2.8998920242884196e-07,
+        3.9277394535019994e-05
+      ],
+      "moment_residual_Nm": [
+        0.0003824504092335701,
+        -2.799034700728953e-05,
+        -1.820225952542387e-05
+      ]
+    },
+    "BLF": 0.2546205179166293,
+    "eigenvalues": [
+      0.2546205179166293,
+      0.2680162182888473,
+      0.3017845187955195,
+      0.3081052267067268,
+      0.3114645137226563
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 3,
+    "folder": "buckling\\iteration_003",
+    "mass_kg": 374.9111238733488,
+    "raw_peak_MPa": 504.7052916446458,
+    "filtered_peak_MPa": 338.4907057894359,
+    "seconds": 67.5199636000034,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.2394212944855099e-06,
+        4.760950105264783e-07,
+        3.2056268537417054e-05
+      ],
+      "moment_residual_Nm": [
+        0.00035470048896968365,
+        -3.6225246731191874e-05,
+        1.6632369806757197e-05
+      ]
+    },
+    "BLF": 0.3950494915094527,
+    "eigenvalues": [
+      0.3950494915094527,
+      0.3960954048637857,
+      0.4443709969678836,
+      0.4477046875747288,
+      0.4565149197304865
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 4,
+    "folder": "buckling\\iteration_004",
+    "mass_kg": 407.05709556384966,
+    "raw_peak_MPa": 513.5161943866076,
+    "filtered_peak_MPa": 328.23375380250377,
+    "seconds": 67.77246059998288,
+    "reaction_balance": {
+      "force_residual_N": [
+        -7.954149623401463e-07,
+        9.012319424073212e-08,
+        7.109399302862585e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007842720951884985,
+        -9.689846774563193e-05,
+        3.0809896998107433e-06
+      ]
+    },
+    "BLF": 0.4508317823954137,
+    "eigenvalues": [
+      0.4508317823954137,
+      0.4545516574082884,
+      0.5384019456785764,
+      0.5433734738543373,
+      0.5934615223371922
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 5,
+    "folder": "buckling\\iteration_005",
+    "mass_kg": 441.8768386872023,
+    "raw_peak_MPa": 536.4213064249573,
+    "filtered_peak_MPa": 325.8164489331185,
+    "seconds": 67.41548179998063,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.872619572575786e-06,
+        7.796738827892113e-07,
+        8.078562677837908e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009344078134745359,
+        -0.00011296293814666569,
+        3.666666816570796e-05
+      ]
+    },
+    "BLF": 0.6020823776210652,
+    "eigenvalues": [
+      0.6020823776210652,
+      0.6205751652761082,
+      0.6226893187513303,
+      0.6245089559230063,
+      0.6351234272396543
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 6,
+    "folder": "buckling\\iteration_006",
+    "mass_kg": 467.24571789021627,
+    "raw_peak_MPa": 527.6316303683581,
+    "filtered_peak_MPa": 326.5350459082889,
+    "seconds": 63.79686060000677,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.1698550628789235e-07,
+        3.8394318835344166e-08,
+        7.361455936916173e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008477997034788132,
+        -8.655886631458998e-05,
+        3.2546522561460733e-06
+      ]
+    },
+    "BLF": 0.626590726104227,
+    "eigenvalues": [
+      0.626590726104227,
+      0.628825748591377,
+      0.6342891821970856,
+      0.6384170665437018,
+      0.6703076653875634
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 7,
+    "folder": "buckling\\iteration_007",
+    "mass_kg": 488.71122429343814,
+    "raw_peak_MPa": 514.750390654996,
+    "filtered_peak_MPa": 322.60551410928673,
+    "seconds": 65.32551900000544,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.934707370310207e-06,
+        1.5157502275542356e-07,
+        4.5015214709565043e-05
+      ],
+      "moment_residual_Nm": [
+        0.00044877524487674236,
+        -4.5623775804415345e-05,
+        -2.601118103484623e-05
+      ]
+    },
+    "BLF": 0.641749420401649,
+    "eigenvalues": [
+      0.641749420401649,
+      0.6460100898848884,
+      0.6905633931070333,
+      0.699054139812387,
+      0.739121359598151
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 8,
+    "folder": "buckling\\iteration_008",
+    "mass_kg": 509.1429861987796,
+    "raw_peak_MPa": 506.5978834107067,
+    "filtered_peak_MPa": 316.34123269882394,
+    "seconds": 64.24318419999327,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.265772084479977e-06,
+        2.9062493922538124e-07,
+        5.747101386077702e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006369224283844233,
+        -7.560671656392515e-05,
+        -1.7299606042797677e-05
+      ]
+    },
+    "BLF": 0.7034964078581718,
+    "eigenvalues": [
+      0.7034964078581718,
+      0.7119160615757768,
+      0.745397330291863,
+      0.7655165263307,
+      0.7786049689786301
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 9,
+    "folder": "buckling\\iteration_009",
+    "mass_kg": 525.7098983711455,
+    "raw_peak_MPa": 503.6684527410086,
+    "filtered_peak_MPa": 310.0660126389372,
+    "seconds": 67.27311290000216,
+    "reaction_balance": {
+      "force_residual_N": [
+        -8.275147820313578e-07,
+        3.784716682275757e-07,
+        4.823374911211431e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004602675326168537,
+        -4.210567567497492e-05,
+        1.2498725482146256e-05
+      ]
+    },
+    "BLF": 0.7336056657477285,
+    "eigenvalues": [
+      0.7336056657477285,
+      0.753414319486701,
+      0.7902521516270273,
+      0.7966471958613602,
+      0.7971831556470237
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 10,
+    "folder": "buckling\\iteration_010",
+    "mass_kg": 539.2230611965448,
+    "raw_peak_MPa": 501.3445661316011,
+    "filtered_peak_MPa": 306.730648832662,
+    "seconds": 67.98567490000278,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.7238153304788284e-06,
+        -3.398095032025594e-07,
+        7.264700252562761e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007719264831393957,
+        -8.205731865018606e-05,
+        -2.6773225727083627e-05
+      ]
+    },
+    "BLF": 0.7995754922111062,
+    "eigenvalues": [
+      0.7995754922111062,
+      0.8034948013477367,
+      0.8132114003641812,
+      0.8139236579500625,
+      0.8335811698858957
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 11,
+    "folder": "buckling\\iteration_011",
+    "mass_kg": 549.7529850273623,
+    "raw_peak_MPa": 502.5165470650964,
+    "filtered_peak_MPa": 304.13033524950697,
+    "seconds": 65.32313380000414,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.6915487321966793e-06,
+        1.424627953383606e-07,
+        7.485807873308659e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008541860152035952,
+        -8.756518946029246e-05,
+        1.6222135855059605e-05
+      ]
+    },
+    "BLF": 0.8110209202586215,
+    "eigenvalues": [
+      0.8110209202586215,
+      0.8226352255665706,
+      0.83251114562696,
+      0.8372304453530401,
+      0.8408756258428668
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 12,
+    "folder": "buckling\\iteration_012",
+    "mass_kg": 559.6295209917217,
+    "raw_peak_MPa": 504.0410734582202,
+    "filtered_peak_MPa": 305.0655971123719,
+    "seconds": 65.27911790000508,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0398127869848395e-06,
+        8.359252205991652e-07,
+        4.281377186998725e-05
+      ],
+      "moment_residual_Nm": [
+        0.00037834118120372295,
+        -5.2268675062805414e-05,
+        -1.2756240721500944e-05
+      ]
+    },
+    "BLF": 0.8325914717289846,
+    "eigenvalues": [
+      0.8325914717289846,
+      0.8387263953037998,
+      0.8483416012240724,
+      0.8486356179240512,
+      0.850824323925541
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 13,
+    "folder": "buckling\\iteration_013",
+    "mass_kg": 567.6755499733064,
+    "raw_peak_MPa": 502.6705987367854,
+    "filtered_peak_MPa": 304.3031654212091,
+    "seconds": 67.37255770000047,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.109982233378105e-08,
+        3.1414856493938714e-07,
+        8.789787534624338e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010362970642745495,
+        -0.00010577583452686667,
+        -6.407499313354492e-07
+      ]
+    },
+    "BLF": 0.8486564022373823,
+    "eigenvalues": [
+      0.8486564022373823,
+      0.8507098318017426,
+      0.850823359999831,
+      0.8603010338239536,
+      0.8630777689828381
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 14,
+    "folder": "buckling\\iteration_014",
+    "mass_kg": 574.8687793757307,
+    "raw_peak_MPa": 501.12865271789923,
+    "filtered_peak_MPa": 301.9096032748796,
+    "seconds": 67.23555230000056,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.7906361335917609e-06,
+        -5.778156264568679e-07,
+        9.877150296233594e-05
+      ],
+      "moment_residual_Nm": [
+        0.0011503538116812706,
+        -0.00011807642295025289,
+        1.6963253983703908e-05
+      ]
+    },
+    "BLF": 0.8520521606079293,
+    "eigenvalues": [
+      0.8520521606079293,
+      0.8625296275407937,
+      0.8651379718359953,
+      0.8811352110902647,
+      0.8962459719651534
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 15,
+    "folder": "buckling\\iteration_015",
+    "mass_kg": 582.4362898539077,
+    "raw_peak_MPa": 499.7627179214917,
+    "filtered_peak_MPa": 300.89966154737573,
+    "seconds": 67.15849659999367,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.1582990282477112e-06,
+        1.3012140698265284e-07,
+        0.00010708541958592832
+      ],
+      "moment_residual_Nm": [
+        0.001279371790587902,
+        -0.00014298304449766874,
+        -1.4348534932651091e-05
+      ]
+    },
+    "BLF": 0.877300506829465,
+    "eigenvalues": [
+      0.877300506829465,
+      0.8927818210764944,
+      0.8936971779541207,
+      0.8970951163611065,
+      0.8971455348169219
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 16,
+    "folder": "buckling\\iteration_016",
+    "mass_kg": 588.5379731792265,
+    "raw_peak_MPa": 498.2632415730554,
+    "filtered_peak_MPa": 299.44679281039,
+    "seconds": 67.40344379999442,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.194721673731692e-06,
+        -2.989945642184466e-07,
+        0.00011631657253019512
+      ],
+      "moment_residual_Nm": [
+        0.0014345000963658094,
+        -0.00014249683590605855,
+        2.4302868041559123e-05
+      ]
+    },
+    "BLF": 0.8900807912255628,
+    "eigenvalues": [
+      0.8900807912255628,
+      0.8933810888388504,
+      0.8977943857256634,
+      0.9067876529012342,
+      0.9074026979791744
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 17,
+    "folder": "buckling\\iteration_017",
+    "mass_kg": 593.2352215522898,
+    "raw_peak_MPa": 497.7803229202798,
+    "filtered_peak_MPa": 302.6079320964248,
+    "seconds": 65.27805570000783,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.66361405212956e-07,
+        6.558166205650195e-07,
+        4.201786941848695e-05
+      ],
+      "moment_residual_Nm": [
+        0.00048279273323714733,
+        -5.085711018182337e-05,
+        -5.210116796661168e-06
+      ]
+    },
+    "BLF": 0.8977919673542462,
+    "eigenvalues": [
+      0.8977919673542462,
+      0.9068632772641109,
+      0.9069573863755562,
+      0.9131285585556419,
+      0.9136569281519173
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 18,
+    "folder": "buckling\\iteration_018",
+    "mass_kg": 597.8565304511995,
+    "raw_peak_MPa": 497.35984128700545,
+    "filtered_peak_MPa": 299.2774641702054,
+    "seconds": 67.29386720000184,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.6603041785856476e-07,
+        4.168718987784814e-07,
+        6.317486986517906e-05
+      ],
+      "moment_residual_Nm": [
+        0.000649651512503624,
+        -8.903010166250169e-05,
+        3.096812179137487e-06
+      ]
+    },
+    "BLF": 0.9062309413543128,
+    "eigenvalues": [
+      0.9062309413543128,
+      0.9124342270602086,
+      0.9155131228998605,
+      0.9199120135338851,
+      0.9315611409024338
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 19,
+    "folder": "buckling\\iteration_019",
+    "mass_kg": 601.9131931574725,
+    "raw_peak_MPa": 496.8294264123227,
+    "filtered_peak_MPa": 300.47631707841094,
+    "seconds": 65.87349739999627,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.213403149653459e-08,
+        3.7032032196293585e-07,
+        4.614732461050153e-05
+      ],
+      "moment_residual_Nm": [
+        0.000443008728325367,
+        -4.329244256950915e-05,
+        -8.84217024577083e-06
+      ]
+    },
+    "BLF": 0.916475839183579,
+    "eigenvalues": [
+      0.916475839183579,
+      0.9207774064975309,
+      0.9301027375201198,
+      0.9348554841096561,
+      0.9352093394568392
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 20,
+    "folder": "buckling\\iteration_020",
+    "mass_kg": 606.2841544474212,
+    "raw_peak_MPa": 496.7400986893319,
+    "filtered_peak_MPa": 297.96694122649,
+    "seconds": 67.30751089999103,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.4036012316864799e-06,
+        8.092056305031292e-07,
+        4.964339314028621e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005026038270443678,
+        -4.6985456719994545e-05,
+        1.5679685020586476e-05
+      ]
+    },
+    "BLF": 0.9282413958877807,
+    "eigenvalues": [
+      0.9282413958877807,
+      0.9335510145284485,
+      0.9380550819964698,
+      0.9410964450660979,
+      0.9459210896280279
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 21,
+    "folder": "buckling\\iteration_021",
+    "mass_kg": 609.3515819312179,
+    "raw_peak_MPa": 496.5445680434183,
+    "filtered_peak_MPa": 299.790658466795,
+    "seconds": 67.26804789999733,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.5198240766476374e-07,
+        3.363470568729099e-07,
+        6.200664211064577e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006163960788398981,
+        -8.126971079036593e-05,
+        -7.59316208132077e-07
+      ]
+    },
+    "BLF": 0.9392151551539623,
+    "eigenvalues": [
+      0.9392151551539623,
+      0.9421596346827894,
+      0.946018401675726,
+      0.9496807556212716,
+      0.9498159954217302
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 22,
+    "folder": "buckling\\iteration_022",
+    "mass_kg": 612.329279374041,
+    "raw_peak_MPa": 496.4427858956216,
+    "filtered_peak_MPa": 300.8677438698159,
+    "seconds": 67.32809880000423,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.1843081842453103e-06,
+        4.2495730667724274e-07,
+        8.102200808934867e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009258396457880735,
+        -8.925652946345508e-05,
+        -3.550636665750062e-05
+      ]
+    },
+    "BLF": 0.9462563466224676,
+    "eigenvalues": [
+      0.9462563466224676,
+      0.9494111600074036,
+      0.9496035699796503,
+      0.9526886727266679,
+      0.9577135143154788
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 23,
+    "folder": "buckling\\iteration_023",
+    "mass_kg": 615.0142984992326,
+    "raw_peak_MPa": 496.40393995860677,
+    "filtered_peak_MPa": 297.4263285251951,
+    "seconds": 69.31535419999273,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.663594144309172e-07,
+        3.566119630704634e-07,
+        9.772958583198488e-05
+      ],
+      "moment_residual_Nm": [
+        0.0011142091825604439,
+        -0.0001271621440537274,
+        -1.0311117875971831e-05
+      ]
+    },
+    "BLF": 0.9491728337968015,
+    "eigenvalues": [
+      0.9491728337968015,
+      0.9493730409334242,
+      0.9568038227512665,
+      0.9584581506510418,
+      0.9632567553508556
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 24,
+    "folder": "buckling\\iteration_024",
+    "mass_kg": 617.259879919173,
+    "raw_peak_MPa": 496.211395913296,
+    "filtered_peak_MPa": 298.07909065464764,
+    "seconds": 67.4096431999933,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.408534207163029e-07,
+        2.4461269276798703e-07,
+        7.75451771914959e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008624996989965439,
+        -0.00010426132939755917,
+        5.241248800302856e-06
+      ]
+    },
+    "BLF": 0.9560920424362755,
+    "eigenvalues": [
+      0.9560920424362755,
+      0.9579124813295411,
+      0.9636832272838459,
+      0.9642992118601097,
+      0.9653653945609848
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 25,
+    "folder": "buckling\\iteration_025",
+    "mass_kg": 619.2202001169079,
+    "raw_peak_MPa": 496.0533311197607,
+    "filtered_peak_MPa": 299.2153667074403,
+    "seconds": 69.43494730000384,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.567390538388281e-06,
+        9.099035196413752e-07,
+        8.173476089723408e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008956673555076122,
+        -9.537267033010721e-05,
+        -3.226811622880632e-05
+      ]
+    },
+    "BLF": 0.9644208004340056,
+    "eigenvalues": [
+      0.9644208004340056,
+      0.9650096173347545,
+      0.9656823342724891,
+      0.9690912434526723,
+      0.9701203764161843
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 26,
+    "folder": "buckling\\iteration_026",
+    "mass_kg": 621.142616103828,
+    "raw_peak_MPa": 495.87554789418914,
+    "filtered_peak_MPa": 299.95486188846496,
+    "seconds": 69.38652369999909,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.009062190059922e-07,
+        5.483311724674422e-07,
+        7.073755841702223e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007392547558993101,
+        -0.00010227994062006474,
+        4.451459062693175e-06
+      ]
+    },
+    "BLF": 0.9699117282494509,
+    "eigenvalues": [
+      0.9699117282494509,
+      0.972284163156532,
+      0.9724878128764621,
+      0.9737069985888286,
+      0.9743456905571221
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 27,
+    "folder": "buckling\\iteration_027",
+    "mass_kg": 622.5031300205212,
+    "raw_peak_MPa": 495.79106487077746,
+    "filtered_peak_MPa": 300.30411207966466,
+    "seconds": 76.17413659999147,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.5722019952590927e-06,
+        4.006446943094488e-07,
+        4.659834667108953e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005037114024162292,
+        -5.1098119001835585e-05,
+        7.783037290209904e-06
+      ]
+    },
+    "BLF": 0.9724496302359111,
+    "eigenvalues": [
+      0.9724496302359111,
+      0.9735822180321844,
+      0.9740693976392495,
+      0.9758387807103984,
+      0.977462050487382
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 28,
+    "folder": "buckling\\iteration_028",
+    "mass_kg": 624.2233824207519,
+    "raw_peak_MPa": 495.7112443183894,
+    "filtered_peak_MPa": 296.9560752621077,
+    "seconds": 72.91776219999883,
+    "reaction_balance": {
+      "force_residual_N": [
+        -7.961689334479161e-07,
+        -4.590751814248506e-07,
+        6.59980287309736e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007788536604493856,
+        -7.714107050560415e-05,
+        5.715213774237782e-06
+      ]
+    },
+    "BLF": 0.9733951299892094,
+    "eigenvalues": [
+      0.9733951299892094,
+      0.9734331034307384,
+      0.976413256652254,
+      0.9783183159408437,
+      0.9804265978758926
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 29,
+    "folder": "buckling\\iteration_029",
+    "mass_kg": 625.5437248744842,
+    "raw_peak_MPa": 495.6365033275171,
+    "filtered_peak_MPa": 297.5682161655046,
+    "seconds": 74.5381616000086,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.4531721035382361e-06,
+        -1.783255356713198e-07,
+        5.1850598538294435e-05
+      ],
+      "moment_residual_Nm": [
+        0.000542511697858572,
+        -5.178526043891907e-05,
+        1.6514668459421955e-05
+      ]
+    },
+    "BLF": 0.9774163156702401,
+    "eigenvalues": [
+      0.9774163156702401,
+      0.9795876452254273,
+      0.9817471885734196,
+      0.9836410479046025,
+      0.9844285678448478
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 30,
+    "folder": "buckling\\iteration_030",
+    "mass_kg": 626.7297742219519,
+    "raw_peak_MPa": 495.5708177865502,
+    "filtered_peak_MPa": 297.9342723602427,
+    "seconds": 75.56013359999633,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.8591972522917786e-06,
+        -1.513617462478578e-07,
+        4.6983856009319425e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004806830547749996,
+        -5.550208152271807e-05,
+        -3.6093378184887115e-05
+      ]
+    },
+    "BLF": 0.9837606280730229,
+    "eigenvalues": [
+      0.9837606280730229,
+      0.9843332372669198,
+      0.9846615101400713,
+      0.9850409018312614,
+      0.9854626581356182
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 31,
+    "folder": "buckling\\iteration_031",
+    "mass_kg": 627.5381266821581,
+    "raw_peak_MPa": 495.5150796459846,
+    "filtered_peak_MPa": 298.31480010310304,
+    "seconds": 72.06909040000755,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.490734234721458e-06,
+        -2.400688572379295e-07,
+        0.00010505077079869807
+      ],
+      "moment_residual_Nm": [
+        0.0012359416577965021,
+        -0.0001358634908683598,
+        -1.7719896277412772e-05
+      ]
+    },
+    "BLF": 0.9842414610717526,
+    "eigenvalues": [
+      0.9842414610717526,
+      0.98456144264379,
+      0.9855950014316498,
+      0.987084395918701,
+      0.9875109909921208
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 32,
+    "folder": "buckling\\iteration_032",
+    "mass_kg": 628.2522473566595,
+    "raw_peak_MPa": 495.4660593932247,
+    "filtered_peak_MPa": 298.48750390460526,
+    "seconds": 70.39310389998718,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.2707678226652206e-06,
+        2.579481588327326e-07,
+        7.249531336128712e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007801298052072525,
+        -8.147591142915189e-05,
+        -3.2619158446323127e-05
+      ]
+    },
+    "BLF": 0.985696981237821,
+    "eigenvalues": [
+      0.985696981237821,
+      0.9872459943614271,
+      0.9876748027085344,
+      0.9882684810664404,
+      0.9898169737285065
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 33,
+    "folder": "buckling\\iteration_033",
+    "mass_kg": 628.9657543052853,
+    "raw_peak_MPa": 495.41697177459287,
+    "filtered_peak_MPa": 298.73429843776387,
+    "seconds": 71.56557569999131,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.0071968265256146e-07,
+        -4.5699653128394857e-07,
+        6.167212268337607e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006404935847967863,
+        -7.559978985227644e-05,
+        2.5366171030327678e-06
+      ]
+    },
+    "BLF": 0.9878162283930177,
+    "eigenvalues": [
+      0.9878162283930177,
+      0.9887496351721751,
+      0.990065640631474,
+      0.9907593477814073,
+      0.9909742291760163
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 34,
+    "folder": "buckling\\iteration_034",
+    "mass_kg": 629.6195070150841,
+    "raw_peak_MPa": 495.34114233562826,
+    "filtered_peak_MPa": 299.01716571576395,
+    "seconds": 71.30128149999655,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.4720374110765988e-06,
+        8.943243301473558e-08,
+        8.266649092547596e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009148367680609226,
+        -0.00010478246258571744,
+        8.35432183521334e-06
+      ]
+    },
+    "BLF": 0.9904898834874124,
+    "eigenvalues": [
+      0.9904898834874124,
+      0.9908957375938205,
+      0.9910062557630069,
+      0.9915267552076572,
+      0.9917694263753688
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 35,
+    "folder": "buckling\\iteration_035",
+    "mass_kg": 630.1556631616718,
+    "raw_peak_MPa": 495.3009097388146,
+    "filtered_peak_MPa": 299.23532852131206,
+    "seconds": 71.43920510000316,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.4882739353415673e-06,
+        2.169540493923705e-07,
+        3.022004966624081e-05
+      ],
+      "moment_residual_Nm": [
+        0.00029684905894100666,
+        -2.1898275008425117e-05,
+        -3.234616178815486e-05
+      ]
+    },
+    "BLF": 0.9908131196885966,
+    "eigenvalues": [
+      0.9908131196885966,
+      0.9916878576439113,
+      0.9920688021566656,
+      0.9928897789688491,
+      0.994033762072736
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 36,
+    "folder": "buckling\\iteration_036",
+    "mass_kg": 630.5729077023381,
+    "raw_peak_MPa": 495.26122298958927,
+    "filtered_peak_MPa": 299.35260064936773,
+    "seconds": 75.63342060000286,
+    "reaction_balance": {
+      "force_residual_N": [
+        9.598738870408852e-08,
+        5.845990926900413e-07,
+        5.9696496464312077e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006840305868536234,
+        -6.071364623494446e-05,
+        -6.50967558613047e-06
+      ]
+    },
+    "BLF": 0.9919883248202037,
+    "eigenvalues": [
+      0.9919883248202037,
+      0.9928707883913156,
+      0.9941006907265637,
+      0.9946675171289618,
+      0.9951031621719668
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 37,
+    "folder": "buckling\\iteration_037",
+    "mass_kg": 630.96283025344,
+    "raw_peak_MPa": 495.2301692265777,
+    "filtered_peak_MPa": 299.5586054211995,
+    "seconds": 73.83265909997863,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.427333462648676e-07,
+        7.152266334742308e-07,
+        7.339142030104995e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008221564348787069,
+        -9.511361713521183e-05,
+        8.973000149126165e-06
+      ]
+    },
+    "BLF": 0.9941378102598953,
+    "eigenvalues": [
+      0.9941378102598953,
+      0.9947474993260572,
+      0.9948716361543574,
+      0.9950533797378843,
+      0.9954179592135445
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 38,
+    "folder": "buckling\\iteration_038",
+    "mass_kg": 631.2872557899477,
+    "raw_peak_MPa": 495.20777075855267,
+    "filtered_peak_MPa": 299.6870046215919,
+    "seconds": 73.25448460000916,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.048699113605835e-06,
+        1.218318175233435e-07,
+        7.071637082844973e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007443979848176241,
+        -8.429010631516576e-05,
+        4.086538956471486e-05
+      ]
+    },
+    "BLF": 0.9949914637002283,
+    "eigenvalues": [
+      0.9949914637002283,
+      0.9952966551382784,
+      0.9953567401934214,
+      0.9956032402065725,
+      0.9958302997602488
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 39,
+    "folder": "buckling\\iteration_039",
+    "mass_kg": 631.5177661561538,
+    "raw_peak_MPa": 495.1855122726733,
+    "filtered_peak_MPa": 299.75278370542907,
+    "seconds": 73.40181490001851,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.829723820876097e-08,
+        3.6440678741200827e-07,
+        8.521875133737922e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010152102913707495,
+        -0.00011059740791097283,
+        2.0081397451576777e-06
+      ]
+    },
+    "BLF": 0.9953324675157988,
+    "eigenvalues": [
+      0.9953324675157988,
+      0.9956119978314966,
+      0.9958336702322486,
+      0.9965069094190692,
+      0.9971100194837069
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 40,
+    "folder": "buckling\\iteration_040",
+    "mass_kg": 631.791256181852,
+    "raw_peak_MPa": 495.1656055255454,
+    "filtered_peak_MPa": 299.8738973807881,
+    "seconds": 71.21976519998861,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.581478497631906e-06,
+        6.495079105661716e-07,
+        3.415381070226431e-05
+      ],
+      "moment_residual_Nm": [
+        0.0003252830356359482,
+        -4.997200448997319e-05,
+        -2.6539881218923256e-05
+      ]
+    },
+    "BLF": 0.9969126613480508,
+    "eigenvalues": [
+      0.9969126613480508,
+      0.9972053040558686,
+      0.9972951554930926,
+      0.9973801317674075,
+      0.9974609934867362
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 41,
+    "folder": "buckling\\iteration_041",
+    "mass_kg": 634.8133637652185,
+    "raw_peak_MPa": 494.8153847526168,
+    "filtered_peak_MPa": 300.84394153322853,
+    "seconds": 69.41589850001037,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.318969677617133e-06,
+        1.4163697414915077e-07,
+        7.347017526626587e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008256519213318825,
+        -9.681688970886171e-05,
+        2.8148945602879394e-05
+      ]
+    },
+    "BLF": 1.024986637463635,
+    "eigenvalues": [
+      1.024986637463635,
+      1.026806029821807,
+      1.027414366856752,
+      1.027855205220509,
+      1.028030262707608
+    ],
+    "rule": "uniform_restoration",
+    "switch_reason": "energy_iteration_limit"
+  },
+  {
+    "phase": "buckling",
+    "iteration": 42,
+    "folder": "buckling\\iteration_042",
+    "mass_kg": 635.2651244464281,
+    "raw_peak_MPa": 494.7127579544935,
+    "filtered_peak_MPa": 296.96705945007557,
+    "seconds": 69.29598349999287,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.0612181995384162e-06,
+        2.2327776605379768e-07,
+        7.257063407450914e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008252342231571674,
+        -0.00010107379057444632,
+        1.8777493096422404e-05
+      ]
+    },
+    "BLF": 1.025383617873898,
+    "eigenvalues": [
+      1.025383617873898,
+      1.027096236629057,
+      1.027687177728946,
+      1.027796659918313,
+      1.0281747928798
+    ],
+    "rule": "uniform_restoration",
+    "switch_reason": "restoration_latched"
+  }
+]

@@ -1,0 +1,600 @@
+{
+  "ribs": 8,
+  "status": "stage_limit",
+  "stages": [
+    {
+      "stage": 0,
+      "box": [
+        [
+          0.1,
+          0.25
+        ],
+        [
+          0.5,
+          0.9
+        ]
+      ],
+      "samples": [
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 435.4260543675684,
+          "final": {
+            "phase": "buckling",
+            "iteration": 7,
+            "folder": "buckling\\iteration_007",
+            "mass_kg": 435.4260543675684,
+            "raw_peak_MPa": 343.2097320887483,
+            "filtered_peak_MPa": 299.3285975892016,
+            "seconds": 7.37001230000169,
+            "reaction_balance": {
+              "force_residual_N": [
+                7.891503628343344e-07,
+                3.4121330827474594e-07,
+                5.730253178626299e-06
+              ],
+              "moment_residual_Nm": [
+                6.64831604808569e-05,
+                -1.0473740985617042e-05,
+                -1.030543353408575e-05
+              ]
+            },
+            "BLF": 1.023229115420926,
+            "eigenvalues": [
+              1.023229115420926,
+              1.08987021726028,
+              1.191123365740115,
+              1.31997742134381,
+              1.452442131289704
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.1,
+            0.5
+          ],
+          "completed_solves": 43,
+          "solver_seconds": 270.5107478000282,
+          "invocation_wall_seconds": 283.8553724999947,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d9c2379d76bce15bae6d"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 417.4143319734567,
+          "final": {
+            "phase": "buckling",
+            "iteration": 9,
+            "folder": "buckling\\iteration_009",
+            "mass_kg": 417.4143319734567,
+            "raw_peak_MPa": 345.5255385730755,
+            "filtered_peak_MPa": 296.76415782228565,
+            "seconds": 7.541437899999437,
+            "reaction_balance": {
+              "force_residual_N": [
+                -3.3153810363728553e-07,
+                -1.1066003935411572e-07,
+                7.108377758413553e-06
+              ],
+              "moment_residual_Nm": [
+                0.0001285201869904995,
+                0.0005549696506932378,
+                3.894281690008938e-06
+              ]
+            },
+            "BLF": 1.000503966911759,
+            "eigenvalues": [
+              1.000503966911759,
+              1.061760922937093,
+              1.075311937485698,
+              1.108929902099079,
+              1.204115939447669
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.1,
+            0.9
+          ],
+          "completed_solves": 23,
+          "solver_seconds": 155.09702939999988,
+          "invocation_wall_seconds": 162.54213079999317,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\7e93106e49372e5419ee"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 467.6797179839069,
+          "final": {
+            "phase": "buckling",
+            "iteration": 9,
+            "folder": "buckling\\iteration_009",
+            "mass_kg": 467.6797179839069,
+            "raw_peak_MPa": 328.9445206330728,
+            "filtered_peak_MPa": 299.62676734809514,
+            "seconds": 7.340980499997386,
+            "reaction_balance": {
+              "force_residual_N": [
+                3.3182004699483514e-07,
+                -8.579809218645096e-08,
+                1.768552465364337e-06
+              ],
+              "moment_residual_Nm": [
+                2.5127781555056572e-05,
+                6.423390004783869e-06,
+                -3.7669087760150433e-06
+              ]
+            },
+            "BLF": 1.031399988588551,
+            "eigenvalues": [
+              1.031399988588551,
+              1.037359241363402,
+              1.05395715564395,
+              1.157447120089002,
+              1.249890590039694
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.25,
+            0.5
+          ],
+          "completed_solves": 117,
+          "solver_seconds": 761.4378118999593,
+          "invocation_wall_seconds": 797.4991062000045,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b4f2cbd2fc1f74cd957e"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 422.3825534478674,
+          "final": {
+            "phase": "buckling",
+            "iteration": 13,
+            "folder": "buckling\\iteration_013",
+            "mass_kg": 422.3825534478674,
+            "raw_peak_MPa": 329.11481646238883,
+            "filtered_peak_MPa": 296.71588884102465,
+            "seconds": 7.192060500005027,
+            "reaction_balance": {
+              "force_residual_N": [
+                -2.0083234630874358e-08,
+                -8.963615982793272e-08,
+                -2.1356565412133932e-05
+              ],
+              "moment_residual_Nm": [
+                -0.00025350251235067844,
+                0.0005616170237772167,
+                -3.413588274270296e-07
+              ]
+            },
+            "BLF": 1.024224044248139,
+            "eigenvalues": [
+              1.024224044248139,
+              1.06102509836113,
+              1.090208430495411,
+              1.127682198545386,
+              1.255317999810506
+            ],
+            "rule": "uniform_restoration",
+            "switch_reason": "restoration_latched"
+          },
+          "ribs": 8,
+          "spars": [
+            0.25,
+            0.9
+          ],
+          "completed_solves": 28,
+          "solver_seconds": 190.19630090006103,
+          "invocation_wall_seconds": 199.28671430000395,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\c43c524125103d2194e4"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 375.36513017380787,
+          "final": {
+            "phase": "buckling",
+            "iteration": 6,
+            "folder": "buckling\\iteration_006",
+            "mass_kg": 375.36513017380787,
+            "raw_peak_MPa": 339.66843212026976,
+            "filtered_peak_MPa": 299.66004481190697,
+            "seconds": 7.731538599997293,
+            "reaction_balance": {
+              "force_residual_N": [
+                -5.220790626481175e-07,
+                -2.214801497757435e-08,
+                -3.2141106203198433e-06
+              ],
+              "moment_residual_Nm": [
+                -3.2874755561351776e-05,
+                7.463677320629358e-07,
+                6.488291546702385e-06
+              ]
+            },
+            "BLF": 1.06264314031257,
+            "eigenvalues": [
+              1.06264314031257,
+              1.131060373526308,
+              1.155707772977878,
+              1.252801257620556,
+              1.269340522979385
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.1,
+            0.7
+          ],
+          "completed_solves": 23,
+          "solver_seconds": 154.90239230000589,
+          "invocation_wall_seconds": 162.4249523000035,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\33a7b730b8b3703ce27a"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 374.84633508025905,
+          "final": {
+            "phase": "buckling",
+            "iteration": 7,
+            "folder": "buckling\\iteration_007",
+            "mass_kg": 374.84633508025905,
+            "raw_peak_MPa": 315.2436795600199,
+            "filtered_peak_MPa": 297.50182637262014,
+            "seconds": 7.262242500000866,
+            "reaction_balance": {
+              "force_residual_N": [
+                4.540020199783612e-07,
+                -9.640789357945323e-07,
+                1.5206460375338793e-06
+              ],
+              "moment_residual_Nm": [
+                1.9717030227184296e-05,
+                3.957736771553755e-05,
+                -6.380956619977951e-06
+              ]
+            },
+            "BLF": 1.002746024056083,
+            "eigenvalues": [
+              1.002746024056083,
+              1.033739069085106,
+              1.074334321629604,
+              1.115454854978249,
+              1.137233776360237
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.25,
+            0.7
+          ],
+          "completed_solves": 23,
+          "solver_seconds": 157.82578720001038,
+          "invocation_wall_seconds": 165.30840209999587,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\61bc9c311577a187342a"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 438.4273786753684,
+          "final": {
+            "phase": "buckling",
+            "iteration": 8,
+            "folder": "buckling\\iteration_008",
+            "mass_kg": 438.4273786753684,
+            "raw_peak_MPa": 338.2926777926554,
+            "filtered_peak_MPa": 298.02392531328763,
+            "seconds": 7.075868499989156,
+            "reaction_balance": {
+              "force_residual_N": [
+                -2.4230394046753645e-07,
+                2.5902409106492996e-08,
+                5.523383151739836e-06
+              ],
+              "moment_residual_Nm": [
+                6.530527025461197e-05,
+                8.58592102304101e-07,
+                2.743327058851719e-06
+              ]
+            },
+            "BLF": 1.032381771569187,
+            "eigenvalues": [
+              1.032381771569187,
+              1.053723533236356,
+              1.179697719510135,
+              1.299435342176879,
+              1.46871451481657
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.175,
+            0.5
+          ],
+          "completed_solves": 46,
+          "solver_seconds": 305.2542058999825,
+          "invocation_wall_seconds": 319.71023069998773,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\974f6dc779e6cb89e3e0"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 423.1158572925083,
+          "final": {
+            "phase": "buckling",
+            "iteration": 12,
+            "folder": "buckling\\iteration_012",
+            "mass_kg": 423.1158572925083,
+            "raw_peak_MPa": 323.9973707228541,
+            "filtered_peak_MPa": 298.76592038637807,
+            "seconds": 7.174725499993656,
+            "reaction_balance": {
+              "force_residual_N": [
+                -1.8140553947887383e-07,
+                -5.538822733797133e-08,
+                -1.7235783161595464e-05
+              ],
+              "moment_residual_Nm": [
+                -0.00023941765539348125,
+                0.0007464509108103812,
+                3.7737772800028324e-06
+              ]
+            },
+            "BLF": 1.021367042045954,
+            "eigenvalues": [
+              1.021367042045954,
+              1.092039483835072,
+              1.119733322956894,
+              1.1477936660589,
+              1.272240519986467
+            ],
+            "rule": "uniform_restoration",
+            "switch_reason": "near_feasible_stagnation"
+          },
+          "ribs": 8,
+          "spars": [
+            0.175,
+            0.9
+          ],
+          "completed_solves": 27,
+          "solver_seconds": 188.31853370004683,
+          "invocation_wall_seconds": 197.02205090000643,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\6c8ae10b0bcc0f854514"
+        },
+        {
+          "status": "feasible",
+          "feasible": true,
+          "objective_mass_kg": 370.30480928091043,
+          "final": {
+            "phase": "buckling",
+            "iteration": 6,
+            "folder": "buckling\\iteration_006",
+            "mass_kg": 370.30480928091043,
+            "raw_peak_MPa": 327.77918846351673,
+            "filtered_peak_MPa": 298.320954404874,
+            "seconds": 7.4695796000014525,
+            "reaction_balance": {
+              "force_residual_N": [
+                7.255093805724755e-07,
+                2.5244662538170815e-07,
+                3.248773282393813e-06
+              ],
+              "moment_residual_Nm": [
+                4.1999854147434235e-05,
+                -9.425857570022345e-06,
+                -1.0367468348704278e-05
+              ]
+            },
+            "BLF": 1.029421480332883,
+            "eigenvalues": [
+              1.029421480332883,
+              1.054248831593664,
+              1.057329887635345,
+              1.074111292008912,
+              1.127679682155569
+            ],
+            "rule": "original_energy",
+            "switch_reason": null
+          },
+          "ribs": 8,
+          "spars": [
+            0.175,
+            0.7
+          ],
+          "completed_solves": 22,
+          "solver_seconds": 147.54845409997506,
+          "invocation_wall_seconds": 154.60386170001584,
+          "restoration_policy": "stagnation",
+          "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ff88da13dfbb3572ac1c"
+        }
+      ],
+      "candidate": {
+        "status": "feasible",
+        "feasible": true,
+        "objective_mass_kg": 376.45097146272093,
+        "final": {
+          "phase": "buckling",
+          "iteration": 6,
+          "folder": "buckling\\iteration_006",
+          "mass_kg": 376.45097146272093,
+          "raw_peak_MPa": 393.17171484697684,
+          "filtered_peak_MPa": 299.14918103296293,
+          "seconds": 7.384078599978238,
+          "reaction_balance": {
+            "force_residual_N": [
+              -1.6514877643203363e-07,
+              3.438617568463087e-08,
+              -4.8019865062087774e-06
+            ],
+            "moment_residual_Nm": [
+              -5.0372909754514694e-05,
+              1.3426528312265873e-05,
+              1.155422069132328e-06
+            ]
+          },
+          "BLF": 1.091122697521109,
+          "eigenvalues": [
+            1.091122697521109,
+            1.100653903911677,
+            1.120694994394356,
+            1.157277946914415,
+            1.202439457095779
+          ],
+          "rule": "original_energy",
+          "switch_reason": null
+        },
+        "ribs": 8,
+        "spars": [
+          0.132179639046,
+          0.715203888216
+        ],
+        "completed_solves": 25,
+        "solver_seconds": 169.2488640998199,
+        "invocation_wall_seconds": 177.31526179998764,
+        "restoration_policy": "stagnation",
+        "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\449032b150233fe0deaf"
+      },
+      "fit": {
+        "coefficients": [
+          370.23675456396,
+          6.117181666200068,
+          -13.103401385501932,
+          4.903005421548684,
+          -6.821360535481911,
+          60.568890778453564
+        ],
+        "condition": 4.242640687119284,
+        "predicted_mass_kg": 367.99243175939483,
+        "rms_fit_kg": 4.8422111056286425,
+        "candidate_relative_prediction_error": 0.02246916688901074
+      },
+      "best": {
+        "status": "feasible",
+        "feasible": true,
+        "objective_mass_kg": 370.30480928091043,
+        "final": {
+          "phase": "buckling",
+          "iteration": 6,
+          "folder": "buckling\\iteration_006",
+          "mass_kg": 370.30480928091043,
+          "raw_peak_MPa": 327.77918846351673,
+          "filtered_peak_MPa": 298.320954404874,
+          "seconds": 7.4695796000014525,
+          "reaction_balance": {
+            "force_residual_N": [
+              7.255093805724755e-07,
+              2.5244662538170815e-07,
+              3.248773282393813e-06
+            ],
+            "moment_residual_Nm": [
+              4.1999854147434235e-05,
+              -9.425857570022345e-06,
+              -1.0367468348704278e-05
+            ]
+          },
+          "BLF": 1.029421480332883,
+          "eigenvalues": [
+            1.029421480332883,
+            1.054248831593664,
+            1.057329887635345,
+            1.074111292008912,
+            1.127679682155569
+          ],
+          "rule": "original_energy",
+          "switch_reason": null
+        },
+        "ribs": 8,
+        "spars": [
+          0.175,
+          0.7
+        ],
+        "completed_solves": 22,
+        "solver_seconds": 147.54845409997506,
+        "invocation_wall_seconds": 154.60386170001584,
+        "restoration_policy": "stagnation",
+        "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ff88da13dfbb3572ac1c"
+      },
+      "relative_actual_mass_improvement": null,
+      "box_translated": false
+    }
+  ],
+  "best": {
+    "status": "feasible",
+    "feasible": true,
+    "objective_mass_kg": 370.30480928091043,
+    "final": {
+      "phase": "buckling",
+      "iteration": 6,
+      "folder": "buckling\\iteration_006",
+      "mass_kg": 370.30480928091043,
+      "raw_peak_MPa": 327.77918846351673,
+      "filtered_peak_MPa": 298.320954404874,
+      "seconds": 7.4695796000014525,
+      "reaction_balance": {
+        "force_residual_N": [
+          7.255093805724755e-07,
+          2.5244662538170815e-07,
+          3.248773282393813e-06
+        ],
+        "moment_residual_Nm": [
+          4.1999854147434235e-05,
+          -9.425857570022345e-06,
+          -1.0367468348704278e-05
+        ]
+      },
+      "BLF": 1.029421480332883,
+      "eigenvalues": [
+        1.029421480332883,
+        1.054248831593664,
+        1.057329887635345,
+        1.074111292008912,
+        1.127679682155569
+      ],
+      "rule": "original_energy",
+      "switch_reason": null
+    },
+    "ribs": 8,
+    "spars": [
+      0.175,
+      0.7
+    ],
+    "completed_solves": 22,
+    "solver_seconds": 147.54845409997506,
+    "invocation_wall_seconds": 154.60386170001584,
+    "restoration_policy": "stagnation",
+    "path": ".\\runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ff88da13dfbb3572ac1c"
+  },
+  "stable": 0,
+  "next_box": [
+    [
+      0.13749999999999998,
+      0.21249999999999997
+    ],
+    [
+      0.6,
+      0.8
+    ]
+  ]
+}
