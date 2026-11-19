@@ -11,7 +11,7 @@ def main():
     output = ROOT/'reference_plots'
     output.mkdir(exist_ok=True)
     fig, axes = plt.subplots(1, 3, figsize=(13, 4), constrained_layout=True)
-    for n in (8, 16, 25):
+    for n in (2, 8, 16, 25):
         rows = json.loads((ROOT/f'reference_results/fine/ribs_{n:02d}/history.json').read_text())
         for ax, key in zip(axes, ('mass_kg', 'filtered_peak_MPa', 'BLF')):
             pairs = [(i, r[key]) for i, r in enumerate(rows) if key in r]

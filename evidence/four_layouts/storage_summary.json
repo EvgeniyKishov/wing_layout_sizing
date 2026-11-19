@@ -1,0 +1,13 @@
+{
+  "retained_run_GiB": 1.8692299975082278,
+  "free_GiB": 298.3195152282715,
+  "native_archival": {
+    "files": 14,
+    "reclaimed_bytes": 903264121
+  },
+  "text_archival": {
+    "study_root": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\fokker_fine_2ribs_20261119",
+    "removed_verified_originals": 698,
+    "completed": true
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "scope": "Fixed selected 16-rib layout and saved fine mesh; full FSD and buckling reinforcement; only radius changed. Radius-dependent numerical feasibility, no local-strength or ranking robustness proof.",
+  "reinforced_area_definition": "Sum of shell reference areas where either individual face or core increased by more than 1e-9 m from that case's own final FSD design. All physical surfaces; not projected wing area.",
+  "cases": [
+    {
+      "radius_m": 0.15,
+      "status": "feasible",
+      "feasible": true,
+      "baseline_reused": false,
+      "fsd_mass_kg": 352.15327623544516,
+      "final_mass_kg": 612.7908998271482,
+      "reinforcement_added_mass_kg": 260.63762359170306,
+      "fsd_stop": "feasible_mass_stagnation",
+      "fsd_states": 60,
+      "buckling_states": 42,
+      "solver_minutes": 150.66792161999814,
+      "wall_minutes": 153.27984454666682,
+      "fsd_raw_peak_MPa": 548.0675628531135,
+      "fsd_filtered_peak_MPa": 295.7534793575769,
+      "raw_peak_MPa": 425.8033399634295,
+      "filtered_peak_MPa": 298.8685851128389,
+      "BLF": 1.026155126539465,
+      "reinforced_area_m2": 98.44555578704792,
+      "reinforced_area_percent": 100.0,
+      "reinforced_elements": 42216,
+      "raw_peak_location_m": [
+        0.5101898125,
+        6.49496225,
+        0.2143144375
+      ],
+      "raw_peak_group": 0,
+      "source": "runs\\radius_sensitivity_16ribs_20261119\\radius_015",
+      "fsd_face_max_mm": 15.768638318825714,
+      "fsd_core_max_mm": 7.884319159412857,
+      "fsd_total_max_mm": 39.421595797064285,
+      "final_face_max_mm": 15.768638318825714,
+      "final_core_max_mm": 100.0,
+      "final_total_max_mm": 131.53727663765144,
+      "reinforcement_by_group": [
+        {
+          "group": 0,
+          "area_m2": 38.46741830012412,
+          "area_percent": 100.0
+        },
+        {
+          "group": 1,
+          "area_m2": 37.53098059016844,
+          "area_percent": 100.0
+        },
+        {
+          "group": 2,
+          "area_m2": 4.940860320603458,
+          "area_percent": 100.0
+        },
+        {
+          "group": 3,
+          "area_m2": 4.0585774499664025,
+          "area_percent": 100.0
+        },
+        {
+          "group": 4,
+          "area_m2": 1.6039744906629998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 5,
+          "area_m2": 1.4782230302614998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 6,
+          "area_m2": 1.3576034889054998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 7,
+          "area_m2": 1.2421171970069997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 8,
+          "area_m2": 1.1317638628509998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 9,
+          "area_m2": 1.0265431675284997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 10,
+          "area_m2": 0.926455339323,
+          "area_percent": 100.0
+        },
+        {
+          "group": 11,
+          "area_m2": 0.8315002748104998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 12,
+          "area_m2": 0.741677754664,
+          "area_percent": 100.0
+        },
+        {
+          "group": 13,
+          "area_m2": 0.6569877999129998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 14,
+          "area_m2": 0.5774305417500001,
+          "area_percent": 100.0
+        },
+        {
+          "group": 15,
+          "area_m2": 0.503006502579,
+          "area_percent": 100.0
+        },
+        {
+          "group": 16,
+          "area_m2": 0.43371464919299996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 17,
+          "area_m2": 0.3695555226895,
+          "area_percent": 100.0
+        },
+        {
+          "group": 18,
+          "area_m2": 0.31052948831149996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 19,
+          "area_m2": 0.2566360157355,
+          "area_percent": 100.0
+        }
+      ],
+      "component_thickness": [
+        {
+          "group": 0,
+          "face_max_mm": 15.768638318825714,
+          "core_max_mm": 100.0,
+          "total_max_mm": 131.53727663765144
+        },
+        {
+          "group": 1,
+          "face_max_mm": 14.313476668865857,
+          "core_max_mm": 100.0,
+          "total_max_mm": 128.62695333773172
+        },
+        {
+          "group": 2,
+          "face_max_mm": 2.040215613837836,
+          "core_max_mm": 18.952620880730407,
+          "total_max_mm": 23.033052108406082
+        },
+        {
+          "group": 3,
+          "face_max_mm": 3.9314293873659736,
+          "core_max_mm": 56.60792326034942,
+          "total_max_mm": 64.47078203508137
+        },
+        {
+          "group": 4,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.7054034982307753,
+          "total_max_mm": 3.2054034982307753
+        },
+        {
+          "group": 5,
+          "face_max_mm": 0.25,
+          "core_max_mm": 5.829123762229987,
+          "total_max_mm": 6.329123762229987
+        },
+        {
+          "group": 6,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.417358588817638,
+          "total_max_mm": 3.917358588817638
+        },
+        {
+          "group": 7,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.500469882919239,
+          "total_max_mm": 3.000469882919239
+        },
+        {
+          "group": 8,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.4960847118746563,
+          "total_max_mm": 2.9960847118746563
+        },
+        {
+          "group": 9,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.5252572355325538,
+          "total_max_mm": 3.0252572355325538
+        },
+        {
+          "group": 10,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.529973178864713,
+          "total_max_mm": 3.029973178864713
+        },
+        {
+          "group": 11,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.490234281181014,
+          "total_max_mm": 2.990234281181014
+        },
+        {
+          "group": 12,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.450946183096949,
+          "total_max_mm": 2.950946183096949
+        },
+        {
+          "group": 13,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.45626570958891,
+          "total_max_mm": 2.9562657095889104
+        },
+        {
+          "group": 14,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.0050355696212367,
+          "total_max_mm": 3.5050355696212367
+        },
+        {
+          "group": 15,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.653672718389947,
+          "total_max_mm": 4.153672718389947
+        },
+        {
+          "group": 16,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.4679055093953974,
+          "total_max_mm": 2.9679055093953974
+        },
+        {
+          "group": 17,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.3843847834165617,
+          "total_max_mm": 2.884384783416562
+        },
+        {
+          "group": 18,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.3840680027790397,
+          "total_max_mm": 2.8840680027790397
+        },
+        {
+          "group": 19,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.3837320334530063,
+          "total_max_mm": 2.8837320334530063
+        }
+      ],
+      "mass_change_vs_030_percent": 11.719995564466746,
+      "common_radius_peak_MPa": [
+        298.8685851128389,
+        291.6147115544023,
+        289.81292432491125
+      ],
+      "face_area_weighted_RMS_difference_vs_030_mm": 0.8009517185547741,
+      "core_area_weighted_RMS_difference_vs_030_mm": 10.873740825244544,
+      "total_area_weighted_RMS_difference_vs_030_mm": 11.205553806608032
+    },
+    {
+      "radius_m": 0.3,
+      "status": "feasible",
+      "feasible": true,
+      "baseline_reused": true,
+      "fsd_mass_kg": 308.8415968372034,
+      "final_mass_kg": 548.5060187578904,
+      "reinforcement_added_mass_kg": 239.664421920687,
+      "fsd_stop": "feasible_mass_stagnation",
+      "fsd_states": 24,
+      "buckling_states": 33,
+      "solver_minutes": 78.03629091166367,
+      "wall_minutes": 79.60907230333348,
+      "fsd_raw_peak_MPa": 496.662579607945,
+      "fsd_filtered_peak_MPa": 294.08336022271817,
+      "raw_peak_MPa": 506.2783084978192,
+      "filtered_peak_MPa": 298.0273504173681,
+      "BLF": 1.024109559268217,
+      "reinforced_area_m2": 98.44555578704792,
+      "reinforced_area_percent": 100.0,
+      "reinforced_elements": 42216,
+      "raw_peak_location_m": [
+        0.456173,
+        3.69966175,
+        0.24728587500000002
+      ],
+      "raw_peak_group": 0,
+      "source": "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16",
+      "fsd_face_max_mm": 7.641874119779047,
+      "fsd_core_max_mm": 3.8209370598895234,
+      "fsd_total_max_mm": 19.104685299447617,
+      "final_face_max_mm": 8.94767991434711,
+      "final_core_max_mm": 100.0,
+      "final_total_max_mm": 117.89535982869423,
+      "reinforcement_by_group": [
+        {
+          "group": 0,
+          "area_m2": 38.46741830012412,
+          "area_percent": 100.0
+        },
+        {
+          "group": 1,
+          "area_m2": 37.53098059016844,
+          "area_percent": 100.0
+        },
+        {
+          "group": 2,
+          "area_m2": 4.940860320603458,
+          "area_percent": 100.0
+        },
+        {
+          "group": 3,
+          "area_m2": 4.0585774499664025,
+          "area_percent": 100.0
+        },
+        {
+          "group": 4,
+          "area_m2": 1.6039744906629998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 5,
+          "area_m2": 1.4782230302614998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 6,
+          "area_m2": 1.3576034889054998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 7,
+          "area_m2": 1.2421171970069997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 8,
+          "area_m2": 1.1317638628509998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 9,
+          "area_m2": 1.0265431675284997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 10,
+          "area_m2": 0.926455339323,
+          "area_percent": 100.0
+        },
+        {
+          "group": 11,
+          "area_m2": 0.8315002748104998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 12,
+          "area_m2": 0.741677754664,
+          "area_percent": 100.0
+        },
+        {
+          "group": 13,
+          "area_m2": 0.6569877999129998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 14,
+          "area_m2": 0.5774305417500001,
+          "area_percent": 100.0
+        },
+        {
+          "group": 15,
+          "area_m2": 0.503006502579,
+          "area_percent": 100.0
+        },
+        {
+          "group": 16,
+          "area_m2": 0.43371464919299996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 17,
+          "area_m2": 0.3695555226895,
+          "area_percent": 100.0
+        },
+        {
+          "group": 18,
+          "area_m2": 0.31052948831149996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 19,
+          "area_m2": 0.2566360157355,
+          "area_percent": 100.0
+        }
+      ],
+      "component_thickness": [
+        {
+          "group": 0,
+          "face_max_mm": 8.94767991434711,
+          "core_max_mm": 100.0,
+          "total_max_mm": 117.89535982869423
+        },
+        {
+          "group": 1,
+          "face_max_mm": 7.938024714149063,
+          "core_max_mm": 100.0,
+          "total_max_mm": 115.87604942829813
+        },
+        {
+          "group": 2,
+          "face_max_mm": 1.6311544988168942,
+          "core_max_mm": 14.469868735333165,
+          "total_max_mm": 17.732177732966953
+        },
+        {
+          "group": 3,
+          "face_max_mm": 0.8138393511747275,
+          "core_max_mm": 8.726159158002476,
+          "total_max_mm": 10.353837860351932
+        },
+        {
+          "group": 4,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.0566406488090605,
+          "total_max_mm": 3.5566406488090605
+        },
+        {
+          "group": 5,
+          "face_max_mm": 0.25,
+          "core_max_mm": 6.078773427578998,
+          "total_max_mm": 6.578773427578998
+        },
+        {
+          "group": 6,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.9117589813972833,
+          "total_max_mm": 4.411758981397283
+        },
+        {
+          "group": 7,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6338549248495564,
+          "total_max_mm": 3.1338549248495564
+        },
+        {
+          "group": 8,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6383540215548127,
+          "total_max_mm": 3.1383540215548127
+        },
+        {
+          "group": 9,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6819249451865517,
+          "total_max_mm": 3.1819249451865517
+        },
+        {
+          "group": 10,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6758579848998885,
+          "total_max_mm": 3.1758579848998885
+        },
+        {
+          "group": 11,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6324967543822506,
+          "total_max_mm": 3.1324967543822506
+        },
+        {
+          "group": 12,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.596495502016519,
+          "total_max_mm": 3.096495502016519
+        },
+        {
+          "group": 13,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.651553360392707,
+          "total_max_mm": 3.151553360392707
+        },
+        {
+          "group": 14,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.387331330330574,
+          "total_max_mm": 3.887331330330574
+        },
+        {
+          "group": 15,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.818620131395643,
+          "total_max_mm": 4.318620131395643
+        },
+        {
+          "group": 16,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6243903730059746,
+          "total_max_mm": 3.1243903730059746
+        },
+        {
+          "group": 17,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.551713203556938,
+          "total_max_mm": 3.051713203556938
+        },
+        {
+          "group": 18,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.5513686369291393,
+          "total_max_mm": 3.0513686369291393
+        },
+        {
+          "group": 19,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.5511887387226246,
+          "total_max_mm": 3.0511887387226246
+        }
+      ],
+      "mass_change_vs_030_percent": 0.0,
+      "common_radius_peak_MPa": [
+        353.22043199602564,
+        298.0273504173681,
+        290.4559767346122
+      ],
+      "face_area_weighted_RMS_difference_vs_030_mm": 0.0,
+      "core_area_weighted_RMS_difference_vs_030_mm": 0.0,
+      "total_area_weighted_RMS_difference_vs_030_mm": 0.0
+    },
+    {
+      "radius_m": 0.6,
+      "status": "feasible",
+      "feasible": true,
+      "baseline_reused": false,
+      "fsd_mass_kg": 305.98412888734697,
+      "final_mass_kg": 561.2579772611093,
+      "reinforcement_added_mass_kg": 255.27384837376235,
+      "fsd_stop": "feasible_mass_stagnation",
+      "fsd_states": 16,
+      "buckling_states": 35,
+      "solver_minutes": 79.8066194233339,
+      "wall_minutes": 81.11160304500032,
+      "fsd_raw_peak_MPa": 620.6750136479286,
+      "fsd_filtered_peak_MPa": 293.0180935260419,
+      "raw_peak_MPa": 574.8486042215533,
+      "filtered_peak_MPa": 299.1686104370142,
+      "BLF": 1.025241948779655,
+      "reinforced_area_m2": 98.44555578704792,
+      "reinforced_area_percent": 100.0,
+      "reinforced_elements": 42216,
+      "raw_peak_location_m": [
+        0.4335335,
+        2.52810225,
+        0.2611049375
+      ],
+      "raw_peak_group": 0,
+      "source": "runs\\radius_sensitivity_16ribs_20261119\\radius_060",
+      "fsd_face_max_mm": 4.70428247017341,
+      "fsd_core_max_mm": 2.352141235086705,
+      "fsd_total_max_mm": 11.760706175433524,
+      "final_face_max_mm": 7.151499922217004,
+      "final_core_max_mm": 100.0,
+      "final_total_max_mm": 114.30299984443401,
+      "reinforcement_by_group": [
+        {
+          "group": 0,
+          "area_m2": 38.46741830012412,
+          "area_percent": 100.0
+        },
+        {
+          "group": 1,
+          "area_m2": 37.53098059016844,
+          "area_percent": 100.0
+        },
+        {
+          "group": 2,
+          "area_m2": 4.940860320603458,
+          "area_percent": 100.0
+        },
+        {
+          "group": 3,
+          "area_m2": 4.0585774499664025,
+          "area_percent": 100.0
+        },
+        {
+          "group": 4,
+          "area_m2": 1.6039744906629998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 5,
+          "area_m2": 1.4782230302614998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 6,
+          "area_m2": 1.3576034889054998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 7,
+          "area_m2": 1.2421171970069997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 8,
+          "area_m2": 1.1317638628509998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 9,
+          "area_m2": 1.0265431675284997,
+          "area_percent": 100.0
+        },
+        {
+          "group": 10,
+          "area_m2": 0.926455339323,
+          "area_percent": 100.0
+        },
+        {
+          "group": 11,
+          "area_m2": 0.8315002748104998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 12,
+          "area_m2": 0.741677754664,
+          "area_percent": 100.0
+        },
+        {
+          "group": 13,
+          "area_m2": 0.6569877999129998,
+          "area_percent": 100.0
+        },
+        {
+          "group": 14,
+          "area_m2": 0.5774305417500001,
+          "area_percent": 100.0
+        },
+        {
+          "group": 15,
+          "area_m2": 0.503006502579,
+          "area_percent": 100.0
+        },
+        {
+          "group": 16,
+          "area_m2": 0.43371464919299996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 17,
+          "area_m2": 0.3695555226895,
+          "area_percent": 100.0
+        },
+        {
+          "group": 18,
+          "area_m2": 0.31052948831149996,
+          "area_percent": 100.0
+        },
+        {
+          "group": 19,
+          "area_m2": 0.2566360157355,
+          "area_percent": 100.0
+        }
+      ],
+      "component_thickness": [
+        {
+          "group": 0,
+          "face_max_mm": 7.151499922217004,
+          "core_max_mm": 100.0,
+          "total_max_mm": 114.30299984443401
+        },
+        {
+          "group": 1,
+          "face_max_mm": 6.170288233443403,
+          "core_max_mm": 100.0,
+          "total_max_mm": 112.3405764668868
+        },
+        {
+          "group": 2,
+          "face_max_mm": 0.948029464397661,
+          "core_max_mm": 8.816204707076512,
+          "total_max_mm": 10.712263635871834
+        },
+        {
+          "group": 3,
+          "face_max_mm": 0.5124021255943837,
+          "core_max_mm": 6.055724298487001,
+          "total_max_mm": 6.571188464264902
+        },
+        {
+          "group": 4,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.0377688664626117,
+          "total_max_mm": 3.5377688664626117
+        },
+        {
+          "group": 5,
+          "face_max_mm": 0.25,
+          "core_max_mm": 4.632920473149685,
+          "total_max_mm": 5.132920473149685
+        },
+        {
+          "group": 6,
+          "face_max_mm": 0.25,
+          "core_max_mm": 5.0755552462703095,
+          "total_max_mm": 5.5755552462703095
+        },
+        {
+          "group": 7,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.987443899813009,
+          "total_max_mm": 3.487443899813009
+        },
+        {
+          "group": 8,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6173496488487484,
+          "total_max_mm": 3.1173496488487484
+        },
+        {
+          "group": 9,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6527472172211426,
+          "total_max_mm": 3.1527472172211426
+        },
+        {
+          "group": 10,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.656366929668592,
+          "total_max_mm": 3.156366929668592
+        },
+        {
+          "group": 11,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.6080039901497205,
+          "total_max_mm": 3.1080039901497205
+        },
+        {
+          "group": 12,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.5715817981838573,
+          "total_max_mm": 3.0715817981838573
+        },
+        {
+          "group": 13,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.556539446330279,
+          "total_max_mm": 3.056539446330279
+        },
+        {
+          "group": 14,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.0951519206395077,
+          "total_max_mm": 3.5951519206395077
+        },
+        {
+          "group": 15,
+          "face_max_mm": 0.25,
+          "core_max_mm": 3.7919475666495344,
+          "total_max_mm": 4.291947566649535
+        },
+        {
+          "group": 16,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.618936209386136,
+          "total_max_mm": 3.118936209386136
+        },
+        {
+          "group": 17,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.523831821374846,
+          "total_max_mm": 3.023831821374846
+        },
+        {
+          "group": 18,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.523133732036502,
+          "total_max_mm": 3.023133732036502
+        },
+        {
+          "group": 19,
+          "face_max_mm": 0.25,
+          "core_max_mm": 2.5229293430819597,
+          "total_max_mm": 3.0229293430819597
+        }
+      ],
+      "mass_change_vs_030_percent": 2.3248529764716475,
+      "common_radius_peak_MPa": [
+        420.1283983027445,
+        346.85658905335805,
+        299.1686104370142
+      ],
+      "face_area_weighted_RMS_difference_vs_030_mm": 0.3776559860403582,
+      "core_area_weighted_RMS_difference_vs_030_mm": 7.928861431411343,
+      "total_area_weighted_RMS_difference_vs_030_mm": 8.41556014698193
+    }
+  ],
+  "common_radius_columns_m": [
+    0.15,
+    0.3,
+    0.6
+  ],
+  "common_radius_peak_MPa": [
+    [
+      298.8685851128389,
+      291.6147115544023,
+      289.81292432491125
+    ],
+    [
+      353.22043199602564,
+      298.0273504173681,
+      290.4559767346122
+    ],
+    [
+      420.1283983027445,
+      346.85658905335805,
+      299.1686104370142
+    ]
+  ]
+}

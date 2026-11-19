@@ -1,0 +1,27 @@
+{
+  "baseline_and_article_all_protected_hashes_unchanged": true,
+  "cases": [
+    {
+      "radius_m": 0.15,
+      "feasible": true,
+      "geometry_and_loading_hashes_match": true,
+      "initial_raw_reproduction_max_error_Pa": 3.982425808906555,
+      "grow_only_reinforcement_verified": true,
+      "states": 102,
+      "restoration_steps": 1,
+      "max_force_residual_N": 0.00035972680780105293,
+      "max_moment_residual_Nm": 0.003910789033398032
+    },
+    {
+      "radius_m": 0.6,
+      "feasible": true,
+      "geometry_and_loading_hashes_match": true,
+      "initial_raw_reproduction_max_error_Pa": 1.9875819981098175,
+      "grow_only_reinforcement_verified": true,
+      "states": 51,
+      "restoration_steps": 1,
+      "max_force_residual_N": 0.00035876018228009343,
+      "max_moment_residual_Nm": 0.0038804940413683653
+    }
+  ]
+}

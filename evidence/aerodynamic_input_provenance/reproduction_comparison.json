@@ -1,0 +1,26 @@
+{
+  "force_rows": 1365,
+  "force_shape_equal": true,
+  "max_abs_force_file_difference": 0.0,
+  "force_files_byte_identical": true,
+  "old_semiwing_force_N": -244274.369269,
+  "new_semiwing_force_N": -244274.369269,
+  "old_aerodata": [
+    [
+      12.721,
+      1.238,
+      0.047,
+      488548.739
+    ]
+  ],
+  "new_aerodata": [
+    [
+      12.721,
+      1.238,
+      0.047,
+      488548.739
+    ]
+  ],
+  "aerodata_exact_equal": true,
+  "scope": "Aerodynamic reproduction only, not independent physical validation"
+}

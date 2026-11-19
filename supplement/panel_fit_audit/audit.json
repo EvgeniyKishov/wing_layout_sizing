@@ -1,0 +1,769 @@
+{
+  "selected_run": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16",
+  "final_iteration": 32,
+  "component_thicknesses": [
+    {
+      "component": "Upper skin",
+      "total_min_mm": 7.481709138848413,
+      "total_max_mm": 117.89535982869423,
+      "each_face_min_mm": 0.25,
+      "each_face_max_mm": 8.94767991434711,
+      "core_min_mm": 6.981709138848414,
+      "core_max_mm": 100.0,
+      "max_element": 293,
+      "max_location_m": [
+        1.2350948124999999,
+        0.308305,
+        0.4363559375
+      ],
+      "face_at_max_mm": 8.94767991434711,
+      "core_at_max_mm": 100.0,
+      "reference_depth_at_max_mm": 728.954,
+      "normal_at_max": [
+        0.04337225424939184,
+        -0.017232278393924518,
+        -0.9989103544075817
+      ],
+      "offset": "BOT"
+    },
+    {
+      "component": "Lower skin",
+      "total_min_mm": 7.411676738299009,
+      "total_max_mm": 115.87604942829813,
+      "each_face_min_mm": 0.25,
+      "each_face_max_mm": 7.938024714149063,
+      "core_min_mm": 6.911676738299009,
+      "core_max_mm": 100.0,
+      "max_element": 402,
+      "max_location_m": [
+        1.2350948124999999,
+        0.308305,
+        -0.2925980625
+      ],
+      "face_at_max_mm": 7.938024714149063,
+      "core_at_max_mm": 100.0,
+      "reference_depth_at_max_mm": 728.954,
+      "normal_at_max": [
+        0.006811896026460743,
+        -0.01190656615919924,
+        0.9999059114510831
+      ],
+      "offset": "BOT"
+    },
+    {
+      "component": "Front spar",
+      "total_min_mm": 3.051142880421253,
+      "total_max_mm": 17.732177732966953,
+      "each_face_min_mm": 0.25,
+      "each_face_max_mm": 1.6311544988168942,
+      "core_min_mm": 2.551142880421253,
+      "core_max_mm": 14.469868735333165,
+      "max_element": 12761,
+      "max_location_m": [
+        0.35362125,
+        0.061661,
+        -0.187871
+      ],
+      "face_at_max_mm": 1.6311544988168942,
+      "core_at_max_mm": 14.469868735333165,
+      "reference_depth_at_max_mm": 475.66700000000003,
+      "normal_at_max": [
+        -0.9997872080682029,
+        0.020628586553327805,
+        0.0
+      ],
+      "offset": "MID"
+    },
+    {
+      "component": "Rear spar",
+      "total_min_mm": 3.051143966753907,
+      "total_max_mm": 10.353837860351932,
+      "each_face_min_mm": 0.25,
+      "each_face_max_mm": 0.8138393511747275,
+      "core_min_mm": 2.551143966753907,
+      "core_max_mm": 8.726159158002476,
+      "max_element": 15841,
+      "max_location_m": [
+        2.4624282500000003,
+        0.061661,
+        -0.11866018749999999
+      ],
+      "face_at_max_mm": 0.8138393511747275,
+      "core_at_max_mm": 8.726159158002476,
+      "reference_depth_at_max_mm": 389.9857499999998,
+      "normal_at_max": [
+        -0.9978891552354499,
+        -0.06494023301067231,
+        1.590852345403482e-14
+      ],
+      "offset": "MID"
+    },
+    {
+      "component": "All ribs",
+      "total_min_mm": 3.0511331872806395,
+      "total_max_mm": 6.578773427578998,
+      "each_face_min_mm": 0.25,
+      "each_face_max_mm": 0.25,
+      "core_min_mm": 2.5511331872806395,
+      "core_max_mm": 6.078773427578998,
+      "offset": "MID"
+    }
+  ],
+  "offset_counts": {
+    "BOT": 12760,
+    "MID": 29456
+  },
+  "skin_normal_z_range": {
+    "0": [
+      -0.9998378459295745,
+      -0.31517717413011226
+    ],
+    "1": [
+      0.47451348045739444,
+      0.9999059583906216
+    ]
+  },
+  "section_scan": [
+    {
+      "y_m": 0.061661,
+      "skin_overlap_area_mm2": 1169.0431360580956,
+      "pairs": 4
+    },
+    {
+      "y_m": 0.184983,
+      "skin_overlap_area_mm2": 1300.1741175595312,
+      "pairs": 4
+    },
+    {
+      "y_m": 0.308305,
+      "skin_overlap_area_mm2": 1383.5936674818145,
+      "pairs": 6
+    },
+    {
+      "y_m": 0.431627,
+      "skin_overlap_area_mm2": 1445.3165199802106,
+      "pairs": 6
+    },
+    {
+      "y_m": 0.554949,
+      "skin_overlap_area_mm2": 1483.92500819948,
+      "pairs": 6
+    },
+    {
+      "y_m": 0.6782710000000001,
+      "skin_overlap_area_mm2": 1510.397254848214,
+      "pairs": 6
+    },
+    {
+      "y_m": 0.80159325,
+      "skin_overlap_area_mm2": 1533.6388404860788,
+      "pairs": 6
+    },
+    {
+      "y_m": 0.92491575,
+      "skin_overlap_area_mm2": 1557.0111884350476,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.048238,
+      "skin_overlap_area_mm2": 1622.2567172613878,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.17156,
+      "skin_overlap_area_mm2": 1689.2903712752227,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.2948819999999999,
+      "skin_overlap_area_mm2": 1723.8005581219456,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.418204,
+      "skin_overlap_area_mm2": 1744.1074346487508,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.541526,
+      "skin_overlap_area_mm2": 1763.0510848458925,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.664848,
+      "skin_overlap_area_mm2": 1768.5469149259209,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.78817,
+      "skin_overlap_area_mm2": 1756.8810411326938,
+      "pairs": 6
+    },
+    {
+      "y_m": 1.911492,
+      "skin_overlap_area_mm2": 1735.656118775252,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.034814,
+      "skin_overlap_area_mm2": 1721.0597340480467,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.158136,
+      "skin_overlap_area_mm2": 1733.5056123476325,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.2814579999999998,
+      "skin_overlap_area_mm2": 1761.1604412510721,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.40478,
+      "skin_overlap_area_mm2": 1784.9954695139595,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.52810225,
+      "skin_overlap_area_mm2": 1791.6340294939175,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.6514247500000003,
+      "skin_overlap_area_mm2": 1777.0905451142412,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.774747,
+      "skin_overlap_area_mm2": 1747.3482994848202,
+      "pairs": 6
+    },
+    {
+      "y_m": 2.898069,
+      "skin_overlap_area_mm2": 1700.285236935434,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.04194475,
+      "skin_overlap_area_mm2": 1689.3207578716542,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.20637425,
+      "skin_overlap_area_mm2": 1669.3146752390628,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.3708035,
+      "skin_overlap_area_mm2": 1627.697291127684,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.5352325,
+      "skin_overlap_area_mm2": 1585.109750667693,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.6996617499999997,
+      "skin_overlap_area_mm2": 1578.2084225401545,
+      "pairs": 6
+    },
+    {
+      "y_m": 3.86409125,
+      "skin_overlap_area_mm2": 1564.6214709266892,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.02852075,
+      "skin_overlap_area_mm2": 1547.3107403936058,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.19295025,
+      "skin_overlap_area_mm2": 1531.1228797511699,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.35737975,
+      "skin_overlap_area_mm2": 1516.042938151135,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.5218092500000004,
+      "skin_overlap_area_mm2": 1501.680873493508,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.686238749999999,
+      "skin_overlap_area_mm2": 1495.28612099687,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.85066825,
+      "skin_overlap_area_mm2": 1487.51985038373,
+      "pairs": 6
+    },
+    {
+      "y_m": 4.994544,
+      "skin_overlap_area_mm2": 1417.4592247240303,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.117866,
+      "skin_overlap_area_mm2": 1392.5314136727918,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.241188,
+      "skin_overlap_area_mm2": 1368.1528205355723,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.36451,
+      "skin_overlap_area_mm2": 1342.1752356811292,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.487832,
+      "skin_overlap_area_mm2": 1314.2355452701177,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.611154,
+      "skin_overlap_area_mm2": 1292.2705056854059,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.734476,
+      "skin_overlap_area_mm2": 1277.485399043125,
+      "pairs": 6
+    },
+    {
+      "y_m": 5.857798,
+      "skin_overlap_area_mm2": 1254.7042840068539,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.00167375,
+      "skin_overlap_area_mm2": 1244.9002626455692,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.16610325,
+      "skin_overlap_area_mm2": 1210.7306570707915,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.33053275,
+      "skin_overlap_area_mm2": 1197.8862967326634,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.49496225,
+      "skin_overlap_area_mm2": 1185.970903743601,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.659391749999999,
+      "skin_overlap_area_mm2": 1192.3245617570929,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.82382125,
+      "skin_overlap_area_mm2": 1198.9967628524037,
+      "pairs": 6
+    },
+    {
+      "y_m": 6.967697,
+      "skin_overlap_area_mm2": 1143.681539153122,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.091019,
+      "skin_overlap_area_mm2": 1125.9286391279118,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.214341,
+      "skin_overlap_area_mm2": 1109.801614572364,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.337663,
+      "skin_overlap_area_mm2": 1095.8827811508536,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.460985,
+      "skin_overlap_area_mm2": 1085.25104949734,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.584307,
+      "skin_overlap_area_mm2": 1076.8999011678734,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.70762925,
+      "skin_overlap_area_mm2": 1065.9324390957502,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.8309517500000005,
+      "skin_overlap_area_mm2": 1045.5441743222443,
+      "pairs": 6
+    },
+    {
+      "y_m": 7.9748275,
+      "skin_overlap_area_mm2": 1025.3316605852892,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.139256499999998,
+      "skin_overlap_area_mm2": 975.111340585166,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.30368575,
+      "skin_overlap_area_mm2": 931.0666400688253,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.46811525,
+      "skin_overlap_area_mm2": 904.9902512601388,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.632544750000001,
+      "skin_overlap_area_mm2": 888.7158688551252,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.79697425,
+      "skin_overlap_area_mm2": 877.5228661319452,
+      "pairs": 6
+    },
+    {
+      "y_m": 8.940850000000001,
+      "skin_overlap_area_mm2": 844.6820612153167,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.064172,
+      "skin_overlap_area_mm2": 836.6798980962816,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.187494000000001,
+      "skin_overlap_area_mm2": 828.1648384532722,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.310815999999999,
+      "skin_overlap_area_mm2": 818.5539362859859,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.43413825,
+      "skin_overlap_area_mm2": 806.9637909448286,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.55746075,
+      "skin_overlap_area_mm2": 789.8184328263392,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.680783000000002,
+      "skin_overlap_area_mm2": 778.9256648900855,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.804105,
+      "skin_overlap_area_mm2": 769.6545136173893,
+      "pairs": 6
+    },
+    {
+      "y_m": 9.927427000000002,
+      "skin_overlap_area_mm2": 763.9301131058149,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.050749,
+      "skin_overlap_area_mm2": 760.5013767482126,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.174071000000001,
+      "skin_overlap_area_mm2": 752.5601694396194,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.297393,
+      "skin_overlap_area_mm2": 741.7873240167884,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.420715000000001,
+      "skin_overlap_area_mm2": 731.1904329697495,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.544037,
+      "skin_overlap_area_mm2": 714.1443600053635,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.667359000000001,
+      "skin_overlap_area_mm2": 693.1856929982732,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.790681,
+      "skin_overlap_area_mm2": 683.6953926854833,
+      "pairs": 6
+    },
+    {
+      "y_m": 10.914003000000001,
+      "skin_overlap_area_mm2": 671.4777094155584,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.037325,
+      "skin_overlap_area_mm2": 654.6423473096431,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.16064725,
+      "skin_overlap_area_mm2": 649.7548319658681,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.28396975,
+      "skin_overlap_area_mm2": 644.8926783061606,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.407292,
+      "skin_overlap_area_mm2": 633.6953803700302,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.530614,
+      "skin_overlap_area_mm2": 621.2754151067737,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.653936000000002,
+      "skin_overlap_area_mm2": 603.3297604257314,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.777258,
+      "skin_overlap_area_mm2": 577.566006131901,
+      "pairs": 6
+    },
+    {
+      "y_m": 11.92113375,
+      "skin_overlap_area_mm2": 569.1898838010134,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.08556325,
+      "skin_overlap_area_mm2": 560.9650791321005,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.24999275,
+      "skin_overlap_area_mm2": 549.7279179736048,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.414422250000001,
+      "skin_overlap_area_mm2": 535.8681922652469,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.578851499999999,
+      "skin_overlap_area_mm2": 521.4883300334166,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.743280500000001,
+      "skin_overlap_area_mm2": 506.5398795286538,
+      "pairs": 6
+    },
+    {
+      "y_m": 12.88715625,
+      "skin_overlap_area_mm2": 485.572062361935,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.01047875,
+      "skin_overlap_area_mm2": 477.3501271304819,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.133800999999998,
+      "skin_overlap_area_mm2": 470.4998375538012,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.257123,
+      "skin_overlap_area_mm2": 462.7804430396039,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.380445000000002,
+      "skin_overlap_area_mm2": 453.3013484690955,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.503767,
+      "skin_overlap_area_mm2": 442.5597908831486,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.627089000000002,
+      "skin_overlap_area_mm2": 428.2819718063064,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.750411,
+      "skin_overlap_area_mm2": 411.2858988527541,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.873733000000001,
+      "skin_overlap_area_mm2": 398.97217667942914,
+      "pairs": 6
+    },
+    {
+      "y_m": 13.997055,
+      "skin_overlap_area_mm2": 392.8129865958924,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.120377000000001,
+      "skin_overlap_area_mm2": 389.2133774792318,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.243699,
+      "skin_overlap_area_mm2": 382.94319057558823,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.367021000000001,
+      "skin_overlap_area_mm2": 373.93328776659723,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.490343,
+      "skin_overlap_area_mm2": 364.4766646559736,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.61366525,
+      "skin_overlap_area_mm2": 352.94928541677393,
+      "pairs": 6
+    },
+    {
+      "y_m": 14.73698775,
+      "skin_overlap_area_mm2": 333.643104801658,
+      "pairs": 6
+    }
+  ],
+  "worst_section": {
+    "y_m": 2.52810225,
+    "skin_overlap_area_mm2": 1791.6340294939175,
+    "pairs": 6
+  },
+  "source_sha256": {
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\mesh.npz": "55dd7475805bceb6ce146e1007e51fa1a66aa76ac0dfb8404e0448468a8ee6a6",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\fields.npz": "7651ba4aa5048aa54db6adc341f9385735f3dc489e366e02110c9591a45c89bf",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\diagnostic.apdl": "f064438bc6aaf3b0453e95367673c1796194b37c9ddbe511dfa3b6dde66238e6"
+  },
+  "method": "Undeformed quad corners extruded along element-centre normals using saved BOT/MID offsets; convex sections intersected in spanwise planes. Approximate geometric reconstruction, no solver or contact calculation. 110 bay-midpoint sections, no CAD tolerance/manufacturing certification.",
+  "clearance_at_max_thickness_mm": 495.0430830326483,
+  "worst_section_trailing_edge_overlap_max_vertical_mm": 17.137572375730624,
+  "worst_section_trailing_edge_overlap_x_range_m": [
+    3.0706156504,
+    3.2506135
+  ],
+  "shared_skin_edges_by_group": {
+    "2": {
+      "0": 110,
+      "1": 110
+    },
+    "3": {
+      "0": 110,
+      "1": 110
+    },
+    "4": {
+      "0": 52,
+      "1": 52
+    },
+    "5": {
+      "0": 52,
+      "1": 52
+    },
+    "6": {
+      "0": 52,
+      "1": 52
+    },
+    "7": {
+      "0": 52,
+      "1": 52
+    },
+    "8": {
+      "0": 52,
+      "1": 52
+    },
+    "9": {
+      "0": 52,
+      "1": 52
+    },
+    "10": {
+      "0": 52,
+      "1": 52
+    },
+    "11": {
+      "0": 52,
+      "1": 52
+    },
+    "12": {
+      "0": 52,
+      "1": 52
+    },
+    "13": {
+      "0": 52,
+      "1": 52
+    },
+    "14": {
+      "0": 52,
+      "1": 52
+    },
+    "15": {
+      "0": 52,
+      "1": 52
+    },
+    "16": {
+      "0": 52,
+      "1": 52
+    },
+    "17": {
+      "0": 52,
+      "1": 52
+    },
+    "18": {
+      "0": 52,
+      "1": 52
+    },
+    "19": {
+      "0": 52,
+      "1": 52
+    }
+  }
+}

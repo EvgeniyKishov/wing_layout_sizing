@@ -1,0 +1,331 @@
+{
+  "matched_interior_displacement_points_per_surface": 225,
+  "matched_interior_stress_points_per_surface": 81,
+  "boundary_buffer_m": 0.23579071965738846,
+  "stress_method": "von Mises computed from global nodal stress tensors; averaging restricted to the respective metal face; surfaces compared at matching reference coordinates and depth. Mesh-dependent recovery remains.",
+  "deflection": {
+    "outer": {
+      "Uz_m": {
+        "shell_min": 0.002646889405971899,
+        "shell_max": 0.009691302199771388,
+        "solid_min": 0.002629043058515245,
+        "solid_max": 0.009730203395478008,
+        "max_absolute_difference": 4.8743899514461144e-05,
+        "relative_L2_difference_percent": 0.4860409994240854,
+        "peak_change_percent": 0.40140318509040984
+      },
+      "translation_norm_m": {
+        "shell_min": 0.002843094466537819,
+        "shell_max": 0.010146331640537574,
+        "solid_min": 0.002834072915029039,
+        "solid_max": 0.010189367151494379,
+        "max_absolute_difference": 4.9047186357821515e-05,
+        "relative_L2_difference_percent": 0.46174739655525854,
+        "peak_change_percent": 0.4241484753451763
+      },
+      "vector_relative_L2_percent": 0.5066623129814554
+    },
+    "inner": {
+      "Uz_m": {
+        "shell_min": 0.0026409147577091704,
+        "shell_max": 0.009658845486039002,
+        "solid_min": 0.002440167088743385,
+        "solid_max": 0.00955581887745573,
+        "max_absolute_difference": 0.00027267548612994446,
+        "relative_L2_difference_percent": 2.323329621162322,
+        "peak_change_percent": -1.0666555203951322
+      },
+      "translation_norm_m": {
+        "shell_min": 0.002667619284334827,
+        "shell_max": 0.009733495546065013,
+        "solid_min": 0.0024640171889076315,
+        "solid_max": 0.009634299467421684,
+        "max_absolute_difference": 0.0002735172798222609,
+        "relative_L2_difference_percent": 2.302242291325301,
+        "peak_change_percent": -1.0191208099276428
+      },
+      "vector_relative_L2_percent": 2.319940784722895
+    }
+  },
+  "stress": {
+    "outer": {
+      "von_Mises_MPa": {
+        "shell_min": 269.35674568979056,
+        "shell_max": 299.577421917245,
+        "solid_min": 268.404740631841,
+        "solid_max": 295.53719188747596,
+        "max_absolute_difference": 4.524959985324529,
+        "relative_L2_difference_percent": 0.7677400413349689,
+        "peak_change_percent": -1.348643033213992
+      },
+      "global_Syy_MPa": {
+        "shell_min": -321.11793434564487,
+        "shell_max": -271.6146048958878,
+        "solid_min": -316.030648,
+        "solid_max": -270.534344,
+        "max_absolute_difference": 5.727046078419278,
+        "relative_L2_difference_percent": 1.0357061009087318,
+        "peak_change_percent": -1.584242361303012
+      },
+      "solid_normal_stress_abs_max_MPa": 0.8063066934030406
+    },
+    "outer_interface": {
+      "von_Mises_MPa": {
+        "shell_min": 258.4965273655421,
+        "shell_max": 286.7521205328616,
+        "solid_min": 260.06107503295897,
+        "solid_max": 292.9315987703764,
+        "max_absolute_difference": 6.179478237514786,
+        "relative_L2_difference_percent": 1.1836000999302605,
+        "peak_change_percent": 2.1549895519627382
+      },
+      "global_Syy_MPa": {
+        "shell_min": -306.47268619587646,
+        "shell_max": -260.2871867482023,
+        "solid_min": -314.038128,
+        "solid_max": -261.500548,
+        "max_absolute_difference": 8.030169795494771,
+        "relative_L2_difference_percent": 1.4448336891018096,
+        "peak_change_percent": 2.4685533637696544
+      },
+      "solid_normal_stress_abs_max_MPa": 0.8442530313400156
+    },
+    "inner_interface": {
+      "von_Mises_MPa": {
+        "shell_min": 128.46066785807923,
+        "shell_max": 148.48824027354527,
+        "solid_min": 122.23328237871146,
+        "solid_max": 148.11823712591934,
+        "max_absolute_difference": 7.351695202666008,
+        "relative_L2_difference_percent": 1.7101274398352608,
+        "peak_change_percent": -0.2491801013631223
+      },
+      "global_Syy_MPa": {
+        "shell_min": -144.34494107437132,
+        "shell_max": -125.10665133219699,
+        "solid_min": -144.322928,
+        "solid_max": -119.768218,
+        "max_absolute_difference": 7.838803977683625,
+        "relative_L2_difference_percent": 1.6023728677135791,
+        "peak_change_percent": -0.015250326202975728
+      },
+      "solid_normal_stress_abs_max_MPa": 0.3092779341034399
+    },
+    "inner": {
+      "von_Mises_MPa": {
+        "shell_min": 115.41233573897469,
+        "shell_max": 136.66313375177393,
+        "solid_min": 121.76214914985248,
+        "solid_max": 142.99530627018206,
+        "max_absolute_difference": 9.729966433489182,
+        "relative_L2_difference_percent": 3.2204574467146223,
+        "peak_change_percent": 4.633416741276752
+      },
+      "global_Syy_MPa": {
+        "shell_min": -132.1759269273517,
+        "shell_max": -109.70246952797251,
+        "solid_min": -142.972844,
+        "solid_max": -120.19661,
+        "max_absolute_difference": 14.683567526803813,
+        "relative_L2_difference_percent": 5.4246898226684275,
+        "peak_change_percent": 8.16859569184838
+      },
+      "solid_normal_stress_abs_max_MPa": 0.34282138313717164
+    }
+  },
+  "reactions": {
+    "shell": {
+      "total_force_N": [
+        1.1204974725842476e-08,
+        2.4389009922742844e-08,
+        -6683.148143619933
+      ],
+      "total_moment_about_wing_origin_Nm": [
+        -3284.729080805937,
+        7831.987582305157,
+        4.918547347187996e-08
+      ],
+      "force_balance_residual_N": [
+        1.1204974725842476e-08,
+        2.4389009922742844e-08,
+        -4.222783900331706e-09
+      ],
+      "moment_balance_residual_Nm": [
+        -1.5567820810247213e-08,
+        7.619746611453593e-09,
+        4.918547347187996e-08
+      ],
+      "edges": {
+        "span_root_cut": {
+          "force_N": [
+            -92406.33686269904,
+            3766253.317415015,
+            -133448.77443379676
+          ],
+          "moment_about_wing_origin_Nm": [
+            -1506276.60045806,
+            130423.2323439452,
+            4620015.756068981
+          ]
+        },
+        "span_outboard_cut": {
+          "force_N": [
+            82275.2440484387,
+            -3459105.352402261,
+            93592.44596693866
+          ],
+          "moment_about_wing_origin_Nm": [
+            1359552.8872987994,
+            -82641.16845335052,
+            -4312643.778609802
+          ]
+        },
+        "chord_front_cut": {
+          "force_N": [
+            91384.09541101943,
+            -200215.19075366858,
+            20411.009902380032
+          ],
+          "moment_about_wing_origin_Nm": [
+            82981.83219725489,
+            28553.423202373506,
+            -131227.23450500186
+          ]
+        },
+        "chord_aft_cut": {
+          "force_N": [
+            -81253.00259674784,
+            -106932.77425906049,
+            12762.17042085809
+          ],
+          "moment_about_wing_origin_Nm": [
+            60457.15188119934,
+            -68503.4995106631,
+            -176144.7429541282
+          ]
+        }
+      }
+    },
+    "solid": {
+      "total_force_N": [
+        0.0008005313575267792,
+        0.009936468442901969,
+        -6683.148268450655
+      ],
+      "total_moment_about_wing_origin_Nm": [
+        -3284.7349517062303,
+        7831.988675437714,
+        0.013137041067238897
+      ],
+      "force_balance_residual_N": [
+        0.0008005313575267792,
+        0.009936468442901969,
+        -0.00012483494538173545
+      ],
+      "moment_balance_residual_Nm": [
+        -0.005870915860668902,
+        0.0010931401784546324,
+        0.013137041067238897
+      ],
+      "edges": {
+        "span_root_cut": {
+          "force_N": [
+            -101253.50136897713,
+            3759032.932392316,
+            -198385.23424218103
+          ],
+          "moment_about_wing_origin_Nm": [
+            -1507801.7958444192,
+            208748.66824054183,
+            4607841.333723855
+          ]
+        },
+        "span_outboard_cut": {
+          "force_N": [
+            92775.21195391193,
+            -3395318.4429159164,
+            86548.52781499326
+          ],
+          "moment_about_wing_origin_Nm": [
+            1333742.9297209936,
+            -73007.320139676,
+            -4254200.443256173
+          ]
+        },
+        "chord_front_cut": {
+          "force_N": [
+            86229.58095812425,
+            -244986.51605427265,
+            57529.488449140015
+          ],
+          "moment_about_wing_origin_Nm": [
+            102678.6577459993,
+            466.2108162983619,
+            -150084.06506466685
+          ]
+        },
+        "chord_aft_cut": {
+          "force_N": [
+            -77751.2907425277,
+            -118727.96348565817,
+            47624.069709597155
+          ],
+          "moment_about_wing_origin_Nm": [
+            68095.47342571864,
+            -128375.57024172608,
+            -203556.81226596807
+          ]
+        }
+      }
+    }
+  },
+  "edge_comparison": {
+    "span_root_cut": {
+      "force_vector_relative_difference_percent": 1.7490000473956049,
+      "Fz_difference_N": -64936.45980838427
+    },
+    "span_outboard_cut": {
+      "force_vector_relative_difference_percent": 1.8786882821542952,
+      "Fz_difference_N": -7043.9181519454
+    },
+    "chord_front_cut": {
+      "force_vector_relative_difference_percent": 26.415148517689584,
+      "Fz_difference_N": 37118.47854675999
+    },
+    "chord_aft_cut": {
+      "force_vector_relative_difference_percent": 27.40392727582253,
+      "Fz_difference_N": 34861.89928873906
+    }
+  },
+  "centre_point": {
+    "location_m": [
+      1.2257822924602868,
+      0.4932885,
+      0.43289881781274697
+    ],
+    "outer_Uz_mm": [
+      5.898759724154811,
+      5.938253243326249
+    ],
+    "face_vm_MPa": {
+      "outer": [
+        292.4955791898599,
+        290.8566019939473
+      ],
+      "outer_interface": [
+        280.51982439838537,
+        283.27937544028373
+      ],
+      "inner_interface": [
+        147.654539896044,
+        147.39480219286966
+      ],
+      "inner": [
+        135.9543360492971,
+        139.5978032096002
+      ]
+    }
+  },
+  "sources_unchanged": true,
+  "mesh_refinements": 0
+}

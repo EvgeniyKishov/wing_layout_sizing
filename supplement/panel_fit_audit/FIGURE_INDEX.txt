@@ -1,0 +1,3 @@
+Figure S1: panel_cross_sections.png
+Figure S2: panel_fit_details.png
+Source audit script is a reference copy; execute the original journal_reviews/panel_fit_audit_20261118/audit_panel_fit.py from the project.

@@ -1,0 +1,32 @@
+FINE SIZING: COMPARISON OF FOUR SCREENED RIB-COUNT WINNERS
+19 November 2026
+
+The 2-rib layout is lightest among the four completed fixed-layout fine sizings: 483.136 kg, 65.370 kg (11.918%) below the 16-rib case.
+This is a result under the adopted filtered-stress and linear-buckling criteria for one prescribed load case. It is not a global layout optimum or a physical-strength validation.
+
+CONTROLLED SETUP
+Two ribs (root and tip); spars at 17.5% and 70% chord. 23,552 shell elements, made by four-child subdivision of the standard 5,888-element mesh. Fresh uniform 10 mm start.
+Source/input hashes and sizing settings match the saved 16-rib baseline: R=0.30 m, full-integration SHELL181, original 3/3/1 layer quadrature and offsets, direct FSD, grow-only buckling correction, early restoration, SMP4.
+Same aerodynamic source and conservative load transfer. The 8-, 16- and 25-rib results were reused unchanged.
+
+Ribs | Screening mass kg | FSD mass kg | Reinforcement added kg | Final mass kg | Filtered MPa | Raw MPa | BLF | Max total mm
+2 | 461.147 | 341.373 | 141.763 | 483.136 | 298.917 | 497.728 | 1.023087 | 150.000
+8 | 370.305 | 301.368 | 333.897 | 635.265 | 296.967 | 494.713 | 1.025384 | 116.892
+16 | 372.029 | 308.842 | 239.664 | 548.506 | 298.027 | 506.278 | 1.024110 | 117.895
+25 | 389.145 | 312.889 | 297.771 | 610.661 | 298.367 | 440.181 | 1.026007 | 112.815
+
+INTERPRETATION
+Screening order by mass: 8, 16, 25, 2 ribs. Fine-sizing order: 2, 16, 25, 8 ribs. The previously excluded screening winner becomes the lightest fine-sized candidate. Its 24.53% screening disadvantage did not justify excluding it from fine sizing.
+The 2-rib design has the greatest stress-sized mass but the smallest added reinforcement mass among these four outcomes. This describes the complete heuristic sizing path, not an isolated causal proof about rib count.
+Future article revision must update the selected-candidate statement and candidate-promotion discussion. Existing 16-rib local and shell-solid validation and radius-sensitivity studies remain model-specific; they cannot be transferred automatically to the 2-rib result. No article edits were made.
+
+2-RIB CONVERGENCE AND LIMITATIONS
+103 FSD solved states; feasible-mass-stagnation stop. 23 buckling-stage solved states (initial check plus 22 corrections), including one uniform-core restoration triggered by near-feasible stagnation. Total: 126 solves; 86.78 solver minutes and 89.25 sizing wall minutes, excluding preparation and final archival.
+Final raw peak 497.73 MPa remains above 300 MPa. Maximum total thickness reaches the prescribed 150 mm cap; maximum core thickness reaches 100 mm. Maximum individual face thickness is 26.74 mm. These maxima need not occur in the same element.
+Total-thickness cap reached by 3 elements over 0.012403 square metres of shell reference area.
+Local strength, sandwich-specific failure modes, manufacturable joints and a flight-load envelope remain outside these acceptance criteria.
+
+VERIFICATION AND RETENTION
+All saved thickness updates and filtered fields reproduced independently; exact mass reconstruction; grow-only reinforcement and bounds verified. 149 protected files unchanged.
+Compact fields retained for every state. Initial/final native checkpoints and intermediate text/APDL exports losslessly archived and verified. See run ARCHIVE_README.txt and archive manifests.
+Figures: mass_comparison.png and sizing_histories.png. Detailed numbers: comparison.json; checks: verification.json.

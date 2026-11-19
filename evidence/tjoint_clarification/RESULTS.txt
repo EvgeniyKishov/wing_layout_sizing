@@ -1,0 +1,54 @@
+SHELL T-JOINT: FIXED-RADIUS STRESS FILTER STUDY
+
+Base 1x1 m, web 0.5x0.5 m; both t=10 mm, E=69 GPa, nu=0.33.
+Base x=+/-0.5 m edges fully clamped. Web x=0, y=0.25..0.75 m; top z=0.5 m loaded upward at 20 kN/m.
+Total applied force 10 kN; identical consistent line loads and moments on every mesh.
+SHELL181 full integration, MID offsets, 5 thickness points. Small-displacement linear static.
+Ideal shared-node junction; not a weld/fillet stress model. No buckling or optimization.
+Stress: element-averaged von Mises envelope over bottom/middle/top of the single metal layer.
+Conical area-weighted filter, fixed physical radii; base/web are separate groups.
+Junction region: abs(x)<=0.1 m, z<=0.1 m, y=0.15..0.85 m. Includes junction endpoints.
+
+Elements  h(mm)  Field        Global peak(MPa)  Joint peak(MPa)  Global peak xyz(m) / surface
+     500   50.0 Raw                 78.337983        78.337983 [-0.025, 0.225, 0.0] / 0
+     500   50.0 R = 75 mm           69.877239        69.877239 [-0.025, 0.7749999999999999, 0.0] / 0
+     500   50.0 R = 150 mm          59.200338        59.200338 [-0.025, 0.725, 0.0] / 0
+     500   50.0 R = 250 mm          47.881533        47.881533 [-0.025, 0.32499999999999996, 0.0] / 0
+    2000   25.0 Raw                 96.444592        96.444592 [-0.0125, 0.2375, 0.0] / 0
+    2000   25.0 R = 75 mm           75.511780        75.511780 [-0.0125, 0.2375, 0.0] / 0
+    2000   25.0 R = 150 mm          60.619143        60.619143 [-0.0125, 0.7375, 0.0] / 0
+    2000   25.0 R = 250 mm          48.608130        48.608130 [-0.0125, 0.3125, 0.0] / 0
+    8000   12.5 Raw                114.356429       114.356429 [-0.00625, 0.25625, 0.0] / 0
+    8000   12.5 R = 75 mm           76.879499        76.879499 [-0.00625, 0.25625, 0.0] / 0
+    8000   12.5 R = 150 mm          61.086495        61.086495 [-0.00625, 0.26875000000000004, 0.0] / 0
+    8000   12.5 R = 250 mm          48.854641        48.854641 [-0.00625, 0.31875, 0.0] / 0
+
+Medium-to-fine relative changes (%):
+{
+  "global": {
+    "None": 18.57215296622805,
+    "0.075": 1.8112654413809937,
+    "0.15": 0.7709642534958983,
+    "0.25": 0.5071384014699198
+  },
+  "joint": {
+    "None": 18.57215296622805,
+    "0.075": 1.8112654413809937,
+    "0.15": 0.7709642534958983,
+    "0.25": 0.5071384014699198
+  },
+  "away_from_support_and_load": {
+    "None": 18.57215296622805,
+    "0.075": 1.8112654413809937,
+    "0.15": 0.7709642534958983,
+    "0.25": 0.5071384014699198
+  }
+}
+
+All global peaks lie within the defined junction region; they are not support or load-edge peaks.
+Symmetric endpoint peaks can exchange the argmax due to numerical differences; do not interpret that as physical migration.
+Maximum displacement: [0.00838255117768104, 0.008469819646449935, 0.008497615910515621] m. This is a linear numerical study, not a nonlinear joint-strength assessment.
+Source SHA-256 hashes unchanged before/after postprocessing. Raw fields remain in solver folders.
+Smaller variation of an averaged stress measure is not proof that local stress has converged or that its peak is safe.
+Filter radii were selected before solving; increasing radius changes the stress criterion. No radius was tuned to force acceptance.
+Initial attempts in tjoint_filter_20261014 and tjoint_filter_v2_20261014 failed during APDL postprocessing and are preserved; use v3 only.

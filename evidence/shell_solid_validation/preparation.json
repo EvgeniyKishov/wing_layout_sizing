@@ -1,0 +1,87 @@
+{
+  "status": "PREPARED ONLY - user review before any ANSYS invocation",
+  "geometry": "Saved upper-skin station data; cubic interpolation chordwise, linear spanwise; uniform maximum upper-skin layup. Controlled benchmark, not exact variable-thickness wing reproduction.",
+  "span_bounds_m": [
+    0.0,
+    0.986577
+  ],
+  "chord_fraction_bounds": [
+    0.2,
+    0.5
+  ],
+  "chord_width_range_m": [
+    1.0570464,
+    1.0147644
+  ],
+  "layup_mm": [
+    8.94767991434711,
+    100.0,
+    8.94767991434711
+  ],
+  "normal": "inward; outer surface is shell BOT",
+  "geometry_smoothing_max_departure_from_piecewise_linear_mm": 0.2925441114446925,
+  "source_chord_fraction_rounding_max": 6.828999816743675e-07,
+  "shell": {
+    "elements": 1024,
+    "nodes": 1089,
+    "through_layer_integration": [
+      3,
+      3,
+      3
+    ],
+    "in_plane": "SHELL181 KEYOPT(3)=2",
+    "boundary_nodes": 128
+  },
+  "solid": {
+    "elements": 1536,
+    "nodes": 7565,
+    "through_layer_elements": [
+      1,
+      4,
+      1
+    ],
+    "formulation": "SOLID186 homogeneous per material volume; KEYOPT(2)=1 full integration, KEYOPT(3)=0",
+    "boundary_nodes": 1280,
+    "minimum_sampled_jacobian_m3": 3.6124744074891244e-06,
+    "minimum_sampled_scaled_jacobian": 0.9993966581124029
+  },
+  "loads": {
+    "method": "Q1 field frozen on 16x16 grid from saved aerodynamic panel forces / projected panel area; consistent 3x3 Gauss integration, +global Z, not follower pressure",
+    "density_range_kPa": [
+      4.737597634293827,
+      9.087056272525494
+    ],
+    "shell_Fz_Mx_My": [
+      6683.14814361571,
+      3284.7290807903682,
+      -7831.9875822975355
+    ],
+    "solid_Fz_Mx_My": [
+      6683.14814361571,
+      3284.7290807903682,
+      -7831.987582297534
+    ],
+    "residual": [
+      0.0,
+      0.0,
+      1.8189894035458565e-12
+    ],
+    "quadratic_negative_nodal_force_note": "Consistent Q8 face loading can give negative corner nodal weights; the underlying traction is positive and distributed."
+  },
+  "boundary_transfer": "Reference translation + rotation cross inward thickness offset on all solid cut faces; corresponding six DOFs on shell edges, from saved 3/3/3 full wing. No constraints on interior top/bottom faces.",
+  "comparison_zone": "Exclude a proposed 2*total-thickness distance from artificial cut boundaries; evaluate interior motion/stresses and total boundary reactions, not imposed-boundary displacement agreement.",
+  "limitations": [
+    "Uniform thick layup and smoothed curvature are explicit benchmark idealizations.",
+    "Inherited cut motion comes from the original variable-thickness whole-wing solution.",
+    "No contact, joint strength, buckling or sizing validation.",
+    "Mapped mesh checks are Python geometric checks; ANSYS element checks await a later authorized run."
+  ],
+  "source_sha256": {
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\mesh.npz": "55dd7475805bceb6ce146e1007e51fa1a66aa76ac0dfb8404e0448468a8ee6a6",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\fields.npz": "7651ba4aa5048aa54db6adc341f9385735f3dc489e366e02110c9591a45c89bf",
+    "runs\\shell_integration_sensitivity_20261118_licensed_retry\\nip_333\\dof.txt": "0aa87eac73031a45b4a18cb0bcac4d25592aee409044513681b5b3e260876c82",
+    "runs\\fokker_aero_reproduction_20261013\\0_12.72.txt": "e44d857b8e16da799787bc4689cbd4fd04b2488ecc12e25bbf2319a8fa831f74",
+    "article_results\\layout_sizing_review6_shell_limits_20261118\\layout_sizing_draft.tex": "78340d751e45b304d921554268fca9a93d97e7e97a63552ba36b953912e4b935",
+    "article_results\\layout_sizing_review6_shell_limits_20261118\\layout_sizing_draft.pdf": "b309b14121bccbf7d70573f4298e3fe4de275df19a39dac87e3dfd3bd5949050"
+  }
+}

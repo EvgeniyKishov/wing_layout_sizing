@@ -1,0 +1,446 @@
+{
+  "elements": [
+    7808,
+    31232,
+    124928,
+    499712
+  ],
+  "old_global_MPa": [
+    506.2783084978192,
+    548.9094119251705,
+    578.4929354519343,
+    713.8154820371196
+  ],
+  "distributed_global_MPa": [
+    507.68460287861035,
+    550.3844254714085,
+    580.0754209256271,
+    765.2334683501989
+  ],
+  "components": [
+    {
+      "component": "Upper skin",
+      "old_MPa": [
+        506.2783084978192,
+        548.9094119251705,
+        578.4929354519343,
+        595.7751174627788
+      ],
+      "distributed_MPa": [
+        507.68460287861035,
+        550.3844254714085,
+        580.0754209256271,
+        597.0108983021344
+      ],
+      "distributed_step_change_percent": [
+        8.410698758774027,
+        5.394592230473827,
+        2.919530248236213
+      ]
+    },
+    {
+      "component": "Lower skin",
+      "old_MPa": [
+        452.7235532649339,
+        488.38604008914103,
+        514.6483757618587,
+        533.8334578853492
+      ],
+      "distributed_MPa": [
+        452.10011442137403,
+        487.9338763739687,
+        514.2332743637663,
+        533.379433244033
+      ],
+      "distributed_step_change_percent": [
+        7.926067879557386,
+        5.389951233810408,
+        3.7232438729203565
+      ]
+    },
+    {
+      "component": "Front spar",
+      "old_MPa": [
+        320.6444977814789,
+        333.7490736259746,
+        344.2904191442528,
+        349.87752607144927
+      ],
+      "distributed_MPa": [
+        319.39299496001115,
+        330.0925611644686,
+        339.8856130589005,
+        343.0727137312112
+      ],
+      "distributed_step_change_percent": [
+        3.3499689640335006,
+        2.9667593416479843,
+        0.9376980224692133
+      ]
+    },
+    {
+      "component": "Rear spar",
+      "old_MPa": [
+        309.4123270394727,
+        309.5534558845193,
+        312.0558415428826,
+        323.78889052452644
+      ],
+      "distributed_MPa": [
+        309.7980655532324,
+        309.68681928950883,
+        313.50089636234,
+        325.2634743217306
+      ],
+      "distributed_step_change_percent": [
+        -0.03590928288235151,
+        1.2315916710893493,
+        3.752007760065723
+      ]
+    },
+    {
+      "component": "Rib 4",
+      "old_MPa": [
+        190.44661000409388,
+        257.9586462631267,
+        402.30858517511456,
+        713.8154820371196
+      ],
+      "distributed_MPa": [
+        191.544111290258,
+        259.7168525851473,
+        435.11302164049897,
+        765.2334683501989
+      ],
+      "distributed_step_change_percent": [
+        35.59114442917182,
+        67.5336110496906,
+        75.87004531950173
+      ]
+    },
+    {
+      "component": "Rib 5",
+      "old_MPa": [
+        213.756967996012,
+        292.4718006896995,
+        408.0352181754634,
+        710.669849425806
+      ],
+      "distributed_MPa": [
+        214.5983894877212,
+        291.87996085832515,
+        414.53257051664013,
+        742.4551643254619
+      ],
+      "distributed_step_change_percent": [
+        36.01218609099852,
+        42.02159315686937,
+        79.10659309595994
+      ]
+    },
+    {
+      "component": "Rib 6",
+      "old_MPa": [
+        225.0392926325296,
+        311.4312088176365,
+        402.3003753014441,
+        682.6549670565707
+      ],
+      "distributed_MPa": [
+        225.4098203702967,
+        309.72217494895824,
+        397.8589933005703,
+        694.2011993121641
+      ],
+      "distributed_step_change_percent": [
+        37.40402899933804,
+        28.456734932245944,
+        74.48422958927972
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "level": 0,
+      "element": 1018,
+      "component": "Upper skin",
+      "wing_parent": 3338,
+      "raw_MPa": 507.68460287861035,
+      "centroid_xyz_m": [
+        0.456173,
+        3.69966175,
+        0.24728587500000002
+      ],
+      "distance_to_cut_m": 1.23322075
+    },
+    {
+      "level": 1,
+      "element": 4076,
+      "component": "Upper skin",
+      "wing_parent": 3339,
+      "raw_MPa": 550.3844254714085,
+      "centroid_xyz_m": [
+        0.4448961875,
+        3.8229838749999994,
+        0.24121665625000002
+      ],
+      "distance_to_cut_m": 1.3565428749999993
+    },
+    {
+      "level": 2,
+      "element": 16301,
+      "component": "Upper skin",
+      "wing_parent": 3339,
+      "raw_MPa": 580.0754209256271,
+      "centroid_xyz_m": [
+        0.43848360937499997,
+        3.8435375624999994,
+        0.23867367968750003
+      ],
+      "distance_to_cut_m": 1.3770965624999993
+    },
+    {
+      "level": 3,
+      "element": 223681,
+      "component": "Rib 4",
+      "wing_parent": 23344,
+      "raw_MPa": 765.2334683501989,
+      "centroid_xyz_m": [
+        0.13258309375,
+        2.95973,
+        0.0846496796875
+      ],
+      "distance_to_cut_m": 0.49328899999999987
+    }
+  ],
+  "endpoints": [
+    {
+      "rib": 4,
+      "node": 465,
+      "old_MPa": [
+        131.6899223909291,
+        232.94635830864968,
+        402.30858517511456,
+        713.8154820371196
+      ],
+      "distributed_MPa": [
+        140.4220416769793,
+        253.7765944186807,
+        435.11302164049897,
+        765.2334683501989
+      ]
+    },
+    {
+      "rib": 5,
+      "node": 627,
+      "old_MPa": [
+        123.9266350997596,
+        223.5019480511694,
+        391.5698660116769,
+        710.669849425806
+      ],
+      "distributed_MPa": [
+        131.0110222915211,
+        239.4991359193785,
+        414.53257051664013,
+        742.4551643254619
+      ]
+    },
+    {
+      "rib": 6,
+      "node": 791,
+      "old_MPa": [
+        167.01601070836932,
+        254.0673592946032,
+        401.5906434787452,
+        682.6549670565707
+      ],
+      "distributed_MPa": [
+        165.3894795882677,
+        249.66715656665951,
+        393.367710072854,
+        668.4505104224171
+      ]
+    }
+  ],
+  "displacements": [
+    {
+      "level": 0,
+      "translation_change_vs_point_load_L2_percent": 0.031619320904600026,
+      "maximum_translation_change_m": 0.00024144029848881024
+    },
+    {
+      "level": 1,
+      "translation_change_vs_point_load_L2_percent": 0.032879348678259764,
+      "maximum_translation_change_m": 0.00025009474078502053,
+      "successive_mesh_common_translation_L2_percent": 0.01037571563942078
+    },
+    {
+      "level": 2,
+      "translation_change_vs_point_load_L2_percent": 0.03314195858993904,
+      "maximum_translation_change_m": 0.0002527295059633765,
+      "successive_mesh_common_translation_L2_percent": 0.009657049224888758
+    },
+    {
+      "level": 3,
+      "translation_change_vs_point_load_L2_percent": 0.03311175205607331,
+      "maximum_translation_change_m": 0.0002534610966331436,
+      "successive_mesh_common_translation_L2_percent": 0.007953929303589848
+    }
+  ],
+  "solver_checks": [
+    {
+      "execution": {
+        "exit_code": 0,
+        "seconds": 10.87703080000938,
+        "error_counts": [
+          "0"
+        ]
+      },
+      "aspect_ratio_warnings": 0
+    },
+    {
+      "execution": {
+        "exit_code": 0,
+        "seconds": 23.15065520000644,
+        "error_counts": [
+          "0"
+        ]
+      },
+      "aspect_ratio_warnings": 314
+    },
+    {
+      "execution": {
+        "exit_code": 0,
+        "seconds": 77.08934269999736,
+        "error_counts": [
+          "0"
+        ]
+      },
+      "aspect_ratio_warnings": 1394
+    },
+    {
+      "execution": {
+        "exit_code": 0,
+        "seconds": 325.3140100000019,
+        "error_counts": [
+          "0"
+        ]
+      },
+      "aspect_ratio_warnings": 5964
+    }
+  ],
+  "source_files_and_article_unchanged": true,
+  "manifest": {
+    "method": "Continuous Q1 vertical force density on baseline upper skin, consistent 3x3 Gauss integration on each child; projected x-y area; no follower pressure.",
+    "source_reconstruction": "Saved forces divided by inferred squared-chord aerodynamic panel projected areas; bilinear density interpolation at 3/4-chord source points; constant edge extrapolation; frozen baseline Q1 representation. Positive exponential nodal correction matches saved segment Fz, Mx, My.",
+    "source_x_fit_max_error_m": 6.223282564277177e-07,
+    "source_span_step_m": 0.16262299999999996,
+    "correction_coefficients": [
+      -0.011111176964861599,
+      0.3598419212849814,
+      0.04802182034242682
+    ],
+    "density_correction_factor_range": [
+      0.8339666682381728,
+      1.209311582437226
+    ],
+    "target_Fz_Mx_My": [
+      63394.86243748669,
+      249115.9183630176,
+      -63548.57848306127
+    ],
+    "source_sha256": {
+      "runs\\skin_front_spar_submodel_baseline_20261117\\mapping.npz": "1b14d55a4ef4cfd8cc11dcec884dde814003158e3b55af1b3dbd1544c6ff3b27",
+      "runs\\skin_front_spar_submodel_refinement1_20261117\\mesh.npz": "905c382b9dbe157d3878f9d3206e878c2dec014e66b2964f8d6d11983c3f0a3e",
+      "runs\\skin_front_spar_submodel_refinement2_20261117\\mesh.npz": "634bdbde4e0971071da0cc5dbcb36302f86b2f4412a6524a4258080753fb2e8a",
+      "runs\\skin_front_spar_submodel_refinement3_20261117\\mesh.npz": "36e635a80d11bea1159b1d937badbd622587f1923e9bcc9e0dd5b61eb32d31cb",
+      "runs\\skin_front_spar_submodel_baseline_20261117\\submodel_original_mesh\\input.apdl": "b32ec10f259bcb4f1016d62b3d2b08af5b88422644a6d9383c081ea18a3c715b",
+      "runs\\skin_front_spar_submodel_refinement1_20261117\\static\\input.apdl": "aef622132900c94ee80e593b2e0df38158b4b0a3cee8423c92ec1525220b332c",
+      "runs\\skin_front_spar_submodel_refinement2_20261117\\static\\input.apdl": "2b9358a6916fe935d412ed8a9e0ab648e3540897a6e25c606ef65ee750c7a350",
+      "runs\\skin_front_spar_submodel_refinement3_20261117\\static\\input.apdl": "ebfa25824e57a7d197319975e05f8cd61f4fe47ffee1e32520e475984630c24a",
+      "runs\\fokker_aero_reproduction_20261013\\0_12.72.txt": "e44d857b8e16da799787bc4689cbd4fd04b2488ecc12e25bbf2319a8fa831f74",
+      "article_results\\layout_sizing_review3_mdpi_draft_20261020\\layout_sizing_draft.tex": "357aef54a9b371e1ce3117b18c5b8512e34594b67ed461045fe48958fa32f9b3",
+      "journal_reviews\\stress_audit_20261117\\run_redistributed_sweep.py": "f616313cdae71848cb308a4ada19952426a6516325a3cc05fdcc621f2055d52c"
+    },
+    "boundary_policy": "Saved original wing cut motion, unchanged at every mesh; no globally reloaded parent solve.",
+    "levels": [
+      {
+        "level": 0,
+        "elements": 7808,
+        "nodes": 7701,
+        "loaded_nodes": 1239,
+        "max_nodal_force_N": 158.339547121872,
+        "hotspot_node465_force_N": 136.34523248610265,
+        "Fz_Mx_My": [
+          63394.862437486794,
+          249115.91836301796,
+          -63548.578483061414
+        ],
+        "force_moment_residual": [
+          1.0186340659856796e-10,
+          3.4924596548080444e-10,
+          -1.4551915228366852e-10
+        ],
+        "input_difference": "Only F commands and processor transitions; original mesh, sections, DOFs and solve/export commands identical."
+      },
+      {
+        "level": 1,
+        "elements": 31232,
+        "nodes": 31017,
+        "loaded_nodes": 4797,
+        "max_nodal_force_N": 42.09383849310779,
+        "hotspot_node465_force_N": 34.91317249963053,
+        "Fz_Mx_My": [
+          63394.86243748677,
+          249115.91836301787,
+          -63548.57848306139
+        ],
+        "force_moment_residual": [
+          8.003553375601768e-11,
+          2.6193447411060333e-10,
+          -1.2369127944111824e-10
+        ],
+        "input_difference": "Only F commands and processor transitions; original mesh, sections, DOFs and solve/export commands identical."
+      },
+      {
+        "level": 2,
+        "elements": 124928,
+        "nodes": 124497,
+        "loaded_nodes": 18873,
+        "max_nodal_force_N": 11.346547408800994,
+        "hotspot_node465_force_N": 8.83165556821365,
+        "Fz_Mx_My": [
+          63394.862437486765,
+          249115.91836301787,
+          -63548.57848306138
+        ],
+        "force_moment_residual": [
+          7.275957614183426e-11,
+          2.6193447411060333e-10,
+          -1.0913936421275139e-10
+        ],
+        "input_difference": "Only F commands and processor transitions; original mesh, sections, DOFs and solve/export commands identical."
+      },
+      {
+        "level": 3,
+        "elements": 499712,
+        "nodes": 498849,
+        "loaded_nodes": 74865,
+        "max_nodal_force_N": 3.003807245377601,
+        "hotspot_node465_force_N": 2.2208344464945164,
+        "Fz_Mx_My": [
+          63394.86243748678,
+          249115.918363018,
+          -63548.57848306139
+        ],
+        "force_moment_residual": [
+          8.731149137020111e-11,
+          3.7834979593753815e-10,
+          -1.2369127944111824e-10
+        ],
+        "input_difference": "Only F commands and processor transitions; original mesh, sections, DOFs and solve/export commands identical."
+      }
+    ]
+  }
+}

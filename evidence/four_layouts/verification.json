@@ -1,0 +1,17 @@
+{
+  "solved_states": 126,
+  "fsd_states": 103,
+  "buckling_states": 23,
+  "all_updates_reproduced": true,
+  "source_and_settings_identical_to_saved_baseline": true,
+  "all_layers_grow_only_in_reinforcement": true,
+  "bounds_verified": true,
+  "maximum_filter_reproduction_error_Pa": 0.0,
+  "maximum_mass_reproduction_error_kg": 0.0,
+  "maximum_force_residual_N": 0.0005173892132006586,
+  "maximum_moment_residual_Nm": 0.00936176281538792,
+  "protected_files_unchanged": 149,
+  "feasible": true,
+  "restoration_steps": 1,
+  "final_restoration_reason": "near_feasible_stagnation"
+}

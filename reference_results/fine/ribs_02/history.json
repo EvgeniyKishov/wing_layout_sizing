@@ -1,0 +1,4205 @@
+[
+  {
+    "phase": "fsd",
+    "iteration": 0,
+    "folder": "fsd\\iteration_000",
+    "mass_kg": 1918.8384673691123,
+    "raw_peak_MPa": 265.9261082331667,
+    "filtered_peak_MPa": 174.23608635118737,
+    "seconds": 38.497688500006916,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.7305959520163015e-06,
+        2.5223036573152058e-05,
+        0.0005173892132006586
+      ],
+      "moment_residual_Nm": [
+        0.0053809951059520245,
+        0.00936176281538792,
+        3.8274483813438565e-06
+      ]
+    },
+    "active_variables": 23552,
+    "active_fraction": 1.0,
+    "active_below_band": 23552,
+    "active_above_band": 0,
+    "interior_variables": 23552,
+    "change": 0.9375,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 1,
+    "folder": "fsd\\iteration_001",
+    "mass_kg": 317.9065234715385,
+    "raw_peak_MPa": 1310.675056652046,
+    "filtered_peak_MPa": 792.9079474986249,
+    "seconds": 35.86010130000068,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0918383850366808e-06,
+        1.8091395759256557e-07,
+        7.299811113625765e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007761248853057623,
+        -9.932124521583319e-05,
+        -2.129000313288998e-05
+      ]
+    },
+    "active_variables": 11916,
+    "active_fraction": 0.5059442934782609,
+    "active_below_band": 5020,
+    "active_above_band": 6896,
+    "interior_variables": 13151,
+    "change": 1.7821331491179824,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 2,
+    "folder": "fsd\\iteration_002",
+    "mass_kg": 361.01545748522693,
+    "raw_peak_MPa": 698.9379214880497,
+    "filtered_peak_MPa": 341.94618824954847,
+    "seconds": 35.66892560000997,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.7846623450168408e-06,
+        5.401943781180307e-09,
+        6.523556658066809e-05
+      ],
+      "moment_residual_Nm": [
+        0.000692602014169097,
+        -7.00201781000942e-05,
+        -2.5906456357915886e-05
+      ]
+    },
+    "active_variables": 14976,
+    "active_fraction": 0.6358695652173914,
+    "active_below_band": 14849,
+    "active_above_band": 127,
+    "interior_variables": 16555,
+    "change": 0.508053246431099,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 3,
+    "folder": "fsd\\iteration_003",
+    "mass_kg": 332.3536651079852,
+    "raw_peak_MPa": 716.6967642784545,
+    "filtered_peak_MPa": 403.5742583691131,
+    "seconds": 35.5407938999997,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.133399210739299e-06,
+        9.255018085241318e-08,
+        4.714811802841723e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005105023737996817,
+        -6.406664033420384e-05,
+        -5.312125358614139e-05
+      ]
+    },
+    "active_variables": 8574,
+    "active_fraction": 0.36404551630434784,
+    "active_below_band": 6566,
+    "active_above_band": 2008,
+    "interior_variables": 13033,
+    "change": 0.41605002936530955,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.8343234571967827,
+      0.13560254612877704,
+      0.0793921472972237
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 4,
+    "folder": "fsd\\iteration_004",
+    "mass_kg": 338.45314417482746,
+    "raw_peak_MPa": 678.8304594801284,
+    "filtered_peak_MPa": 355.9427917255403,
+    "seconds": 35.74546360000386,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.740476919731009e-06,
+        2.331980795133859e-07,
+        5.7107885368168354e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006201777141541243,
+        -7.111878949217498e-05,
+        -8.041309411055408e-05
+      ]
+    },
+    "active_variables": 8939,
+    "active_fraction": 0.37954313858695654,
+    "active_below_band": 8855,
+    "active_above_band": 84,
+    "interior_variables": 12416,
+    "change": 0.3473555610028971,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.13560254612877704,
+      0.0793921472972237,
+      0.01835237491622209
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 5,
+    "folder": "fsd\\iteration_005",
+    "mass_kg": 333.7561345803031,
+    "raw_peak_MPa": 671.5840049008515,
+    "filtered_peak_MPa": 345.8378372117685,
+    "seconds": 35.794880600005854,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.685817541234428e-06,
+        -6.564105206052773e-07,
+        7.432358688674867e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008396918419748545,
+        -8.674466516822577e-05,
+        -5.79616280447226e-05
+      ]
+    },
+    "active_variables": 6454,
+    "active_fraction": 0.2740319293478261,
+    "active_below_band": 6231,
+    "active_above_band": 223,
+    "interior_variables": 11596,
+    "change": 0.3077256395747574,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0793921472972237,
+      0.01835237491622209,
+      0.013877872536761243
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 6,
+    "folder": "fsd\\iteration_006",
+    "mass_kg": 335.0228234052097,
+    "raw_peak_MPa": 682.8537253634854,
+    "filtered_peak_MPa": 334.6586024937182,
+    "seconds": 38.15266489997157,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.975430791389954e-06,
+        1.1263182386755943e-08,
+        5.6776945712044835e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006068146321922541,
+        -7.049011765047908e-05,
+        -2.5931556592695415e-05
+      ]
+    },
+    "active_variables": 7043,
+    "active_fraction": 0.29904042119565216,
+    "active_below_band": 7004,
+    "active_above_band": 39,
+    "interior_variables": 11220,
+    "change": 0.2586792626168949,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.01835237491622209,
+      0.013877872536761243,
+      0.003795252562172144
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 7,
+    "folder": "fsd\\iteration_007",
+    "mass_kg": 333.7998946597379,
+    "raw_peak_MPa": 710.7510203579687,
+    "filtered_peak_MPa": 327.4719962771195,
+    "seconds": 44.068416900001466,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.7194174612741335e-06,
+        5.167266863281839e-07,
+        5.2576622692868114e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005845935083925724,
+        -6.625166861340404e-05,
+        -7.14496782165952e-05
+      ]
+    },
+    "active_variables": 5889,
+    "active_fraction": 0.25004245923913043,
+    "active_below_band": 5840,
+    "active_above_band": 49,
+    "interior_variables": 10901,
+    "change": 0.23126153847577458,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.013877872536761243,
+      0.003795252562172144,
+      0.00365028487624158
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 8,
+    "folder": "fsd\\iteration_008",
+    "mass_kg": 334.3953080651041,
+    "raw_peak_MPa": 747.4501664136703,
+    "filtered_peak_MPa": 322.33768176281177,
+    "seconds": 44.07024810000439,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.0202572816051543e-06,
+        -4.254252417013049e-07,
+        5.417357897385955e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005996227264404297,
+        -6.86900457367301e-05,
+        -4.327176065999083e-05
+      ]
+    },
+    "active_variables": 6245,
+    "active_fraction": 0.26515794836956524,
+    "active_below_band": 6222,
+    "active_above_band": 23,
+    "interior_variables": 10723,
+    "change": 0.2108603527311148,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.003795252562172144,
+      0.00365028487624158,
+      0.0017837435388441737
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 9,
+    "folder": "fsd\\iteration_009",
+    "mass_kg": 334.1145942081804,
+    "raw_peak_MPa": 777.2525062337528,
+    "filtered_peak_MPa": 324.2454688833035,
+    "seconds": 38.089958900003694,
+    "reaction_balance": {
+      "force_residual_N": [
+        7.131754955480574e-07,
+        -2.05773176276125e-08,
+        5.961200804449618e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006508354563266039,
+        -7.798933074809611e-05,
+        -1.2022235750919208e-05
+      ]
+    },
+    "active_variables": 5643,
+    "active_fraction": 0.2395974864130435,
+    "active_below_band": 5604,
+    "active_above_band": 39,
+    "interior_variables": 10613,
+    "change": 0.2276737995918673,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00365028487624158,
+      0.0017837435388441737,
+      0.0008394670922506782
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 10,
+    "folder": "fsd\\iteration_010",
+    "mass_kg": 334.5588344725509,
+    "raw_peak_MPa": 793.9953148362082,
+    "filtered_peak_MPa": 329.2163972750827,
+    "seconds": 37.65839590001269,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.086295343266102e-07,
+        -1.545804479974322e-07,
+        4.9864931497722864e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005400513764470816,
+        -6.271849269978702e-05,
+        3.373319486854598e-06
+      ]
+    },
+    "active_variables": 5910,
+    "active_fraction": 0.25093410326086957,
+    "active_below_band": 5867,
+    "active_above_band": 43,
+    "interior_variables": 10542,
+    "change": 0.25855141036766804,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0017837435388441737,
+      0.0008394670922506782,
+      0.0013296044892122773
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 11,
+    "folder": "fsd\\iteration_011",
+    "mass_kg": 334.61512732193023,
+    "raw_peak_MPa": 808.2302574385922,
+    "filtered_peak_MPa": 331.4862532348972,
+    "seconds": 44.11727390001761,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.932560730390833e-06,
+        -2.7581245376495644e-07,
+        6.678406498394907e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007154445629566908,
+        -9.115147986449301e-05,
+        -4.0491242543794215e-05
+      ]
+    },
+    "active_variables": 5684,
+    "active_fraction": 0.2413383152173913,
+    "active_below_band": 5641,
+    "active_above_band": 43,
+    "interior_variables": 10373,
+    "change": 0.25339209095350845,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0008394670922506782,
+      0.0013296044892122773,
+      0.00016825993989383762
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 12,
+    "folder": "fsd\\iteration_012",
+    "mass_kg": 335.0055464774379,
+    "raw_peak_MPa": 812.3873996968459,
+    "filtered_peak_MPa": 331.6444273138802,
+    "seconds": 42.66130209999392,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.632108124904335e-07,
+        -2.116767063853331e-07,
+        5.947408499196172e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006622227374464273,
+        -7.665358134545386e-05,
+        -2.974240487674251e-06
+      ]
+    },
+    "active_variables": 6041,
+    "active_fraction": 0.25649626358695654,
+    "active_below_band": 6007,
+    "active_above_band": 34,
+    "interior_variables": 10254,
+    "change": 0.2674014970074369,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0013296044892122773,
+      0.00016825993989383762,
+      0.0011667707871798264
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 13,
+    "folder": "fsd\\iteration_013",
+    "mass_kg": 335.13105877979376,
+    "raw_peak_MPa": 809.4492388696558,
+    "filtered_peak_MPa": 328.66287463805514,
+    "seconds": 38.07852219999768,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.1523011330136796e-06,
+        5.97148755332455e-07,
+        5.7718687457963824e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006051782984286547,
+        -7.109041325747967e-05,
+        -3.806614222412463e-05
+      ]
+    },
+    "active_variables": 5908,
+    "active_fraction": 0.2508491847826087,
+    "active_below_band": 5880,
+    "active_above_band": 28,
+    "interior_variables": 10133,
+    "change": 0.2745353735362127,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00016825993989383762,
+      0.0011667707871798264,
+      0.0003746573860510606
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 14,
+    "folder": "fsd\\iteration_014",
+    "mass_kg": 335.35525017197267,
+    "raw_peak_MPa": 805.7423077657779,
+    "filtered_peak_MPa": 322.5277418700697,
+    "seconds": 37.66110129997833,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.9769148568448145e-06,
+        -2.5539338821545243e-07,
+        5.006408900953829e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005387552082538605,
+        -6.736547220498323e-05,
+        -4.421932499099057e-05
+      ]
+    },
+    "active_variables": 5931,
+    "active_fraction": 0.2518257472826087,
+    "active_below_band": 5914,
+    "active_above_band": 17,
+    "interior_variables": 10069,
+    "change": 0.2979227503942935,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0011667707871798264,
+      0.0003746573860510606,
+      0.0006689663231906527
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 15,
+    "folder": "fsd\\iteration_015",
+    "mass_kg": 335.42619854809897,
+    "raw_peak_MPa": 802.3855433332186,
+    "filtered_peak_MPa": 319.6936397343806,
+    "seconds": 40.58620190000511,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0538662991166348e-06,
+        5.189795047044754e-07,
+        6.0738588217645884e-05
+      ],
+      "moment_residual_Nm": [
+        0.000653107650578022,
+        -7.595910574309528e-05,
+        -6.917309292475693e-06
+      ]
+    },
+    "active_variables": 5790,
+    "active_fraction": 0.24583899456521738,
+    "active_below_band": 5776,
+    "active_above_band": 14,
+    "interior_variables": 10027,
+    "change": 0.28234723255459326,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003746573860510606,
+      0.0006689663231906527,
+      0.0002115618469963212
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 16,
+    "folder": "fsd\\iteration_016",
+    "mass_kg": 335.5301014364178,
+    "raw_peak_MPa": 810.2469856614382,
+    "filtered_peak_MPa": 323.2936914682162,
+    "seconds": 40.92908719999832,
+    "reaction_balance": {
+      "force_residual_N": [
+        -9.934456102200784e-08,
+        -6.165792001411319e-07,
+        6.000237772241235e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006461967714130878,
+        -7.620747783221304e-05,
+        -4.4279768189881e-06
+      ]
+    },
+    "active_variables": 5795,
+    "active_fraction": 0.24605129076086957,
+    "active_below_band": 5778,
+    "active_above_band": 17,
+    "interior_variables": 9987,
+    "change": 0.27450310236728237,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0006689663231906527,
+      0.0002115618469963212,
+      0.00030976378341517253
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 17,
+    "folder": "fsd\\iteration_017",
+    "mass_kg": 335.57249740868417,
+    "raw_peak_MPa": 824.1018835486179,
+    "filtered_peak_MPa": 326.34113155180137,
+    "seconds": 39.94564069999615,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.8954544834268745e-06,
+        -5.268066161079332e-08,
+        5.125647294335067e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005602915771305561,
+        -6.681843660771847e-05,
+        -5.2256829803809524e-05
+      ]
+    },
+    "active_variables": 5706,
+    "active_fraction": 0.24227241847826086,
+    "active_below_band": 5684,
+    "active_above_band": 22,
+    "interior_variables": 9977,
+    "change": 0.2638065647758022,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0002115618469963212,
+      0.00030976378341517253,
+      0.00012635519759591717
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 18,
+    "folder": "fsd\\iteration_018",
+    "mass_kg": 335.6371072757801,
+    "raw_peak_MPa": 842.3209127070309,
+    "filtered_peak_MPa": 326.73014048351115,
+    "seconds": 38.05393729999196,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.145147381175775e-06,
+        3.688910510390997e-08,
+        6.696840864606202e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007427756208926439,
+        -8.731227717362344e-05,
+        -7.199964966275729e-05
+      ]
+    },
+    "active_variables": 5684,
+    "active_fraction": 0.2413383152173913,
+    "active_below_band": 5666,
+    "active_above_band": 18,
+    "interior_variables": 9950,
+    "change": 0.24536489612562418,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00030976378341517253,
+      0.00012635519759591717,
+      0.0001925362405884731
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 19,
+    "folder": "fsd\\iteration_019",
+    "mass_kg": 335.6740081708254,
+    "raw_peak_MPa": 864.7174574072317,
+    "filtered_peak_MPa": 325.69530140881983,
+    "seconds": 35.88991050000186,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.039259925368242e-06,
+        -3.364175427122973e-07,
+        5.916034569963813e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006358812097460032,
+        -7.356080459430814e-05,
+        2.5240842660423368e-05
+      ]
+    },
+    "active_variables": 5658,
+    "active_fraction": 0.240234375,
+    "active_below_band": 5641,
+    "active_above_band": 17,
+    "interior_variables": 9919,
+    "change": 0.22505855978486033,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00012635519759591717,
+      0.0001925362405884731,
+      0.00010994283482177077
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 20,
+    "folder": "fsd\\iteration_020",
+    "mass_kg": 335.7092769079236,
+    "raw_peak_MPa": 891.05132306844,
+    "filtered_peak_MPa": 327.2804701226953,
+    "seconds": 37.65126870002132,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.1002172161388444e-06,
+        5.6843418860808015e-09,
+        6.529054371640086e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007149574812501669,
+        -8.120923303067684e-05,
+        -4.052272197441198e-05
+      ]
+    },
+    "active_variables": 5648,
+    "active_fraction": 0.23980978260869565,
+    "active_below_band": 5638,
+    "active_above_band": 10,
+    "interior_variables": 9889,
+    "change": 0.19707212352847459,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001925362405884731,
+      0.00010994283482177077,
+      0.00010506841828588708
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 21,
+    "folder": "fsd\\iteration_021",
+    "mass_kg": 335.7195754742002,
+    "raw_peak_MPa": 919.2222151479962,
+    "filtered_peak_MPa": 327.14031242399074,
+    "seconds": 34.77833339999779,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.7850011267437367e-06,
+        2.3513166524935514e-07,
+        6.0940918046981096e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007185128051787615,
+        -8.059761603362858e-05,
+        -5.525969390873797e-05
+      ]
+    },
+    "active_variables": 5678,
+    "active_fraction": 0.2410835597826087,
+    "active_below_band": 5671,
+    "active_above_band": 7,
+    "interior_variables": 9858,
+    "change": 0.16639658676912972,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00010994283482177077,
+      0.00010506841828588708,
+      3.067703809520261e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 22,
+    "folder": "fsd\\iteration_022",
+    "mass_kg": 335.69466923135224,
+    "raw_peak_MPa": 948.1058583311088,
+    "filtered_peak_MPa": 325.0792967836772,
+    "seconds": 35.45700890000444,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.002505761491193e-06,
+        3.810782800428569e-08,
+        7.851349073462188e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009118351154029369,
+        -9.393811342306435e-05,
+        -5.367382073018234e-05
+      ]
+    },
+    "active_variables": 5659,
+    "active_fraction": 0.24027683423913043,
+    "active_below_band": 5653,
+    "active_above_band": 6,
+    "interior_variables": 9823,
+    "change": 0.1556269916207682,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00010506841828588708,
+      3.067703809520261e-05,
+      7.418763952860435e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 23,
+    "folder": "fsd\\iteration_023",
+    "mass_kg": 335.64690580302926,
+    "raw_peak_MPa": 977.7021890830257,
+    "filtered_peak_MPa": 321.08941750816354,
+    "seconds": 35.70924799999921,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0626430707816326e-05,
+        1.196649463963695e-07,
+        4.81206807307899e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005530659109354019,
+        -5.418728687800467e-05,
+        -0.00012809334839403164
+      ]
+    },
+    "active_variables": 5625,
+    "active_fraction": 0.23883322010869565,
+    "active_below_band": 5622,
+    "active_above_band": 3,
+    "interior_variables": 9791,
+    "change": 0.1620959542788747,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      3.067703809520261e-05,
+      7.418763952860435e-05,
+      0.00014228235566667006
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 24,
+    "folder": "fsd\\iteration_024",
+    "mass_kg": 335.5802255194469,
+    "raw_peak_MPa": 1006.77051178821,
+    "filtered_peak_MPa": 315.2222753322138,
+    "seconds": 37.677489099995,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.2381254868596443e-06,
+        2.1640789782395586e-07,
+        8.147896733134985e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009638534393161535,
+        -0.0001024641387630254,
+        -4.2454805225133896e-05
+      ]
+    },
+    "active_variables": 5635,
+    "active_fraction": 0.2392578125,
+    "active_below_band": 5633,
+    "active_above_band": 2,
+    "interior_variables": 9778,
+    "change": 0.17418081212876724,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      7.418763952860435e-05,
+      0.00014228235566667006,
+      0.00019866199398684115
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 25,
+    "folder": "fsd\\iteration_025",
+    "mass_kg": 335.5177470704079,
+    "raw_peak_MPa": 1033.794073209886,
+    "filtered_peak_MPa": 314.7658307726932,
+    "seconds": 41.89085840000189,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.1086012793603004e-06,
+        -4.5571687223855406e-07,
+        6.916487473063171e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007733157835900784,
+        -7.850918336771429e-05,
+        -2.9894014005549252e-05
+      ]
+    },
+    "active_variables": 5603,
+    "active_fraction": 0.23789911684782608,
+    "active_below_band": 5603,
+    "active_above_band": 0,
+    "interior_variables": 9736,
+    "change": 0.18047891452760978,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00014228235566667006,
+      0.00019866199398684115,
+      0.0001861803654917657
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 26,
+    "folder": "fsd\\iteration_026",
+    "mass_kg": 335.4633038352275,
+    "raw_peak_MPa": 1059.009395556702,
+    "filtered_peak_MPa": 312.8524850014634,
+    "seconds": 40.29722970002331,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.663609502131294e-06,
+        -9.685209079179913e-08,
+        5.583162419497967e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006074269767850637,
+        -7.191611803136766e-05,
+        -5.896535003557801e-05
+      ]
+    },
+    "active_variables": 5601,
+    "active_fraction": 0.23781419836956522,
+    "active_below_band": 5601,
+    "active_above_band": 0,
+    "interior_variables": 9695,
+    "change": 0.19783711875947396,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00019866199398684115,
+      0.0001861803654917657,
+      0.0001622663351067008
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 27,
+    "folder": "fsd\\iteration_027",
+    "mass_kg": 335.4215903880968,
+    "raw_peak_MPa": 1081.845549069273,
+    "filtered_peak_MPa": 310.8143293093764,
+    "seconds": 38.47518239999772,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.671318722808792e-06,
+        -9.53514245338738e-08,
+        7.09033920429647e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007955494802445173,
+        -9.079958545044065e-05,
+        -5.588301064562984e-05
+      ]
+    },
+    "active_variables": 5580,
+    "active_fraction": 0.23692255434782608,
+    "active_below_band": 5580,
+    "active_above_band": 0,
+    "interior_variables": 9654,
+    "change": 0.1976502747314275,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001861803654917657,
+      0.0001622663351067008,
+      0.0001243457828437625
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 28,
+    "folder": "fsd\\iteration_028",
+    "mass_kg": 335.381296636609,
+    "raw_peak_MPa": 1101.067437439307,
+    "filtered_peak_MPa": 313.2798379501119,
+    "seconds": 38.79782050001086,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.4565675782214385e-06,
+        -3.2215393730439246e-07,
+        6.417540134862065e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007154995109885931,
+        -9.08672227524221e-05,
+        -7.240203558467329e-05
+      ]
+    },
+    "active_variables": 5564,
+    "active_fraction": 0.23624320652173914,
+    "active_below_band": 5564,
+    "active_above_band": 0,
+    "interior_variables": 9627,
+    "change": 0.18115275938155573,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001622663351067008,
+      0.0001243457828437625,
+      0.00012012867579910586
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 29,
+    "folder": "fsd\\iteration_029",
+    "mass_kg": 335.347825533752,
+    "raw_peak_MPa": 1115.983117200095,
+    "filtered_peak_MPa": 315.9011200689285,
+    "seconds": 38.733404400001746,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.868050387405674e-06,
+        1.298640199820511e-07,
+        5.472742486745119e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006018143612891436,
+        -6.399440462701023e-05,
+        -4.0887163777370006e-05
+      ]
+    },
+    "active_variables": 5527,
+    "active_fraction": 0.23467221467391305,
+    "active_below_band": 5526,
+    "active_above_band": 1,
+    "interior_variables": 9582,
+    "change": 0.17870062785546748,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001243457828437625,
+      0.00012012867579910586,
+      9.980014745221778e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 30,
+    "folder": "fsd\\iteration_030",
+    "mass_kg": 335.30191185007027,
+    "raw_peak_MPa": 1127.881898765398,
+    "filtered_peak_MPa": 318.33275667892576,
+    "seconds": 37.63252119999379,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.50804019592033e-06,
+        1.3008502719458193e-07,
+        7.081826333887875e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007865549996495247,
+        -9.081742609851062e-05,
+        -9.492104436503723e-05
+      ]
+    },
+    "active_variables": 5508,
+    "active_fraction": 0.23386548913043478,
+    "active_below_band": 5505,
+    "active_above_band": 3,
+    "interior_variables": 9545,
+    "change": 0.19964009550329787,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00012012867579910586,
+      9.980014745221778e-05,
+      0.0001369136168055537
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 31,
+    "folder": "fsd\\iteration_031",
+    "mass_kg": 335.2606099966512,
+    "raw_peak_MPa": 1137.639741870415,
+    "filtered_peak_MPa": 320.6267544009913,
+    "seconds": 39.71028050000314,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.6707634762933594e-06,
+        -1.9789149519056082e-07,
+        6.179048796184361e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006538990419358015,
+        -7.357998401857913e-05,
+        -5.137598418514244e-05
+      ]
+    },
+    "active_variables": 5490,
+    "active_fraction": 0.23310122282608695,
+    "active_below_band": 5487,
+    "active_above_band": 3,
+    "interior_variables": 9515,
+    "change": 0.20765809427358473,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      9.980014745221778e-05,
+      0.0001369136168055537,
+      0.0001231781029554966
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 32,
+    "folder": "fsd\\iteration_032",
+    "mass_kg": 335.2263406620528,
+    "raw_peak_MPa": 1145.871799301106,
+    "filtered_peak_MPa": 322.3694776435897,
+    "seconds": 36.21792320001987,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.7541511851959513e-06,
+        -3.1718263926450163e-07,
+        5.218610749579966e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005772886797785759,
+        -6.922075408510864e-05,
+        1.4846275007585064e-05
+      ]
+    },
+    "active_variables": 5486,
+    "active_fraction": 0.23293138586956522,
+    "active_below_band": 5483,
+    "active_above_band": 3,
+    "interior_variables": 9474,
+    "change": 0.19659670066977442,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001369136168055537,
+      0.0001231781029554966,
+      0.00010221700246496808
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 33,
+    "folder": "fsd\\iteration_033",
+    "mass_kg": 335.2149555830813,
+    "raw_peak_MPa": 1152.371721808105,
+    "filtered_peak_MPa": 323.97319069201257,
+    "seconds": 37.7259783000045,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.949343623498862e-06,
+        2.543929440435022e-07,
+        5.997056723572314e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006127115339040756,
+        -7.819291204214096e-05,
+        -0.00010078256309498101
+      ]
+    },
+    "active_variables": 5473,
+    "active_fraction": 0.23237941576086957,
+    "active_below_band": 5467,
+    "active_above_band": 6,
+    "interior_variables": 9450,
+    "change": 0.17118001011390904,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001231781029554966,
+      0.00010221700246496808,
+      3.3962363903192476e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 34,
+    "folder": "fsd\\iteration_034",
+    "mass_kg": 335.21691973387436,
+    "raw_peak_MPa": 1156.681870337128,
+    "filtered_peak_MPa": 325.8928839521213,
+    "seconds": 35.29098449999583,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.1628694563987665e-06,
+        1.1193696991540492e-07,
+        7.303649908863008e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008170052897185087,
+        -9.475919068790972e-05,
+        -6.384226435329765e-05
+      ]
+    },
+    "active_variables": 5458,
+    "active_fraction": 0.23174252717391305,
+    "active_below_band": 5451,
+    "active_above_band": 7,
+    "interior_variables": 9419,
+    "change": 0.15623670457558014,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00010221700246496808,
+      3.3962363903192476e-05,
+      5.859376976945872e-06
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 35,
+    "folder": "fsd\\iteration_035",
+    "mass_kg": 335.229700929525,
+    "raw_peak_MPa": 1160.869660039091,
+    "filtered_peak_MPa": 326.63946568728585,
+    "seconds": 35.40441550000105,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.7011469657954876e-06,
+        -3.63162143912632e-07,
+        4.4666347093880177e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004830604884773493,
+        -5.7487195590510964e-05,
+        -4.778375296154991e-05
+      ]
+    },
+    "active_variables": 5426,
+    "active_fraction": 0.23038383152173914,
+    "active_below_band": 5419,
+    "active_above_band": 7,
+    "interior_variables": 9374,
+    "change": 0.14610338837644155,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      3.3962363903192476e-05,
+      5.859376976945872e-06,
+      3.81281340475861e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 36,
+    "folder": "fsd\\iteration_036",
+    "mass_kg": 335.2446867366874,
+    "raw_peak_MPa": 1165.176784041887,
+    "filtered_peak_MPa": 326.0737742952675,
+    "seconds": 35.41739059999236,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.9575489861599635e-06,
+        -5.979763955110684e-07,
+        6.97783543728292e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007933317683637142,
+        -8.161886944435537e-05,
+        -4.1627834434621036e-05
+      ]
+    },
+    "active_variables": 5410,
+    "active_fraction": 0.22970448369565216,
+    "active_below_band": 5402,
+    "active_above_band": 8,
+    "interior_variables": 9349,
+    "change": 0.14411850629918432,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      5.859376976945872e-06,
+      3.81281340475861e-05,
+      4.4703100950975974e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 37,
+    "folder": "fsd\\iteration_037",
+    "mass_kg": 335.2492942524676,
+    "raw_peak_MPa": 1169.828835107748,
+    "filtered_peak_MPa": 324.30460174819495,
+    "seconds": 38.28361539999605,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.569948936885339e-06,
+        2.739097908488475e-07,
+        4.856684245169163e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005445792339742184,
+        -6.199025665409863e-05,
+        -7.659758921363391e-05
+      ]
+    },
+    "active_variables": 5370,
+    "active_fraction": 0.22800611413043478,
+    "active_below_band": 5363,
+    "active_above_band": 7,
+    "interior_variables": 9329,
+    "change": 0.13791088332699974,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      3.81281340475861e-05,
+      4.4703100950975974e-05,
+      1.3743739908477072e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 38,
+    "folder": "fsd\\iteration_038",
+    "mass_kg": 335.24780423569575,
+    "raw_peak_MPa": 1174.972393494191,
+    "filtered_peak_MPa": 321.56569736992753,
+    "seconds": 40.04866820000461,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.532789267206681e-06,
+        -2.018259692704305e-08,
+        6.526464130729437e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007298660930246115,
+        -8.118065306916833e-05,
+        2.651335671544075e-05
+      ]
+    },
+    "active_variables": 5353,
+    "active_fraction": 0.22728430706521738,
+    "active_below_band": 5346,
+    "active_above_band": 7,
+    "interior_variables": 9296,
+    "change": 0.12830069252606147,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      4.4703100950975974e-05,
+      1.3743739908477072e-05,
+      4.444503828681568e-06
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 39,
+    "folder": "fsd\\iteration_039",
+    "mass_kg": 335.23894568060365,
+    "raw_peak_MPa": 1180.32082202335,
+    "filtered_peak_MPa": 319.31707056201776,
+    "seconds": 36.88458760001231,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.1792266099728295e-06,
+        4.577850631903857e-07,
+        6.24867097940296e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006825537420809269,
+        -7.768333307467401e-05,
+        -4.245497621013783e-05
+      ]
+    },
+    "active_variables": 5308,
+    "active_fraction": 0.22537364130434784,
+    "active_below_band": 5302,
+    "active_above_band": 6,
+    "interior_variables": 9257,
+    "change": 0.13686112551178964,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      1.3743739908477072e-05,
+      4.444503828681568e-06,
+      2.64239019023548e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 40,
+    "folder": "fsd\\iteration_040",
+    "mass_kg": 335.223365018769,
+    "raw_peak_MPa": 1186.038003936826,
+    "filtered_peak_MPa": 316.46966707453345,
+    "seconds": 36.38132099999348,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.194851617787208e-06,
+        -2.3432221496477723e-08,
+        5.2917952416464686e-05
+      ],
+      "moment_residual_Nm": [
+        0.000556508544832468,
+        -6.797944661229849e-05,
+        -2.7773388865171e-05
+      ]
+    },
+    "active_variables": 5248,
+    "active_fraction": 0.22282608695652173,
+    "active_below_band": 5245,
+    "active_above_band": 3,
+    "interior_variables": 9212,
+    "change": 0.15578818445486775,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      4.444503828681568e-06,
+      2.64239019023548e-05,
+      4.64762881383048e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 41,
+    "folder": "fsd\\iteration_041",
+    "mass_kg": 335.1998514119051,
+    "raw_peak_MPa": 1191.925687469852,
+    "filtered_peak_MPa": 313.8130530348456,
+    "seconds": 33.98428239999339,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.217981427245832e-06,
+        -3.906279744114727e-09,
+        6.554403807967901e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007060428615659475,
+        -8.691646507941186e-05,
+        -5.148155105416663e-05
+      ]
+    },
+    "active_variables": 5199,
+    "active_fraction": 0.22074558423913043,
+    "active_below_band": 5199,
+    "active_above_band": 0,
+    "interior_variables": 9188,
+    "change": 0.16960226359420483,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      2.64239019023548e-05,
+      4.64762881383048e-05,
+      7.014310253279716e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 42,
+    "folder": "fsd\\iteration_042",
+    "mass_kg": 335.17188715448054,
+    "raw_peak_MPa": 1198.018266452228,
+    "filtered_peak_MPa": 311.40655565851404,
+    "seconds": 39.561375899997074,
+    "reaction_balance": {
+      "force_residual_N": [
+        7.889314588283014e-07,
+        1.335929482593201e-07,
+        6.0508056776598096e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006538524758070707,
+        -7.22008990123868e-05,
+        -1.2790125765604898e-05
+      ]
+    },
+    "active_variables": 5113,
+    "active_fraction": 0.21709408967391305,
+    "active_below_band": 5113,
+    "active_above_band": 0,
+    "interior_variables": 9144,
+    "change": 0.1714739630922295,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      4.64762881383048e-05,
+      7.014310253279716e-05,
+      8.34256259565219e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 43,
+    "folder": "fsd\\iteration_043",
+    "mass_kg": 335.1461572090058,
+    "raw_peak_MPa": 1203.713774424218,
+    "filtered_peak_MPa": 309.08357234259216,
+    "seconds": 35.86595479998505,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.2549718348964234e-06,
+        5.84295776207e-08,
+        5.661934847012162e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006318963132798672,
+        -7.155051571317017e-05,
+        -3.5817261959891766e-05
+      ]
+    },
+    "active_variables": 5034,
+    "active_fraction": 0.2137398097826087,
+    "active_below_band": 5034,
+    "active_above_band": 0,
+    "interior_variables": 9109,
+    "change": 0.16269725453025186,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      7.014310253279716e-05,
+      8.34256259565219e-05,
+      7.676641884605229e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 44,
+    "folder": "fsd\\iteration_044",
+    "mass_kg": 335.13155732153183,
+    "raw_peak_MPa": 1209.317113353238,
+    "filtered_peak_MPa": 308.8369260961215,
+    "seconds": 35.575064100004965,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.0978370659795473e-06,
+        1.1680640454869717e-08,
+        6.63090031594038e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007589559536427259,
+        -8.241095929406583e-05,
+        -4.587941293721087e-05
+      ]
+    },
+    "active_variables": 4985,
+    "active_fraction": 0.21165930706521738,
+    "active_below_band": 4985,
+    "active_above_band": 0,
+    "interior_variables": 9074,
+    "change": 0.16154802500164356,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      8.34256259565219e-05,
+      7.676641884605229e-05,
+      4.35627476548591e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 45,
+    "folder": "fsd\\iteration_045",
+    "mass_kg": 335.12702755703486,
+    "raw_peak_MPa": 1214.490957816869,
+    "filtered_peak_MPa": 310.1119152932665,
+    "seconds": 42.01751289999811,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.882454737118678e-06,
+        -1.5373461792478338e-07,
+        6.079475861042738e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006833102088421583,
+        -7.119067595340312e-05,
+        -4.2031038901768625e-05
+      ]
+    },
+    "active_variables": 4919,
+    "active_fraction": 0.2088569972826087,
+    "active_below_band": 4919,
+    "active_above_band": 0,
+    "interior_variables": 9046,
+    "change": 0.17017939733082865,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      7.676641884605229e-05,
+      4.35627476548591e-05,
+      1.3516377070450356e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 46,
+    "folder": "fsd\\iteration_046",
+    "mass_kg": 335.13256876527987,
+    "raw_peak_MPa": 1219.44150916629,
+    "filtered_peak_MPa": 311.04907369950985,
+    "seconds": 39.943668199994136,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.601181217367412e-06,
+        -3.552104317350313e-07,
+        6.618158658966422e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007537016645073891,
+        -7.999903755262494e-05,
+        -5.83852015552111e-05
+      ]
+    },
+    "active_variables": 4846,
+    "active_fraction": 0.20575747282608695,
+    "active_below_band": 4846,
+    "active_above_band": 0,
+    "interior_variables": 9017,
+    "change": 0.17583813257918046,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      4.35627476548591e-05,
+      1.3516377070450356e-05,
+      1.6534650414201804e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 47,
+    "folder": "fsd\\iteration_047",
+    "mass_kg": 335.15018533472204,
+    "raw_peak_MPa": 1224.148487159209,
+    "filtered_peak_MPa": 311.62032066368226,
+    "seconds": 36.70064490000368,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.662528916313022e-06,
+        2.7891292120330036e-07,
+        5.639836308546364e-05
+      ],
+      "moment_residual_Nm": [
+        0.000592399388551712,
+        -7.068319246172905e-05,
+        1.3084252714179456e-05
+      ]
+    },
+    "active_variables": 4799,
+    "active_fraction": 0.2037618885869565,
+    "active_below_band": 4799,
+    "active_above_band": 0,
+    "interior_variables": 8985,
+    "change": 0.17815675432420386,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      1.3516377070450356e-05,
+      1.6534650414201804e-05,
+      5.2565972645012236e-05
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 48,
+    "folder": "fsd\\iteration_048",
+    "mass_kg": 335.1843788040938,
+    "raw_peak_MPa": 1228.6278727478361,
+    "filtered_peak_MPa": 311.687499856829,
+    "seconds": 41.71940460000769,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.849186439059849e-07,
+        -1.0112853487953544e-07,
+        6.319876410998404e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006741173565387726,
+        -6.733971531502903e-05,
+        9.811596100917086e-06
+      ]
+    },
+    "active_variables": 4741,
+    "active_fraction": 0.2012992527173913,
+    "active_below_band": 4741,
+    "active_above_band": 0,
+    "interior_variables": 8957,
+    "change": 0.15668505336603378,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      1.6534650414201804e-05,
+      5.2565972645012236e-05,
+      0.00010202431885158534
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 49,
+    "folder": "fsd\\iteration_049",
+    "mass_kg": 335.2307503534902,
+    "raw_peak_MPa": 1232.857622159212,
+    "filtered_peak_MPa": 311.32360724014285,
+    "seconds": 44.16181669998332,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.804196234748815e-06,
+        6.81717210682109e-07,
+        5.213194526731968e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005469019524753094,
+        -5.992245860397816e-05,
+        -7.816762081347406e-05
+      ]
+    },
+    "active_variables": 4682,
+    "active_fraction": 0.19879415760869565,
+    "active_below_band": 4682,
+    "active_above_band": 0,
+    "interior_variables": 8926,
+    "change": 0.1504909550529654,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      5.2565972645012236e-05,
+      0.00010202431885158534,
+      0.0001383463918033189
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 50,
+    "folder": "fsd\\iteration_050",
+    "mass_kg": 335.2899496119187,
+    "raw_peak_MPa": 1237.1809154073528,
+    "filtered_peak_MPa": 311.0377889466672,
+    "seconds": 42.05289060002542,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.6055579926141945e-06,
+        1.98483576241415e-07,
+        6.57116761431098e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007030284032225609,
+        -7.531177834607661e-05,
+        -5.182098539080471e-05
+      ]
+    },
+    "active_variables": 4626,
+    "active_fraction": 0.1964164402173913,
+    "active_below_band": 4626,
+    "active_above_band": 0,
+    "interior_variables": 8898,
+    "change": 0.13057833801993768,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00010202431885158534,
+      0.0001383463918033189,
+      0.00017659256606411276
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 51,
+    "folder": "fsd\\iteration_051",
+    "mass_kg": 335.3613888145731,
+    "raw_peak_MPa": 1241.874995222137,
+    "filtered_peak_MPa": 310.1040600004915,
+    "seconds": 36.78235229998245,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.703892557245126e-06,
+        1.709850039333105e-08,
+        6.149109685793519e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006643629167228937,
+        -7.698033004999161e-05,
+        -6.349215618683957e-05
+      ]
+    },
+    "active_variables": 4591,
+    "active_fraction": 0.19493036684782608,
+    "active_below_band": 4591,
+    "active_above_band": 0,
+    "interior_variables": 8875,
+    "change": 0.12198070522154236,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0001383463918033189,
+      0.00017659256606411276,
+      0.00021306693724965685
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 52,
+    "folder": "fsd\\iteration_052",
+    "mass_kg": 335.45043344719033,
+    "raw_peak_MPa": 1246.674772882732,
+    "filtered_peak_MPa": 309.5478914321565,
+    "seconds": 35.71761280001374,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.8570312338160875e-06,
+        3.311233740532771e-07,
+        5.9616140788421035e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006277391221374273,
+        -7.288344204425812e-05,
+        -3.541500700521283e-05
+      ]
+    },
+    "active_variables": 4526,
+    "active_fraction": 0.19217051630434784,
+    "active_below_band": 4526,
+    "active_above_band": 0,
+    "interior_variables": 8846,
+    "change": 0.12789537391162697,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00017659256606411276,
+      0.00021306693724965685,
+      0.0002655184394720682
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 53,
+    "folder": "fsd\\iteration_053",
+    "mass_kg": 335.56677298746547,
+    "raw_peak_MPa": 1251.693546451319,
+    "filtered_peak_MPa": 309.11360149208747,
+    "seconds": 35.99963669999852,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.2059646767047525e-06,
+        4.483808879740536e-09,
+        5.37422311026603e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005741911008954048,
+        -6.795718218199909e-05,
+        -2.9951039323350415e-05
+      ]
+    },
+    "active_variables": 4481,
+    "active_fraction": 0.19025985054347827,
+    "active_below_band": 4481,
+    "active_above_band": 0,
+    "interior_variables": 8810,
+    "change": 0.11996222554430802,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00021306693724965685,
+      0.0002655184394720682,
+      0.0003468158889514449
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 54,
+    "folder": "fsd\\iteration_054",
+    "mass_kg": 335.7062449754099,
+    "raw_peak_MPa": 1256.917251660939,
+    "filtered_peak_MPa": 308.447302481855,
+    "seconds": 37.908147999987705,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.831644273257552e-06,
+        3.054756234632805e-07,
+        6.020194268785417e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006553728599101305,
+        -7.056523463688791e-05,
+        -7.254246156662703e-05
+      ]
+    },
+    "active_variables": 4470,
+    "active_fraction": 0.1897927989130435,
+    "active_below_band": 4470,
+    "active_above_band": 0,
+    "interior_variables": 8781,
+    "change": 0.122056056632176,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0002655184394720682,
+      0.0003468158889514449,
+      0.0004156311028733531
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 55,
+    "folder": "fsd\\iteration_055",
+    "mass_kg": 335.8448067357921,
+    "raw_peak_MPa": 1262.470505743788,
+    "filtered_peak_MPa": 307.731081124556,
+    "seconds": 36.17846299998928,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.834238774899859e-07,
+        2.3642860469408333e-07,
+        5.912961205467582e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006417552940547466,
+        -7.440190529450774e-05,
+        -9.14798874873668e-07
+      ]
+    },
+    "active_variables": 4462,
+    "active_fraction": 0.189453125,
+    "active_below_band": 4462,
+    "active_above_band": 0,
+    "interior_variables": 8757,
+    "change": 0.12315706604189491,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003468158889514449,
+      0.0004156311028733531,
+      0.00041274704434623717
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 56,
+    "folder": "fsd\\iteration_056",
+    "mass_kg": 335.98688681183245,
+    "raw_peak_MPa": 1268.268617453811,
+    "filtered_peak_MPa": 307.4370237171614,
+    "seconds": 36.0823129999917,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.58023084143133e-06,
+        1.9850631360895932e-07,
+        5.85944508202374e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006420165300369263,
+        -7.664234726689756e-05,
+        -3.653966268757358e-05
+      ]
+    },
+    "active_variables": 4433,
+    "active_fraction": 0.18822180706521738,
+    "active_below_band": 4433,
+    "active_above_band": 0,
+    "interior_variables": 8716,
+    "change": 0.12260287640428169,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0004156311028733531,
+      0.00041274704434623717,
+      0.00042305277077619394
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 57,
+    "folder": "fsd\\iteration_057",
+    "mass_kg": 336.12858650280464,
+    "raw_peak_MPa": 1274.287263649005,
+    "filtered_peak_MPa": 307.7053273306682,
+    "seconds": 35.89158470000257,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.656390276773891e-06,
+        1.5479417925234884e-07,
+        6.72501337248832e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007417474407702684,
+        -8.293293649330735e-05,
+        -4.1135892388410866e-05
+      ]
+    },
+    "active_variables": 4437,
+    "active_fraction": 0.18839164402173914,
+    "active_below_band": 4437,
+    "active_above_band": 0,
+    "interior_variables": 8693,
+    "change": 0.12063371229148234,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00041274704434623717,
+      0.00042305277077619394,
+      0.0004217417302108785
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 58,
+    "folder": "fsd\\iteration_058",
+    "mass_kg": 336.2675789475444,
+    "raw_peak_MPa": 1280.66645348097,
+    "filtered_peak_MPa": 307.719845982199,
+    "seconds": 36.49445050000213,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.81960250656266e-07,
+        1.9571962184272707e-07,
+        6.488498183898628e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006968709640204906,
+        -7.811750401742756e-05,
+        -7.001766789471731e-06
+      ]
+    },
+    "active_variables": 4412,
+    "active_fraction": 0.18733016304347827,
+    "active_below_band": 4412,
+    "active_above_band": 0,
+    "interior_variables": 8670,
+    "change": 0.11926437183958649,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00042305277077619394,
+      0.0004217417302108785,
+      0.0004135097409770484
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 59,
+    "folder": "fsd\\iteration_059",
+    "mass_kg": 336.40538048125177,
+    "raw_peak_MPa": 1287.178101927087,
+    "filtered_peak_MPa": 307.4898600807604,
+    "seconds": 39.71724150000955,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.97829688836282e-06,
+        2.5842382456175983e-07,
+        3.537061274982989e-05
+      ],
+      "moment_residual_Nm": [
+        0.00037202402018010616,
+        -5.341038922779262e-05,
+        -6.829867197666317e-05
+      ]
+    },
+    "active_variables": 4415,
+    "active_fraction": 0.18745754076086957,
+    "active_below_band": 4415,
+    "active_above_band": 0,
+    "interior_variables": 8650,
+    "change": 0.10928752933230967,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0004217417302108785,
+      0.0004135097409770484,
+      0.0004097972636513702
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 60,
+    "folder": "fsd\\iteration_060",
+    "mass_kg": 336.53678247342657,
+    "raw_peak_MPa": 1293.918563826168,
+    "filtered_peak_MPa": 307.33785775931807,
+    "seconds": 40.748823300004005,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.137288887155592e-08,
+        -4.1040038922801614e-08,
+        5.500079714693129e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005730537232011557,
+        -7.616393850184977e-05,
+        -9.43873601499945e-06
+      ]
+    },
+    "active_variables": 4412,
+    "active_fraction": 0.18733016304347827,
+    "active_below_band": 4412,
+    "active_above_band": 0,
+    "interior_variables": 8639,
+    "change": 0.10679417861704077,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0004135097409770484,
+      0.0004097972636513702,
+      0.00039060609549948765
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 61,
+    "folder": "fsd\\iteration_061",
+    "mass_kg": 336.6632840103121,
+    "raw_peak_MPa": 1300.9445392875,
+    "filtered_peak_MPa": 307.4101653130362,
+    "seconds": 42.507472700002836,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.595515129793057e-06,
+        3.928907972294837e-07,
+        5.656058783642948e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005803040694445372,
+        -6.978778401389718e-05,
+        6.0520142142195255e-06
+      ]
+    },
+    "active_variables": 4414,
+    "active_fraction": 0.18741508152173914,
+    "active_below_band": 4414,
+    "active_above_band": 0,
+    "interior_variables": 8626,
+    "change": 0.10639962545443682,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0004097972636513702,
+      0.00039060609549948765,
+      0.0003758921564406717
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 62,
+    "folder": "fsd\\iteration_062",
+    "mass_kg": 336.78124854388756,
+    "raw_peak_MPa": 1308.1201403307582,
+    "filtered_peak_MPa": 307.54901025209614,
+    "seconds": 38.08929619999253,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.240931102434843e-06,
+        1.2118107406422496e-07,
+        7.550269947387278e-05
+      ],
+      "moment_residual_Nm": [
+        0.000800498528406024,
+        -8.137075928971171e-05,
+        -6.937058788025752e-05
+      ]
+    },
+    "active_variables": 4407,
+    "active_fraction": 0.18711786684782608,
+    "active_below_band": 4407,
+    "active_above_band": 0,
+    "interior_variables": 8615,
+    "change": 0.09079175955266083,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00039060609549948765,
+      0.0003758921564406717,
+      0.0003503932242633043
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 63,
+    "folder": "fsd\\iteration_063",
+    "mass_kg": 336.9017152913201,
+    "raw_peak_MPa": 1315.2389229689309,
+    "filtered_peak_MPa": 307.3376790654197,
+    "seconds": 37.96467700001085,
+    "reaction_balance": {
+      "force_residual_N": [
+        7.276056521732244e-07,
+        4.211524355923757e-07,
+        7.040181662887335e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007546572014689445,
+        -8.925891597755253e-05,
+        -1.2848311598645523e-05
+      ]
+    },
+    "active_variables": 4420,
+    "active_fraction": 0.18766983695652173,
+    "active_below_band": 4420,
+    "active_above_band": 0,
+    "interior_variables": 8604,
+    "change": 0.09013335118822663,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003758921564406717,
+      0.0003503932242633043,
+      0.00035770028157267226
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 64,
+    "folder": "fsd\\iteration_064",
+    "mass_kg": 337.0175955495267,
+    "raw_peak_MPa": 1322.315806315588,
+    "filtered_peak_MPa": 306.96524942202973,
+    "seconds": 38.001036500005284,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.6647227855391975e-06,
+        -1.3353746908251196e-07,
+        4.748834180645645e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004958801437169313,
+        -5.902774864807725e-05,
+        4.727080522570759e-06
+      ]
+    },
+    "active_variables": 4429,
+    "active_fraction": 0.18805197010869565,
+    "active_below_band": 4429,
+    "active_above_band": 0,
+    "interior_variables": 8580,
+    "change": 0.07733918756158287,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003503932242633043,
+      0.00035770028157267226,
+      0.00034395864712760855
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 65,
+    "folder": "fsd\\iteration_065",
+    "mass_kg": 337.13118653424374,
+    "raw_peak_MPa": 1329.240740703953,
+    "filtered_peak_MPa": 306.6405661028271,
+    "seconds": 38.44130390000646,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.099864725048974e-06,
+        6.122591003077105e-07,
+        5.498147220350802e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006265665870159864,
+        -7.053790614008904e-05,
+        -5.268344102660194e-05
+      ]
+    },
+    "active_variables": 4451,
+    "active_fraction": 0.18898607336956522,
+    "active_below_band": 4451,
+    "active_above_band": 0,
+    "interior_variables": 8564,
+    "change": 0.08021421940187179,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00035770028157267226,
+      0.00034395864712760855,
+      0.000337047638512307
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 66,
+    "folder": "fsd\\iteration_066",
+    "mass_kg": 337.2404638440747,
+    "raw_peak_MPa": 1335.814374663593,
+    "filtered_peak_MPa": 306.9800368326688,
+    "seconds": 38.0373236000014,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.2439209601543553e-06,
+        -2.4886139726731926e-07,
+        6.171228596940637e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006527898367494345,
+        -7.907135295681655e-05,
+        2.124023376381956e-05
+      ]
+    },
+    "active_variables": 4490,
+    "active_fraction": 0.19064198369565216,
+    "active_below_band": 4490,
+    "active_above_band": 0,
+    "interior_variables": 8556,
+    "change": 0.0797120856051502,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00034395864712760855,
+      0.000337047638512307,
+      0.00032413883436407194
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 67,
+    "folder": "fsd\\iteration_067",
+    "mass_kg": 337.34389072612106,
+    "raw_peak_MPa": 1341.837054270826,
+    "filtered_peak_MPa": 307.2816752385958,
+    "seconds": 39.824259700020775,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.273856918895035e-08,
+        7.003345672274008e-07,
+        6.606304668821394e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007076319307088852,
+        -8.30884964670986e-05,
+        1.2286982382647693e-06
+      ]
+    },
+    "active_variables": 4484,
+    "active_fraction": 0.19038722826086957,
+    "active_below_band": 4484,
+    "active_above_band": 0,
+    "interior_variables": 8538,
+    "change": 0.08151758146445631,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.000337047638512307,
+      0.00032413883436407194,
+      0.0003066858610838449
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 68,
+    "folder": "fsd\\iteration_068",
+    "mass_kg": 337.44812777845084,
+    "raw_peak_MPa": 1347.087255142097,
+    "filtered_peak_MPa": 307.3965749255296,
+    "seconds": 37.932621099986136,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.2924480163055705e-06,
+        4.870216798735783e-07,
+        6.24121748842299e-05
+      ],
+      "moment_residual_Nm": [
+        0.000682260375469923,
+        -8.358349441550672e-05,
+        -3.4466491342755035e-05
+      ]
+    },
+    "active_variables": 4524,
+    "active_fraction": 0.19208559782608695,
+    "active_below_band": 4524,
+    "active_above_band": 0,
+    "interior_variables": 8513,
+    "change": 0.08252927619867279,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00032413883436407194,
+      0.0003066858610838449,
+      0.00030899344910445076
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 69,
+    "folder": "fsd\\iteration_069",
+    "mass_kg": 337.5530277915452,
+    "raw_peak_MPa": 1351.480597983234,
+    "filtered_peak_MPa": 307.34356709198863,
+    "seconds": 35.595794699998805,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.0380771275085863e-06,
+        -2.732413122430444e-07,
+        6.989011308178306e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007430585101246834,
+        -8.296643500216305e-05,
+        -3.05475878121797e-05
+      ]
+    },
+    "active_variables": 4554,
+    "active_fraction": 0.193359375,
+    "active_below_band": 4554,
+    "active_above_band": 0,
+    "interior_variables": 8497,
+    "change": 0.09290032043394636,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003066858610838449,
+      0.00030899344910445076,
+      0.0003108626317916659
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 70,
+    "folder": "fsd\\iteration_070",
+    "mass_kg": 337.6562513137557,
+    "raw_peak_MPa": 1354.9891728292712,
+    "filtered_peak_MPa": 306.78080260180235,
+    "seconds": 34.31020300000091,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.6433444329777558e-06,
+        2.1071355149615556e-07,
+        6.597439642064273e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007231517229229212,
+        -8.626814815215766e-05,
+        -1.828234235290438e-05
+      ]
+    },
+    "active_variables": 4582,
+    "active_fraction": 0.19454823369565216,
+    "active_below_band": 4582,
+    "active_above_band": 0,
+    "interior_variables": 8482,
+    "change": 0.10367036192460255,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00030899344910445076,
+      0.0003108626317916659,
+      0.00030579942619932306
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 71,
+    "folder": "fsd\\iteration_071",
+    "mass_kg": 337.7587118471124,
+    "raw_peak_MPa": 1357.426205399102,
+    "filtered_peak_MPa": 306.0510494062758,
+    "seconds": 34.492772700003115,
+    "reaction_balance": {
+      "force_residual_N": [
+        9.204387652061996e-07,
+        4.0975101001095027e-07,
+        5.362974479794502e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005524745211005211,
+        -6.644276436418295e-05,
+        -2.3611100914422423e-05
+      ]
+    },
+    "active_variables": 4591,
+    "active_fraction": 0.19493036684782608,
+    "active_below_band": 4591,
+    "active_above_band": 0,
+    "interior_variables": 8466,
+    "change": 0.11547097120941208,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003108626317916659,
+      0.00030579942619932306,
+      0.0003034462799312518
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 72,
+    "folder": "fsd\\iteration_072",
+    "mass_kg": 337.86352364490244,
+    "raw_peak_MPa": 1356.9662129192418,
+    "filtered_peak_MPa": 305.77984697631797,
+    "seconds": 34.570553099998506,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.58987516999332e-06,
+        1.1770480341510847e-06,
+        5.0251721404492855e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005432416219264269,
+        -6.189791020005941e-05,
+        -7.200249820016325e-05
+      ]
+    },
+    "active_variables": 4581,
+    "active_fraction": 0.19450577445652173,
+    "active_below_band": 4581,
+    "active_above_band": 0,
+    "interior_variables": 8455,
+    "change": 0.11230206344129667,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00030579942619932306,
+      0.0003034462799312518,
+      0.00031031560138551834
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 73,
+    "folder": "fsd\\iteration_073",
+    "mass_kg": 337.9723707850348,
+    "raw_peak_MPa": 1356.7470928887342,
+    "filtered_peak_MPa": 305.1560683373798,
+    "seconds": 35.80329499999061,
+    "reaction_balance": {
+      "force_residual_N": [
+        -8.556281159144419e-07,
+        -9.0657158580143e-07,
+        6.907671922817826e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007286693435162306,
+        -8.685048669576645e-05,
+        8.502465789206326e-07
+      ]
+    },
+    "active_variables": 4577,
+    "active_fraction": 0.1943359375,
+    "active_below_band": 4577,
+    "active_above_band": 0,
+    "interior_variables": 8448,
+    "change": 0.12143020541133087,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003034462799312518,
+      0.00031031560138551834,
+      0.00032216304073935437
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 74,
+    "folder": "fsd\\iteration_074",
+    "mass_kg": 338.0798875549487,
+    "raw_peak_MPa": 1356.408897705325,
+    "filtered_peak_MPa": 304.5898542166316,
+    "seconds": 34.30067229998531,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.7465092077582085e-06,
+        1.069816789822653e-06,
+        7.376610301434994e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008176569826900959,
+        -9.537581354379654e-05,
+        -3.7494733987841755e-05
+      ]
+    },
+    "active_variables": 4583,
+    "active_fraction": 0.19459069293478262,
+    "active_below_band": 4583,
+    "active_above_band": 0,
+    "interior_variables": 8441,
+    "change": 0.12931921757172027,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00031031560138551834,
+      0.00032216304073935437,
+      0.00031812295680905083
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 75,
+    "folder": "fsd\\iteration_075",
+    "mass_kg": 338.1893400810777,
+    "raw_peak_MPa": 1355.6518398746618,
+    "filtered_peak_MPa": 304.1323042943305,
+    "seconds": 34.248680399992736,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.361419937344181e-06,
+        -1.7252204997930676e-07,
+        6.552477134391665e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007171030156314373,
+        -8.134037489071488e-05,
+        5.021466495236382e-05
+      ]
+    },
+    "active_variables": 4589,
+    "active_fraction": 0.19484544836956522,
+    "active_below_band": 4589,
+    "active_above_band": 0,
+    "interior_variables": 8423,
+    "change": 0.11990213445723819,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00032216304073935437,
+      0.00031812295680905083,
+      0.0003237475228727683
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 76,
+    "folder": "fsd\\iteration_076",
+    "mass_kg": 338.29960828015925,
+    "raw_peak_MPa": 1347.430107004993,
+    "filtered_peak_MPa": 304.25742460794373,
+    "seconds": 34.09149329998763,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.577019581120112e-07,
+        3.637505869846791e-07,
+        5.4424803238362074e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006162319332361221,
+        -6.657076301053166e-05,
+        -8.266157237812877e-06
+      ]
+    },
+    "active_variables": 4594,
+    "active_fraction": 0.19505774456521738,
+    "active_below_band": 4594,
+    "active_above_band": 0,
+    "interior_variables": 8417,
+    "change": 0.10502831359097575,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00031812295680905083,
+      0.0003237475228727683,
+      0.00032605462684038336
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 77,
+    "folder": "fsd\\iteration_077",
+    "mass_kg": 338.41403697495144,
+    "raw_peak_MPa": 1339.1933537779391,
+    "filtered_peak_MPa": 303.8568771436634,
+    "seconds": 33.86615280000842,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.1513150752762158e-06,
+        9.263858373742551e-07,
+        6.686916458420455e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007188329473137856,
+        -7.355379057116807e-05,
+        -1.2645177775993943e-06
+      ]
+    },
+    "active_variables": 4583,
+    "active_fraction": 0.19459069293478262,
+    "active_below_band": 4583,
+    "active_above_band": 0,
+    "interior_variables": 8411,
+    "change": 0.10965583863681283,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003237475228727683,
+      0.00032605462684038336,
+      0.0003382466074197538
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 78,
+    "folder": "fsd\\iteration_078",
+    "mass_kg": 338.53204117233537,
+    "raw_peak_MPa": 1330.8049426007121,
+    "filtered_peak_MPa": 303.89800412720507,
+    "seconds": 33.94413170000189,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.476045494859136e-06,
+        -3.516324795782566e-07,
+        5.182175664231181e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005346282850950956,
+        -6.602704524993896e-05,
+        -2.6427554985275492e-05
+      ]
+    },
+    "active_variables": 4598,
+    "active_fraction": 0.19522758152173914,
+    "active_below_band": 4598,
+    "active_above_band": 0,
+    "interior_variables": 8407,
+    "change": 0.11333115609787747,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00032605462684038336,
+      0.0003382466074197538,
+      0.00034869770308215546
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 79,
+    "folder": "fsd\\iteration_079",
+    "mass_kg": 338.6505765504478,
+    "raw_peak_MPa": 1323.005118020948,
+    "filtered_peak_MPa": 303.7312041176415,
+    "seconds": 33.514203600003384,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.8549411606727517e-06,
+        6.247282726690173e-07,
+        7.413691491819918e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008112466894090176,
+        -9.101844625547528e-05,
+        1.1574484233278781e-06
+      ]
+    },
+    "active_variables": 4567,
+    "active_fraction": 0.19391134510869565,
+    "active_below_band": 4567,
+    "active_above_band": 0,
+    "interior_variables": 8393,
+    "change": 0.10720875011938036,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003382466074197538,
+      0.00034869770308215546,
+      0.0003501452261414863
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 80,
+    "folder": "fsd\\iteration_080",
+    "mass_kg": 338.770273570851,
+    "raw_peak_MPa": 1315.510544310327,
+    "filtered_peak_MPa": 302.9648663955145,
+    "seconds": 33.49309160001576,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.201960042697465e-06,
+        1.7413913155905902e-07,
+        7.937967893667519e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008676154538989067,
+        -9.055333794094622e-05,
+        -9.435595711693168e-05
+      ]
+    },
+    "active_variables": 4537,
+    "active_fraction": 0.19263756793478262,
+    "active_below_band": 4537,
+    "active_above_band": 0,
+    "interior_variables": 8380,
+    "change": 0.10715463367486255,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00034869770308215546,
+      0.0003501452261414863,
+      0.0003534528764794501
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 81,
+    "folder": "fsd\\iteration_081",
+    "mass_kg": 338.88946035836693,
+    "raw_peak_MPa": 1309.021753507478,
+    "filtered_peak_MPa": 302.42601852626774,
+    "seconds": 33.26487119999365,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.0244594307096122e-05,
+        1.1323209037072957e-06,
+        4.744643229059875e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004969120491296053,
+        -6.919880979694426e-05,
+        0.00010492224464542232
+      ]
+    },
+    "active_variables": 4516,
+    "active_fraction": 0.1917459239130435,
+    "active_below_band": 4516,
+    "active_above_band": 0,
+    "interior_variables": 8374,
+    "change": 0.10629215808341819,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003501452261414863,
+      0.0003534528764794501,
+      0.0003518218592784246
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 82,
+    "folder": "fsd\\iteration_082",
+    "mass_kg": 339.0085908555809,
+    "raw_peak_MPa": 1303.496615337499,
+    "filtered_peak_MPa": 302.01402678160855,
+    "seconds": 34.055806200020015,
+    "reaction_balance": {
+      "force_residual_N": [
+        9.5558102088944e-06,
+        -7.198977982625365e-07,
+        5.7766796089708805e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006493434775620699,
+        -7.904577068984509e-05,
+        -0.00011424586409702897
+      ]
+    },
+    "active_variables": 4473,
+    "active_fraction": 0.18992017663043478,
+    "active_below_band": 4473,
+    "active_above_band": 0,
+    "interior_variables": 8363,
+    "change": 0.10464735448896412,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003534528764794501,
+      0.0003518218592784246,
+      0.0003515320219401212
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 83,
+    "folder": "fsd\\iteration_083",
+    "mass_kg": 339.1299832702188,
+    "raw_peak_MPa": 1298.8631448796712,
+    "filtered_peak_MPa": 302.8410521744811,
+    "seconds": 33.44732800000929,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.123113507783273e-06,
+        2.648994268383831e-07,
+        8.464657003059983e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009108982048928738,
+        -8.650653762742877e-05,
+        -7.858113531256095e-05
+      ]
+    },
+    "active_variables": 4419,
+    "active_fraction": 0.1876273777173913,
+    "active_below_band": 4419,
+    "active_above_band": 0,
+    "interior_variables": 8347,
+    "change": 0.10354808984370001,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003518218592784246,
+      0.0003515320219401212,
+      0.0003580806443032697
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 84,
+    "folder": "fsd\\iteration_084",
+    "mass_kg": 339.2525644793602,
+    "raw_peak_MPa": 1294.925023978835,
+    "filtered_peak_MPa": 304.1150308394873,
+    "seconds": 35.44480920000933,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.3758623765625089e-05,
+        4.08133928431198e-07,
+        6.607829709537327e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006902334280312061,
+        -7.473377627320588e-05,
+        -0.0001586279904586263
+      ]
+    },
+    "active_variables": 4402,
+    "active_fraction": 0.18690557065217392,
+    "active_below_band": 4402,
+    "active_above_band": 0,
+    "interior_variables": 8344,
+    "change": 0.09707120135070824,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003515320219401212,
+      0.0003580806443032697,
+      0.0003614578928095798
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 85,
+    "folder": "fsd\\iteration_085",
+    "mass_kg": 339.37876133597973,
+    "raw_peak_MPa": 1291.8473250507432,
+    "filtered_peak_MPa": 304.56693926963436,
+    "seconds": 33.42155800000182,
+    "reaction_balance": {
+      "force_residual_N": [
+        -8.546548315280234e-06,
+        2.51329765887931e-08,
+        6.751538603566587e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007526152767241001,
+        -8.691992843523622e-05,
+        8.944514047470875e-05
+      ]
+    },
+    "active_variables": 4370,
+    "active_fraction": 0.185546875,
+    "active_below_band": 4370,
+    "active_above_band": 0,
+    "interior_variables": 8327,
+    "change": 0.08947231580538872,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003580806443032697,
+      0.0003614578928095798,
+      0.0003719849747140018
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 86,
+    "folder": "fsd\\iteration_086",
+    "mass_kg": 339.50920589134336,
+    "raw_peak_MPa": 1289.4960178166252,
+    "filtered_peak_MPa": 305.1684067244648,
+    "seconds": 33.945366200001445,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.2979330651651253e-06,
+        -7.031121640466154e-08,
+        8.14753002487123e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008738792967051268,
+        -8.873202023096383e-05,
+        2.4126555217662826e-05
+      ]
+    },
+    "active_variables": 4343,
+    "active_fraction": 0.18440047554347827,
+    "active_below_band": 4343,
+    "active_above_band": 0,
+    "interior_variables": 8309,
+    "change": 0.08995654520880769,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003614578928095798,
+      0.0003719849747140018,
+      0.00038436275402185853
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 87,
+    "folder": "fsd\\iteration_087",
+    "mass_kg": 339.6415296831503,
+    "raw_peak_MPa": 1287.8824738852938,
+    "filtered_peak_MPa": 305.6079854841215,
+    "seconds": 34.44840189997922,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.7757284303552296e-06,
+        1.8112405086867511e-06,
+        6.114487769082189e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006578473839908838,
+        -7.103779353201389e-05,
+        3.3487449400126934e-05
+      ]
+    },
+    "active_variables": 4317,
+    "active_fraction": 0.18329653532608695,
+    "active_below_band": 4317,
+    "active_above_band": 0,
+    "interior_variables": 8293,
+    "change": 0.09055819544466803,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003719849747140018,
+      0.00038436275402185853,
+      0.00038975023213147947
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 88,
+    "folder": "fsd\\iteration_088",
+    "mass_kg": 339.7728184557321,
+    "raw_peak_MPa": 1286.587093346817,
+    "filtered_peak_MPa": 305.8730881802336,
+    "seconds": 38.01661600000807,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.1146727249288233e-05,
+        1.1333395377732813e-07,
+        5.599655560217798e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005979849956929684,
+        -7.750379154458642e-05,
+        -0.0002337073237868026
+      ]
+    },
+    "active_variables": 4324,
+    "active_fraction": 0.18359375,
+    "active_below_band": 4324,
+    "active_above_band": 0,
+    "interior_variables": 8279,
+    "change": 0.08059452277866441,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00038436275402185853,
+      0.00038975023213147947,
+      0.0003865509989437271
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 89,
+    "folder": "fsd\\iteration_089",
+    "mass_kg": 339.9037201212251,
+    "raw_peak_MPa": 1285.160631238758,
+    "filtered_peak_MPa": 305.5029433396566,
+    "seconds": 37.85790719999932,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.839307781727257e-06,
+        -5.274159775581211e-07,
+        6.342004053294659e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006772633641958237,
+        -7.768857176415622e-05,
+        -0.00011020385863957927
+      ]
+    },
+    "active_variables": 4325,
+    "active_fraction": 0.18363620923913043,
+    "active_below_band": 4325,
+    "active_above_band": 0,
+    "interior_variables": 8265,
+    "change": 0.0826370517178211,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00038975023213147947,
+      0.0003865509989437271,
+      0.00038526232347826277
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 90,
+    "folder": "fsd\\iteration_090",
+    "mass_kg": 340.03217005882647,
+    "raw_peak_MPa": 1283.7684134413,
+    "filtered_peak_MPa": 304.7874554187695,
+    "seconds": 36.57561010000063,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.0439880422127317e-07,
+        -1.2789496395271271e-07,
+        6.416038377210498e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006692265160381794,
+        -7.937522605061531e-05,
+        -1.4218669093679637e-05
+      ]
+    },
+    "active_variables": 4335,
+    "active_fraction": 0.18406080163043478,
+    "active_below_band": 4335,
+    "active_above_band": 0,
+    "interior_variables": 8257,
+    "change": 0.0855264784198616,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003865509989437271,
+      0.00038526232347826277,
+      0.0003779009466432525
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 91,
+    "folder": "fsd\\iteration_091",
+    "mass_kg": 340.15909687708483,
+    "raw_peak_MPa": 1282.417953571924,
+    "filtered_peak_MPa": 303.7426938782178,
+    "seconds": 37.82334080000874,
+    "reaction_balance": {
+      "force_residual_N": [
+        -4.851405606132175e-07,
+        7.913440640550107e-07,
+        6.512392428703606e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006868725176900625,
+        -8.399513899348676e-05,
+        -1.1271131370449439e-05
+      ]
+    },
+    "active_variables": 4332,
+    "active_fraction": 0.1839334239130435,
+    "active_below_band": 4332,
+    "active_above_band": 0,
+    "interior_variables": 8248,
+    "change": 0.09156030074681565,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00038526232347826277,
+      0.0003779009466432525,
+      0.00037327885251683696
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 92,
+    "folder": "fsd\\iteration_092",
+    "mass_kg": 340.28164690516775,
+    "raw_peak_MPa": 1281.151871562763,
+    "filtered_peak_MPa": 302.8130019313488,
+    "seconds": 36.44849089998752,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0707358910622133e-06,
+        2.872729965019971e-08,
+        4.551289021037519e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004493226297199726,
+        -6.0962571296840906e-05,
+        -1.7232101527042687e-05
+      ]
+    },
+    "active_variables": 4314,
+    "active_fraction": 0.18316915760869565,
+    "active_below_band": 4314,
+    "active_above_band": 0,
+    "interior_variables": 8233,
+    "change": 0.09190614675119024,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003779009466432525,
+      0.00037327885251683696,
+      0.00036027267595667255
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 93,
+    "folder": "fsd\\iteration_093",
+    "mass_kg": 340.4020704278925,
+    "raw_peak_MPa": 1279.642135401356,
+    "filtered_peak_MPa": 302.1371619822434,
+    "seconds": 36.6199995999923,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.94818966292587e-06,
+        -1.0036146704806015e-06,
+        6.676276098005474e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007261044811457396,
+        -7.440391345880926e-05,
+        -4.057144542457536e-05
+      ]
+    },
+    "active_variables": 4305,
+    "active_fraction": 0.18278702445652173,
+    "active_below_band": 4305,
+    "active_above_band": 0,
+    "interior_variables": 8232,
+    "change": 0.09488494955266469,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00037327885251683696,
+      0.00036027267595667255,
+      0.0003538936754891285
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 94,
+    "folder": "fsd\\iteration_094",
+    "mass_kg": 340.52051209584266,
+    "raw_peak_MPa": 1277.782404923524,
+    "filtered_peak_MPa": 301.54846782933924,
+    "seconds": 36.21919179998804,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.0876301454773056e-07,
+        -8.74040779308416e-07,
+        4.269793862476945e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004672752693295479,
+        -7.026526145637035e-05,
+        -1.1877797078341246e-05
+      ]
+    },
+    "active_variables": 4292,
+    "active_fraction": 0.18223505434782608,
+    "active_below_band": 4292,
+    "active_above_band": 0,
+    "interior_variables": 8232,
+    "change": 0.09258510811992804,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00036027267595667255,
+      0.0003538936754891285,
+      0.00034794637941322547
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 95,
+    "folder": "fsd\\iteration_095",
+    "mass_kg": 340.63636509658403,
+    "raw_peak_MPa": 1275.758701589247,
+    "filtered_peak_MPa": 301.4367618140018,
+    "seconds": 36.41944259998854,
+    "reaction_balance": {
+      "force_residual_N": [
+        6.1423808119798196e-06,
+        7.099315553205088e-07,
+        6.05435052420944e-05
+      ],
+      "moment_residual_Nm": [
+        0.000658166129142046,
+        -8.22288275230676e-05,
+        -6.839647903689183e-05
+      ]
+    },
+    "active_variables": 4278,
+    "active_fraction": 0.181640625,
+    "active_below_band": 4278,
+    "active_above_band": 0,
+    "interior_variables": 8217,
+    "change": 0.07329502923512121,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003538936754891285,
+      0.00034794637941322547,
+      0.0003402232659298935
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 96,
+    "folder": "fsd\\iteration_096",
+    "mass_kg": 340.75041370794423,
+    "raw_peak_MPa": 1273.684508206899,
+    "filtered_peak_MPa": 301.1880360825579,
+    "seconds": 36.7013936000003,
+    "reaction_balance": {
+      "force_residual_N": [
+        7.629053186519741e-06,
+        7.176404324127361e-07,
+        9.340327233076096e-05
+      ],
+      "moment_residual_Nm": [
+        0.000996975926682353,
+        -8.844869444146752e-05,
+        -9.138125824392773e-05
+      ]
+    },
+    "active_variables": 4277,
+    "active_fraction": 0.18159816576086957,
+    "active_below_band": 4277,
+    "active_above_band": 0,
+    "interior_variables": 8214,
+    "change": 0.0736975393407655,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00034794637941322547,
+      0.0003402232659298935,
+      0.0003348104402413594
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 97,
+    "folder": "fsd\\iteration_097",
+    "mass_kg": 340.86113058239897,
+    "raw_peak_MPa": 1271.578931257113,
+    "filtered_peak_MPa": 300.70093692085123,
+    "seconds": 36.71983940000064,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.295880782796303e-07,
+        5.87388058193028e-07,
+        7.197947707027197e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007996577769517899,
+        -9.38592420425266e-05,
+        -5.520883860299364e-06
+      ]
+    },
+    "active_variables": 4265,
+    "active_fraction": 0.18108865489130435,
+    "active_below_band": 4265,
+    "active_above_band": 0,
+    "interior_variables": 8206,
+    "change": 0.074031991382013,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003402232659298935,
+      0.0003348104402413594,
+      0.00032492073377094404
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 98,
+    "folder": "fsd\\iteration_098",
+    "mass_kg": 340.96954409686157,
+    "raw_peak_MPa": 1269.438993855252,
+    "filtered_peak_MPa": 300.28810042864296,
+    "seconds": 37.63252179999836,
+    "reaction_balance": {
+      "force_residual_N": [
+        9.98809412067203e-07,
+        2.081091224681586e-06,
+        5.902524571865797e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006494307890534401,
+        -7.91828497312963e-05,
+        -2.991918518091552e-05
+      ]
+    },
+    "active_variables": 4247,
+    "active_fraction": 0.1803243885869565,
+    "active_below_band": 4247,
+    "active_above_band": 0,
+    "interior_variables": 8202,
+    "change": 0.07441170986643841,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003348104402413594,
+      0.00032492073377094404,
+      0.00031805772127012843
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 99,
+    "folder": "fsd\\iteration_099",
+    "mass_kg": 341.0734145222028,
+    "raw_peak_MPa": 1267.231571721862,
+    "filtered_peak_MPa": 299.5652173742083,
+    "seconds": 37.966219900001306,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.308402191734785e-07,
+        1.2967757356818765e-07,
+        4.3621432268992066e-05
+      ],
+      "moment_residual_Nm": [
+        0.0004848646931350231,
+        -6.652751471847296e-05,
+        -3.520006430335343e-06
+      ]
+    },
+    "active_variables": 4245,
+    "active_fraction": 0.18023947010869565,
+    "active_below_band": 4245,
+    "active_above_band": 0,
+    "interior_variables": 8207,
+    "change": 0.07488698874814703,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00032492073377094404,
+      0.00031805772127012843,
+      0.0003046325607067971
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 100,
+    "folder": "fsd\\iteration_100",
+    "mass_kg": 341.1749459711989,
+    "raw_peak_MPa": 1264.973331460011,
+    "filtered_peak_MPa": 298.6442913256217,
+    "seconds": 37.90781340000103,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.849236156203915e-06,
+        -1.5185105439741164e-07,
+        6.224436219781637e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007158247753977776,
+        -9.076218702830374e-05,
+        -3.489984374027699e-05
+      ]
+    },
+    "active_variables": 4237,
+    "active_fraction": 0.17989979619565216,
+    "active_below_band": 4237,
+    "active_above_band": 0,
+    "interior_variables": 8200,
+    "change": 0.07561889820968137,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.00031805772127012843,
+      0.0003046325607067971,
+      0.000297682096208823
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 101,
+    "folder": "fsd\\iteration_101",
+    "mass_kg": 341.27468036925916,
+    "raw_peak_MPa": 1262.49448710619,
+    "filtered_peak_MPa": 297.6518568723666,
+    "seconds": 38.01577890000772,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.595298627421471e-05,
+        -8.742590580368415e-07,
+        7.561899838037789e-05
+      ],
+      "moment_residual_Nm": [
+        0.000804840587079525,
+        -9.640978532843292e-05,
+        -0.0001885616366053
+      ]
+    },
+    "active_variables": 4240,
+    "active_fraction": 0.1800271739130435,
+    "active_below_band": 4240,
+    "active_above_band": 0,
+    "interior_variables": 8192,
+    "change": 0.07905387720034729,
+    "fsd_stop": null,
+    "mass_window_relative_changes": [
+      0.0003046325607067971,
+      0.000297682096208823,
+      0.0002923262661516856
+    ],
+    "mass_stagnation": false
+  },
+  {
+    "phase": "fsd",
+    "iteration": 102,
+    "folder": "fsd\\iteration_102",
+    "mass_kg": 341.3730168629596,
+    "raw_peak_MPa": 1259.797313994115,
+    "filtered_peak_MPa": 297.51155679724076,
+    "seconds": 37.98801359999925,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.0828434540144372e-06,
+        -5.470228643389419e-07,
+        7.83162540756166e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008343090303242207,
+        -8.707732195034623e-05,
+        -2.362654049647972e-05
+      ]
+    },
+    "active_variables": 4236,
+    "active_fraction": 0.17985733695652173,
+    "active_below_band": 4236,
+    "active_above_band": 0,
+    "interior_variables": 8180,
+    "change": 0.08030329916020185,
+    "fsd_stop": "feasible_mass_stagnation",
+    "mass_window_relative_changes": [
+      0.000297682096208823,
+      0.0002923262661516856,
+      0.0002881447096926674
+    ],
+    "mass_stagnation": true
+  },
+  {
+    "phase": "buckling",
+    "iteration": 0,
+    "folder": "buckling\\iteration_000",
+    "mass_kg": 341.3730168629596,
+    "raw_peak_MPa": 1259.797313994115,
+    "filtered_peak_MPa": 297.51155679727754,
+    "seconds": 59.04985640000086,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.5746516908166086e-06,
+        -5.910242180107161e-07,
+        7.616935181431472e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008075600489974022,
+        -8.628363138996065e-05,
+        -3.1987929105525836e-05
+      ]
+    },
+    "BLF": 0.006819901891109821,
+    "eigenvalues": [
+      0.006819901891109821,
+      0.007532179421213097,
+      0.007611427863336326,
+      0.008328237882562622,
+      0.009310057363068112
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 1,
+    "folder": "buckling\\iteration_001",
+    "mass_kg": 352.5095555933502,
+    "raw_peak_MPa": 583.1295558411009,
+    "filtered_peak_MPa": 373.3945138927199,
+    "seconds": 57.208230999996886,
+    "reaction_balance": {
+      "force_residual_N": [
+        -2.3796791310815024e-06,
+        9.357172530144453e-07,
+        5.592277739197016e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005894075147807598,
+        -7.284761522896588e-05,
+        2.9006481781834736e-05
+      ]
+    },
+    "BLF": 0.03756874129773833,
+    "eigenvalues": [
+      0.03756874129773833,
+      0.0377890939574806,
+      0.04507303109514761,
+      0.04646987482573944,
+      0.04720175140863343
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 2,
+    "folder": "buckling\\iteration_002",
+    "mass_kg": 382.67825564031125,
+    "raw_peak_MPa": 538.5617101240205,
+    "filtered_peak_MPa": 433.38858035794277,
+    "seconds": 60.17651690001367,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.604398221388692e-06,
+        -1.3590207004199328e-06,
+        6.978015881031752e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008221946191042662,
+        -9.645771933719516e-05,
+        -1.7933630147126678e-05
+      ]
+    },
+    "BLF": 0.1928577651663389,
+    "eigenvalues": [
+      0.1928577651663389,
+      0.1937997493165912,
+      0.2324605219410021,
+      0.2361224419847809,
+      0.2694763024174611
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 3,
+    "folder": "buckling\\iteration_003",
+    "mass_kg": 417.39179641644375,
+    "raw_peak_MPa": 527.2039335130363,
+    "filtered_peak_MPa": 422.4962866648709,
+    "seconds": 60.29772950001643,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.77407593280077e-06,
+        -9.884856808639597e-07,
+        8.35179234854877e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008917814120650291,
+        -0.00011452293256297708,
+        -5.287992553348886e-05
+      ]
+    },
+    "BLF": 0.511476818068665,
+    "eigenvalues": [
+      0.511476818068665,
+      0.515021156055003,
+      0.5908659505329449,
+      0.5946703228741028,
+      0.5985003686921644
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 4,
+    "folder": "buckling\\iteration_004",
+    "mass_kg": 439.8019626110556,
+    "raw_peak_MPa": 522.3279157206231,
+    "filtered_peak_MPa": 395.58399152564346,
+    "seconds": 60.051635400013765,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.879076762634213e-06,
+        -9.245586625183932e-07,
+        5.428396980278194e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005824191030114889,
+        -7.666190504096448e-05,
+        2.2182490283739753e-05
+      ]
+    },
+    "BLF": 0.7321903535834953,
+    "eigenvalues": [
+      0.7321903535834953,
+      0.7420637391029721,
+      0.7630649414209906,
+      0.778970900360432,
+      0.7970397750291288
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 5,
+    "folder": "buckling\\iteration_005",
+    "mass_kg": 453.44408781155283,
+    "raw_peak_MPa": 517.4633183111579,
+    "filtered_peak_MPa": 372.35076079172507,
+    "seconds": 62.11934169998858,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.373190444719512e-06,
+        -6.402497092494741e-07,
+        7.719112909398973e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008432292379438877,
+        -0.00010634271893650293,
+        7.891412587923696e-05
+      ]
+    },
+    "BLF": 0.7893754721225433,
+    "eigenvalues": [
+      0.7893754721225433,
+      0.8045311751811136,
+      0.8272439731350022,
+      0.8351292513915509,
+      0.8929412256482487
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 6,
+    "folder": "buckling\\iteration_006",
+    "mass_kg": 463.96473733611896,
+    "raw_peak_MPa": 513.2753147593228,
+    "filtered_peak_MPa": 356.2205993758844,
+    "seconds": 60.92733129998669,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.344323436569539e-06,
+        1.2530108506325632e-07,
+        7.994601037353277e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009169478435069323,
+        -0.00011289285612292588,
+        -1.314280234510079e-05
+      ]
+    },
+    "BLF": 0.9021250940282315,
+    "eigenvalues": [
+      0.9021250940282315,
+      0.9096343490408934,
+      0.936229754735616,
+      0.9437752258009016,
+      0.9548824736788952
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 7,
+    "folder": "buckling\\iteration_007",
+    "mass_kg": 469.9414497631199,
+    "raw_peak_MPa": 509.44514203162686,
+    "filtered_peak_MPa": 343.76192586428687,
+    "seconds": 60.20601710001938,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.997458174533676e-07,
+        -1.971105575648835e-06,
+        8.1073580076918e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009227606933563948,
+        -0.00011232332326471806,
+        -7.370843377429992e-06
+      ]
+    },
+    "BLF": 0.9570113915779662,
+    "eigenvalues": [
+      0.9570113915779662,
+      0.9597154403847463,
+      0.9802390535946157,
+      0.9827326365990418,
+      0.9887213978360593
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 8,
+    "folder": "buckling\\iteration_008",
+    "mass_kg": 473.5690327768897,
+    "raw_peak_MPa": 506.3979317448537,
+    "filtered_peak_MPa": 334.2694037450477,
+    "seconds": 60.225515600002836,
+    "reaction_balance": {
+      "force_residual_N": [
+        9.960543366105412e-06,
+        -5.894535206607543e-07,
+        6.781614501960576e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007210869807749987,
+        -8.981596329249442e-05,
+        -0.00010319749162590597
+      ]
+    },
+    "BLF": 0.9846662351139944,
+    "eigenvalues": [
+      0.9846662351139944,
+      0.9862952429787841,
+      0.9950868252361695,
+      1.006726386893657,
+      1.015900230202065
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 9,
+    "folder": "buckling\\iteration_009",
+    "mass_kg": 475.76289468696734,
+    "raw_peak_MPa": 503.97861379856846,
+    "filtered_peak_MPa": 326.7359334240791,
+    "seconds": 58.83204539999133,
+    "reaction_balance": {
+      "force_residual_N": [
+        -5.6066207889671205e-06,
+        -8.487158993375488e-07,
+        7.316458504647017e-05
+      ],
+      "moment_residual_Nm": [
+        0.000807544682174921,
+        -0.00010540321818552911,
+        6.0757220126106404e-05
+      ]
+    },
+    "BLF": 0.9960268628294779,
+    "eigenvalues": [
+      0.9960268628294779,
+      0.9972032523768098,
+      0.9997992385590532,
+      1.017755817120406,
+      1.023082513851494
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 10,
+    "folder": "buckling\\iteration_010",
+    "mass_kg": 477.17558878825264,
+    "raw_peak_MPa": 502.28987864207295,
+    "filtered_peak_MPa": 320.72576907419204,
+    "seconds": 60.22408020001603,
+    "reaction_balance": {
+      "force_residual_N": [
+        5.205696197663201e-06,
+        2.2663107301923446e-07,
+        7.97334942035377e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009196647442877293,
+        -0.00011086495942436159,
+        -6.288070835580584e-05
+      ]
+    },
+    "BLF": 0.9997282485441173,
+    "eigenvalues": [
+      0.9997282485441173,
+      1.000946021727126,
+      1.001140292962709,
+      1.022004266333073,
+      1.024651030418852
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 11,
+    "folder": "buckling\\iteration_011",
+    "mass_kg": 478.1594445680681,
+    "raw_peak_MPa": 501.19517575034837,
+    "filtered_peak_MPa": 315.9054031057529,
+    "seconds": 58.97357000000193,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.474257715017302e-06,
+        -1.8995588106918149e-06,
+        7.627243758179247e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009052192326635122,
+        -0.00011338788317516446,
+        1.9859888197970577e-05
+      ]
+    },
+    "BLF": 1.000464332020912,
+    "eigenvalues": [
+      1.000464332020912,
+      1.000812675025243,
+      1.002255541448107,
+      1.023604511712535,
+      1.024857812780928
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 12,
+    "folder": "buckling\\iteration_012",
+    "mass_kg": 478.91388072576103,
+    "raw_peak_MPa": 500.47154028375763,
+    "filtered_peak_MPa": 311.96259700914004,
+    "seconds": 58.36300760001177,
+    "reaction_balance": {
+      "force_residual_N": [
+        -6.639231742155971e-07,
+        -6.848263183201198e-07,
+        8.400258957408369e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009798696264624596,
+        -0.00011786693357862532,
+        1.3097171176923439e-05
+      ]
+    },
+    "BLF": 1.000471245633996,
+    "eigenvalues": [
+      1.000471245633996,
+      1.000596442685448,
+      1.002584693302801,
+      1.024509751972047,
+      1.024953516547327
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 13,
+    "folder": "buckling\\iteration_013",
+    "mass_kg": 479.51544159974577,
+    "raw_peak_MPa": 499.83862011486605,
+    "filtered_peak_MPa": 308.7103548324657,
+    "seconds": 58.14421230001608,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.5563921301218215e-06,
+        -3.2783782444312237e-07,
+        8.488236926496029e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009905975311994553,
+        -0.00011945058940909803,
+        3.967828888562508e-05
+      ]
+    },
+    "BLF": 1.000262994172233,
+    "eigenvalues": [
+      1.000262994172233,
+      1.000402352482145,
+      1.002626464368755,
+      1.025050376927069,
+      1.025169529482936
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 14,
+    "folder": "buckling\\iteration_014",
+    "mass_kg": 480.00457524417976,
+    "raw_peak_MPa": 499.22041264905545,
+    "filtered_peak_MPa": 306.019563885956,
+    "seconds": 59.05921490001492,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.3242911336419638e-06,
+        -9.45126885198988e-07,
+        7.23841367289424e-05
+      ],
+      "moment_residual_Nm": [
+        0.0008494907524436712,
+        -0.00010493106674402952,
+        1.8996621292899363e-05
+      ]
+    },
+    "BLF": 1.000022872728535,
+    "eigenvalues": [
+      1.000022872728535,
+      1.000229322689459,
+      1.002573690969917,
+      1.025149606793498,
+      1.025706302259477
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 15,
+    "folder": "buckling\\iteration_015",
+    "mass_kg": 480.41082272164334,
+    "raw_peak_MPa": 498.6640618173735,
+    "filtered_peak_MPa": 303.76377707480475,
+    "seconds": 60.11193959999946,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.1452855460447608e-05,
+        -2.363553903705906e-07,
+        8.687208173796535e-05
+      ],
+      "moment_residual_Nm": [
+        0.0010039780754595995,
+        -0.0001199654652737081,
+        0.00012493749272834975
+      ]
+    },
+    "BLF": 0.9997849673883796,
+    "eigenvalues": [
+      0.9997849673883796,
+      1.00007440140324,
+      1.002484598715744,
+      1.025250766263824,
+      1.026161281782829
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 16,
+    "folder": "buckling\\iteration_016",
+    "mass_kg": 480.76016233713,
+    "raw_peak_MPa": 498.1678846487831,
+    "filtered_peak_MPa": 301.83283516682235,
+    "seconds": 58.13934640001389,
+    "reaction_balance": {
+      "force_residual_N": [
+        -3.25356563735113e-06,
+        -1.7442125681554899e-06,
+        8.959358092397451e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009755503851920366,
+        -0.0001207604946102947,
+        3.828637636615895e-05
+      ]
+    },
+    "BLF": 0.9996834211326913,
+    "eigenvalues": [
+      0.9996834211326913,
+      1.000029980562383,
+      1.00248991646066,
+      1.025452535978892,
+      1.026645735320622
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 17,
+    "folder": "buckling\\iteration_017",
+    "mass_kg": 481.061432302521,
+    "raw_peak_MPa": 497.72750533289997,
+    "filtered_peak_MPa": 300.18097766022925,
+    "seconds": 57.79838540000492,
+    "reaction_balance": {
+      "force_residual_N": [
+        8.003684342838824e-06,
+        6.451118679251522e-07,
+        6.703933468088508e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007471898570656776,
+        -9.610728011466563e-05,
+        -9.529025373922195e-05
+      ]
+    },
+    "BLF": 0.9996703481502572,
+    "eigenvalues": [
+      0.9996703481502572,
+      1.00004044345081,
+      1.002554876182882,
+      1.025695878791486,
+      1.027138862524628
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 18,
+    "folder": "buckling\\iteration_018",
+    "mass_kg": 481.3219111098034,
+    "raw_peak_MPa": 497.3469997056671,
+    "filtered_peak_MPa": 298.7640917996888,
+    "seconds": 57.813631500001065,
+    "reaction_balance": {
+      "force_residual_N": [
+        2.133550196958822e-06,
+        1.5265823094523512e-07,
+        6.019891588948667e-05
+      ],
+      "moment_residual_Nm": [
+        0.0006875975523144007,
+        -8.52525990922004e-05,
+        -2.741128992056474e-05
+      ]
+    },
+    "BLF": 0.9996961330077203,
+    "eigenvalues": [
+      0.9996961330077203,
+      1.000065561258201,
+      1.002641096633079,
+      1.025937945413989,
+      1.027618279544898
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 19,
+    "folder": "buckling\\iteration_019",
+    "mass_kg": 481.33045315200275,
+    "raw_peak_MPa": 497.349981475204,
+    "filtered_peak_MPa": 298.764955430038,
+    "seconds": 57.83519269997487,
+    "reaction_balance": {
+      "force_residual_N": [
+        -1.3955959730083123e-06,
+        -1.9822527974611148e-07,
+        6.524345371872187e-05
+      ],
+      "moment_residual_Nm": [
+        0.0007282206788659096,
+        -9.851506911218166e-05,
+        2.2240745238377713e-05
+      ]
+    },
+    "BLF": 0.9998517456677201,
+    "eigenvalues": [
+      0.9998517456677201,
+      1.00019701954867,
+      1.002780790188962,
+      1.026075120225808,
+      1.027729243194687
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 20,
+    "folder": "buckling\\iteration_020",
+    "mass_kg": 481.33462410901853,
+    "raw_peak_MPa": 497.35143274746474,
+    "filtered_peak_MPa": 298.7653786972863,
+    "seconds": 57.823709700023755,
+    "reaction_balance": {
+      "force_residual_N": [
+        3.6973665373807307e-07,
+        -5.335518835636321e-07,
+        5.191584932617843e-05
+      ],
+      "moment_residual_Nm": [
+        0.0005028434097766876,
+        -8.064243593253195e-05,
+        -3.942692273994908e-06
+      ]
+    },
+    "BLF": 0.9999276802406589,
+    "eigenvalues": [
+      0.9999276802406589,
+      1.000261536751437,
+      1.002848950827679,
+      1.026142442850711,
+      1.027783451000895
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 21,
+    "folder": "buckling\\iteration_021",
+    "mass_kg": 481.3366595652288,
+    "raw_peak_MPa": 497.3521429032709,
+    "filtered_peak_MPa": 298.7655837827548,
+    "seconds": 56.579796199977864,
+    "reaction_balance": {
+      "force_residual_N": [
+        4.214105729261064e-06,
+        -7.660764822503552e-08,
+        8.605598122812808e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009748036973178387,
+        -0.00010795306297950447,
+        -5.2871193474857137e-05
+      ]
+    },
+    "BLF": 0.9999647250970325,
+    "eigenvalues": [
+      0.9999647250970325,
+      1.000293102993497,
+      1.002882201819707,
+      1.026175381878184,
+      1.027809910926896
+    ],
+    "rule": "original_energy",
+    "switch_reason": null
+  },
+  {
+    "phase": "buckling",
+    "iteration": 22,
+    "folder": "buckling\\iteration_022",
+    "mass_kg": 483.13622544449606,
+    "raw_peak_MPa": 497.7275035847559,
+    "filtered_peak_MPa": 298.9170959023001,
+    "seconds": 58.05942770000547,
+    "reaction_balance": {
+      "force_residual_N": [
+        1.6561330085096415e-07,
+        6.910795491421595e-09,
+        8.022558176890016e-05
+      ],
+      "moment_residual_Nm": [
+        0.0009196805767714977,
+        -0.00012603442883118987,
+        -1.3355675037018955e-06
+      ]
+    },
+    "BLF": 1.023087379647195,
+    "eigenvalues": [
+      1.023087379647195,
+      1.029675474323379,
+      1.032578031578179,
+      1.04998438727237,
+      1.05696403325509
+    ],
+    "rule": "uniform_restoration",
+    "switch_reason": "near_feasible_stagnation"
+  }
+]

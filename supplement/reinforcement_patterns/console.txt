@@ -1,0 +1,269 @@
+{
+  "regions": {
+    "all": {
+      "initial_uniform_core": {
+        "area_mean_added_mm": 5.483617003739564,
+        "max_added_mm": 72.63176364595105,
+        "added_mass_kg": 40.487829274233576
+      },
+      "energy_core": {
+        "area_mean_added_mm": 18.969989609237356,
+        "max_added_mm": 86.3059695930401,
+        "added_mass_kg": 140.06333777669212
+      },
+      "restoration_core": {
+        "area_mean_added_mm": 0.32689973789823146,
+        "max_added_mm": 1.9606152792197296,
+        "added_mass_kg": 2.4136369788023773
+      },
+      "faces": {
+        "area_mean_added_mm": 0.21331443872955144,
+        "max_added_mm": 7.27792259170445,
+        "added_mass_kg": 56.699617890958756
+      },
+      "face_m": {
+        "initial_mean_mm": 0.5769529577710281,
+        "final_mean_mm": 0.6836101771358036,
+        "final_range_mm": [
+          0.25,
+          8.94767991434711
+        ]
+      },
+      "core_m": {
+        "initial_mean_mm": 0.28847647888551403,
+        "final_mean_mm": 25.068982829760664,
+        "final_range_mm": [
+          2.5511331872806395,
+          100.0
+        ]
+      },
+      "total_m": {
+        "initial_mean_mm": 1.4423823944275704,
+        "final_mean_mm": 26.436203184032276,
+        "final_range_mm": [
+          3.0511331872806395,
+          117.89535982869423
+        ]
+      }
+    },
+    "upper": {
+      "initial_uniform_core": {
+        "area_mean_added_mm": 6.482696937500149,
+        "max_added_mm": 72.63176364595105,
+        "added_mass_kg": 18.70294611058139
+      },
+      "energy_core": {
+        "area_mean_added_mm": 25.483756837982007,
+        "max_added_mm": 86.3059695930401,
+        "added_mass_kg": 73.52207506089765
+      },
+      "restoration_core": {
+        "area_mean_added_mm": 0.4226578870192075,
+        "max_added_mm": 1.9546382942113443,
+        "added_mass_kg": 1.2193918303360842
+      },
+      "faces": {
+        "area_mean_added_mm": 0.2752833592008882,
+        "max_added_mm": 7.27792259170445,
+        "added_mass_kg": 28.591488349498498
+      },
+      "face_m": {
+        "initial_mean_mm": 0.6820700953172426,
+        "final_mean_mm": 0.8197117749176867,
+        "final_range_mm": [
+          0.25,
+          8.94767991434711
+        ]
+      },
+      "core_m": {
+        "initial_mean_mm": 0.3410350476586213,
+        "final_mean_mm": 32.73014671015998,
+        "final_range_mm": [
+          6.981709138848414,
+          100.0
+        ]
+      },
+      "total_m": {
+        "initial_mean_mm": 1.705175238293106,
+        "final_mean_mm": 34.369570259995356,
+        "final_range_mm": [
+          7.481709138848413,
+          117.89535982869423
+        ]
+      }
+    },
+    "upper_aft": {
+      "initial_uniform_core": {
+        "area_mean_added_mm": 2.6587877299725267,
+        "max_added_mm": 15.180240618720832,
+        "added_mass_kg": 2.055742118636285
+      },
+      "energy_core": {
+        "area_mean_added_mm": 12.96595852335424,
+        "max_added_mm": 77.53993557718,
+        "added_mass_kg": 10.025120375151522
+      },
+      "restoration_core": {
+        "area_mean_added_mm": 0.31529234042914545,
+        "max_added_mm": 1.8703752533781037,
+        "added_mass_kg": 0.2437801771825921
+      },
+      "faces": {
+        "area_mean_added_mm": 0.0,
+        "max_added_mm": 0.0,
+        "added_mass_kg": 0.0
+      },
+      "face_m": {
+        "initial_mean_mm": 0.2797415362609853,
+        "final_mean_mm": 0.2797415362609853,
+        "final_range_mm": [
+          0.25,
+          1.5971729460088397
+        ]
+      },
+      "core_m": {
+        "initial_mean_mm": 0.13987076813049265,
+        "final_mean_mm": 16.079909361886404,
+        "final_range_mm": [
+          6.981709138848414,
+          95.38913792228335
+        ]
+      },
+      "total_m": {
+        "initial_mean_mm": 0.6993538406524632,
+        "final_mean_mm": 16.63939243440838,
+        "final_range_mm": [
+          7.481709138848413,
+          98.58348381430105
+        ]
+      }
+    },
+    "upper_aft_near_ribs": {
+      "initial_uniform_core": {
+        "area_mean_added_mm": 3.22021732735602,
+        "max_added_mm": 15.180240618720832,
+        "added_mass_kg": 0.6887620269452851
+      },
+      "energy_core": {
+        "area_mean_added_mm": 16.024380962226704,
+        "max_added_mm": 77.53993557718,
+        "added_mass_kg": 3.4274038023230835
+      },
+      "restoration_core": {
+        "area_mean_added_mm": 0.38828008336152997,
+        "max_added_mm": 1.8703752533781037,
+        "added_mass_kg": 0.0830479902603806
+      },
+      "faces": {
+        "area_mean_added_mm": 0.0,
+        "max_added_mm": 0.0,
+        "added_mass_kg": 0.0
+      },
+      "face_m": {
+        "initial_mean_mm": 0.3388117569875071,
+        "final_mean_mm": 0.3388117569875071,
+        "final_range_mm": [
+          0.25,
+          1.5971729460088397
+        ]
+      },
+      "core_m": {
+        "initial_mean_mm": 0.16940587849375355,
+        "final_mean_mm": 19.802284251438007,
+        "final_range_mm": [
+          6.981709138848414,
+          95.38913792228335
+        ]
+      },
+      "total_m": {
+        "initial_mean_mm": 0.8470293924687677,
+        "final_mean_mm": 20.47990776541302,
+        "final_range_mm": [
+          7.481709138848413,
+          98.58348381430105
+        ]
+      }
+    },
+    "upper_aft_away_ribs": {
+      "initial_uniform_core": {
+        "area_mean_added_mm": 2.444086878549859,
+        "max_added_mm": 7.258884239293373,
+        "added_mass_kg": 1.3669800916909998
+      },
+      "energy_core": {
+        "area_mean_added_mm": 11.796362362595406,
+        "max_added_mm": 39.14481372164848,
+        "added_mass_kg": 6.59771657282844
+      },
+      "restoration_core": {
+        "area_mean_added_mm": 0.2873805049576398,
+        "max_added_mm": 0.908970439936728,
+        "added_mass_kg": 0.16073218692221145
+      },
+      "faces": {
+        "area_mean_added_mm": 0.0,
+        "max_added_mm": 0.0,
+        "added_mass_kg": 0.0
+      },
+      "face_m": {
+        "initial_mean_mm": 0.25715201347341804,
+        "final_mean_mm": 0.25715201347341804,
+        "final_range_mm": [
+          0.25,
+          0.7637358205581775
+        ]
+      },
+      "core_m": {
+        "initial_mean_mm": 0.12857600673670902,
+        "final_mean_mm": 14.656405752839616,
+        "final_range_mm": [
+          7.155121927467265,
+          46.357492436773065
+        ]
+      },
+      "total_m": {
+        "initial_mean_mm": 0.6428800336835451,
+        "final_mean_mm": 15.170709779786451,
+        "final_range_mm": [
+          7.655121927467265,
+          47.88496407788942
+        ]
+      }
+    }
+  },
+  "energy_peak_groups": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    3,
+    2,
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "max_replay_error_m": 0.0
+}

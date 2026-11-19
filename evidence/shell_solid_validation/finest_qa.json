@@ -1,0 +1,249 @@
+{
+  "scope": "One solid 2x refinement with released BCs; fixed geometry function, layup, traction and boundary-motion fields",
+  "stress": {
+    "outer": {
+      "vs_coarse_released": {
+        "coarse_max": 295.53719188747596,
+        "refined_max": 295.4286759507283,
+        "peak_change_percent": -0.036718199849772315,
+        "max_absolute_difference": 0.4898060439564915,
+        "relative_L2_percent": 0.07280007197603015
+      },
+      "vs_shell": {
+        "coarse_max": 299.577421917245,
+        "refined_max": 295.4286759507283,
+        "peak_change_percent": -1.3848660356195808,
+        "max_absolute_difference": 4.5240608635361355,
+        "relative_L2_percent": 0.8018658974564922
+      },
+      "all_refined_interior_corner_points": {
+        "count": 1155,
+        "max_MPa": 296.46787415466366
+      }
+    },
+    "outer_interface": {
+      "vs_coarse_released": {
+        "coarse_max": 292.9315987703764,
+        "refined_max": 292.5207455613027,
+        "peak_change_percent": -0.14025568112089326,
+        "max_absolute_difference": 0.483996308269127,
+        "relative_L2_percent": 0.0736184177564774
+      },
+      "vs_shell": {
+        "coarse_max": 286.7521205328616,
+        "refined_max": 292.5207455613027,
+        "peak_change_percent": 2.0117113755676597,
+        "max_absolute_difference": 5.768625028441079,
+        "relative_L2_percent": 1.1303739247291356
+      },
+      "all_refined_interior_corner_points": {
+        "count": 1155,
+        "max_MPa": 292.6851723008403
+      }
+    },
+    "inner_interface": {
+      "vs_coarse_released": {
+        "coarse_max": 148.11823712591934,
+        "refined_max": 148.0631031486717,
+        "peak_change_percent": -0.03722294993341313,
+        "max_absolute_difference": 0.44474071913646185,
+        "relative_L2_percent": 0.13341570120382273
+      },
+      "vs_shell": {
+        "coarse_max": 148.48824027354527,
+        "refined_max": 148.0631031486717,
+        "peak_change_percent": -0.286310299112158,
+        "max_absolute_difference": 6.999870825460533,
+        "relative_L2_percent": 1.677804463543806
+      },
+      "all_refined_interior_corner_points": {
+        "count": 1155,
+        "max_MPa": 148.25716974225534
+      }
+    },
+    "inner": {
+      "vs_coarse_released": {
+        "coarse_max": 142.99530627018206,
+        "refined_max": 142.23300034366636,
+        "peak_change_percent": -0.5330985655398801,
+        "max_absolute_difference": 0.8552895680349195,
+        "relative_L2_percent": 0.26025384643532684
+      },
+      "vs_shell": {
+        "coarse_max": 136.66313375177393,
+        "refined_max": 142.23300034366636,
+        "peak_change_percent": 4.075617497553652,
+        "max_absolute_difference": 8.967660506973488,
+        "relative_L2_percent": 2.988298517690843
+      },
+      "all_refined_interior_corner_points": {
+        "count": 1155,
+        "max_MPa": 142.59534326469566
+      }
+    }
+  },
+  "deflection": {
+    "outer": {
+      "vs_coarse_released": {
+        "coarse_max": 9.730203395478007,
+        "refined_max": 9.729586120262066,
+        "peak_change_percent": -0.0063439086610217466,
+        "max_absolute_difference": 0.03040126927414777,
+        "relative_L2_percent": 0.18364335850235555
+      },
+      "vs_shell": {
+        "coarse_max": 9.691302199771387,
+        "refined_max": 9.729586120262066,
+        "peak_change_percent": 0.39503381177796726,
+        "max_absolute_difference": 0.05003294845879935,
+        "relative_L2_percent": 0.5230964606332127
+      }
+    },
+    "inner": {
+      "vs_coarse_released": {
+        "coarse_max": 9.55581887745573,
+        "refined_max": 9.555539579647391,
+        "peak_change_percent": -0.002922803497229509,
+        "max_absolute_difference": 0.0274237133224271,
+        "relative_L2_percent": 0.19372516113088595
+      },
+      "vs_shell": {
+        "coarse_max": 9.658845486039002,
+        "refined_max": 9.555539579647391,
+        "peak_change_percent": -1.0695471476475205,
+        "max_absolute_difference": 0.2487816357500554,
+        "relative_L2_percent": 2.151033521087082
+      }
+    }
+  },
+  "reactions": {
+    "force_N": [
+      0.001540015597129241,
+      -0.007910821470431983,
+      -6683.147470153678
+    ],
+    "moment_Nm": [
+      -3284.7249769490422,
+      7831.987356102155,
+      -0.009984743945292687
+    ],
+    "force_residual_N": [
+      0.001540015597129241,
+      -0.007910821470431983,
+      0.0006734620246788836
+    ],
+    "moment_residual_Nm": [
+      0.004103841328742419,
+      -0.00022619537412538193,
+      -0.009984743945292687
+    ],
+    "edges": {
+      "span_root_cut": {
+        "force_N": [
+          -103721.26117770352,
+          3773719.387050487,
+          -164014.9386465358
+        ],
+        "moment_Nm": [
+          -1512877.594965085,
+          164618.01789165038,
+          4624299.508009092
+        ],
+        "vector_change_vs_coarse_percent": 0.994734085244564,
+        "vector_difference_vs_shell_percent": 0.8869927678306082
+      },
+      "span_outboard_cut": {
+        "force_N": [
+          93675.4502032889,
+          -3418165.0361707066,
+          94614.323159694
+        ],
+        "moment_Nm": [
+          1349135.552700937,
+          -81022.52443915403,
+          -4285544.298547919
+        ],
+        "vector_change_vs_coarse_percent": 0.7135820882971241,
+        "vector_difference_vs_shell_percent": 1.2281400268256666
+      },
+      "chord_front_cut": {
+        "force_N": [
+          85436.25809546726,
+          -245233.97446357188,
+          35654.83756018193
+        ],
+        "moment_Nm": [
+          97233.39968386796,
+          16266.811718620424,
+          -147416.1514198414
+        ],
+        "vector_change_vs_coarse_percent": 8.229044634866208,
+        "vector_difference_vs_shell_percent": 21.67152276229834
+      },
+      "chord_aft_cut": {
+        "force_N": [
+          -75390.44558103709,
+          -110320.38432703046,
+          27062.630456506202
+        ],
+        "moment_Nm": [
+          63223.917603338436,
+          -92030.31781501773,
+          -191339.0680260446
+        ],
+        "vector_change_vs_coarse_percent": 14.92270247181875,
+        "vector_difference_vs_shell_percent": 11.728497723796664
+      }
+    }
+  },
+  "QA": {
+    "tangential_residual_m": 3.116485675854787e-18,
+    "anchor_residual_m": 8.673617379884035e-18,
+    "boundary_work_J_approximate_from_rounded_nodal_table": 12544.827002341774,
+    "linear_strain_energy_J_approximate_from_rounded_nodal_table": 6292.90983084114,
+    "rounded_nodal_table_normal_residual_N": 0.12724693694696043,
+    "rounded_nodal_table_anchor_difference_N": 2.6161803376198804,
+    "released_normal_reaction_max_N": 5.707692537271214e-06,
+    "recovered_vs_direct_anchor_reaction_max_N": 1.4897013159043127e-05,
+    "reaction_verification_scope": "Precision edge resultants from direct FSUM; normal-force/direct-anchor checks use high-precision FSUM samples only. Bulk nodal table is rounded and excluded from edge convergence and equilibrium checks.",
+    "source_hashes_unchanged": true,
+    "mesh": {
+      "scope": "Second uniform solid refinement (4x each direction from baseline) only; released BCs; unchanged continuous geometry, parent motion and frozen traction field; no article edits",
+      "elements": 98304,
+      "nodes": 415025,
+      "in_plane": [
+        64,
+        64
+      ],
+      "through_layers": [
+        4,
+        16,
+        4
+      ],
+      "original_node_coordinate_max_error_m": 2.220446049250313e-16,
+      "Fz_Mx_My": [
+        6683.14814361571,
+        3284.72908079037,
+        -7831.987582297532
+      ],
+      "minimum_jacobian": 5.353903875909166e-08,
+      "minimum_scaled_jacobian": 0.9994094664460821,
+      "CEs": 36864,
+      "anchors": 512
+    },
+    "execution": {
+      "exit_code": 0,
+      "seconds": 725.324870899989,
+      "errors": [
+        "0"
+      ],
+      "warnings": [
+        "25"
+      ]
+    },
+    "warning_texts": [
+      " Some entities requested in the *VGET were undefined.                    \n",
+      " The Sparse Matrix Solver is currently running in the out-of-core memory \n mode.  This memory mode may provide significantly worse performance     "
+    ]
+  }
+}

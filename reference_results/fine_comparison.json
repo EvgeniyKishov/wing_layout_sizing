@@ -1,6 +1,19 @@
 {
   "cases": [
     {
+      "ribs": 2,
+      "spars": [
+        0.175,
+        0.7
+      ],
+      "filtered_MPa": 298.9170959023001,
+      "raw_MPa": 497.7275035847559,
+      "BLF": 1.023087379647195,
+      "wall_minutes": 89.24833015333327,
+      "solver_minutes": 86.77713959000248,
+      "mass_kg": 483.13622544449606
+    },
+    {
       "ribs": 8,
       "spars": [
         0.175,
@@ -41,17 +54,17 @@
     }
   ],
   "best": {
-    "ribs": 16,
+    "ribs": 2,
     "spars": [
-      0.1,
+      0.175,
       0.7
     ],
-    "mass_kg": 548.5060187578904,
-    "filtered_MPa": 298.0273504173681,
-    "raw_MPa": 506.2783084978192,
-    "BLF": 1.024109559268217,
-    "wall_minutes": 79.60907230333348,
-    "solver_minutes": 78.03629091166367
+    "filtered_MPa": 298.9170959023001,
+    "raw_MPa": 497.7275035847559,
+    "BLF": 1.023087379647195,
+    "wall_minutes": 89.24833015333327,
+    "solver_minutes": 86.77713959000248,
+    "mass_kg": 483.13622544449606
   },
-  "previous_files_verified_unchanged": 132
+  "scope": "Four fixed screened layouts, independently sized on fine meshes; prescribed load and numerical criteria only. No global or continuous-layout optimum established."
 }

@@ -1,0 +1,16 @@
+SUPPLEMENTARY EVIDENCE
+
+plate_benchmark_draft.pdf: preserved complete plate benchmark draft.
+plate_figure_2_monolithic_thickness.pdf: variable monolithic plate after FSD and reinforcement.
+plate_figure_3_sandwich_thickness.pdf: sandwich face/core comparison.
+*_face_thickness.png: thickness of EACH equal metal face of the 16-rib reference wing.
+*_core_thickness.png: core thickness of the 16-rib reference wing.
+ribs_total_thickness.png: all 16 ribs after FSD and reinforcement.
+Other *_total_thickness.png: higher-resolution versions of main thickness figures.
+All are preserved postprocessing of saved numerical fields, not new solves.
+
+radius_sensitivity/radius_sensitivity_supplement.pdf: Tables S1-S2 and Figures S3-S8 for the complete-sizing radius study.
+
+four_layouts/four_layouts_supplement.pdf: Tables S3-S4 and Figures S9-S10 for all four fine-sized layouts. All other wing validation supplements concern the 16-rib reference unless explicitly stated otherwise.
+
+reproduction_guide.pdf and reproduction_guide.html: study-to-file guide; HTML includes linked file inventory.

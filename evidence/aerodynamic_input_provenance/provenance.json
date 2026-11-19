@@ -1,0 +1,562 @@
+{
+  "configuration": {
+    "wing_area_m2": 73.0,
+    "aspect_ratio": 12.0,
+    "taper_ratio_root_over_tip": 2.5,
+    "sweep_deg": 2.0,
+    "profile_thickness_ratio": 0.12,
+    "nominal_altitude_m": 6000.0,
+    "speed_ms": 128.0,
+    "wing_loading_kg_m2": 274.0,
+    "nominal_load_factor": 2.5,
+    "allowable_MPa": 300.0,
+    "original_front_spar": 0.18,
+    "original_rear_spar": 0.7,
+    "target_Cy": 1.25,
+    "stored_dynamic_pressure_Pa": 5410.0,
+    "density_kg_m3": 0.66,
+    "original_rib_count": 20.0
+  },
+  "actual_matlab_results": {
+    "alpha_target": 12.721347424687856,
+    "Cy": 1.2378019340553177,
+    "Cx": 0.04658973764726122,
+    "Cxi": 0.042744845719663596,
+    "Ki": 28.957922603657938
+  },
+  "derived": {
+    "dynamic_pressure_Pa": 5406.72,
+    "fullwing_lift_from_Cy_N": 488548.7385213764,
+    "twice_exported_semiwing_force_N": 488548.738538,
+    "source_Fz_Mx_My": [
+      244274.369269,
+      1504418.6638172152,
+      -240995.95916411764
+    ],
+    "reference_mass_from_wing_loading_kg": 20002.0,
+    "effective_n_for_g_9_81": 2.489805751949659,
+    "effective_n_for_g_9_8": 2.4923463700638937,
+    "Cy_required_for_exact_n_2_5_g_9_81": 1.2428699840198865,
+    "target_Cy_error_percent": -0.9758452755745828,
+    "speed_kmh": 460.8,
+    "speed_of_sound_from_code_ms": 346.1292013525034,
+    "Mach_from_code": 0.36980410638524197,
+    "compressibility_multiplier": 1.0762991161056175
+  },
+  "export_rows": 1365,
+  "historical_reproduction_hash_checks": {
+    "run_aero_batch.py": true,
+    "matlab_bridge.py": true,
+    "MATLAB\\A_Prof.m": true,
+    "MATLAB\\AERO.m": true,
+    "MATLAB\\aero_solver.m": true,
+    "MATLAB\\B_node_aero.m": true,
+    "MATLAB\\C_Elem_aero.m": true,
+    "MATLAB\\D_aero_twist_aero.m": true,
+    "MATLAB\\E_Normal_aero.m": true,
+    "MATLAB\\F_twist_aero.m": true,
+    "MATLAB\\G_dopnode_aero.m": true,
+    "MATLAB\\H_aero_matrix.m": true,
+    "MATLAB\\I_solver.m": true,
+    "MATLAB\\Z_INP.m": true,
+    "120_4_4_Fokker_Friendship\\A_prof.txt": true,
+    "120_4_4_Fokker_Friendship\\for_ansys_1.npy": true
+  },
+  "original_export_reproduced_byte_identically": true,
+  "layout_load_checks": [
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\0c8025d08a8a43fa1f6f\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\0f15d6f7d5d7593dcbbe\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\11c408c2dea670449a67\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -4.656612873077393e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\166cdad1b7f1859ac35d\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\1fccb1dc57d0cbb0b360\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\2863eef2a0498373a71d\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\33a7b730b8b3703ce27a\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\3acf70e8d8affd2f4eca\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\449032b150233fe0deaf\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        2.9103830456733704e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\4fb2258caeeb46cf1312\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\5d737b11577b2697b695\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -2.3283064365386963e-10,
+        -8.731149137020111e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\5dbb0853a6ca9a0e547d\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        0.0,
+        -8.731149137020111e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\61bc9c311577a187342a\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        4.656612873077393e-10,
+        -1.1641532182693481e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\6c8ae10b0bcc0f854514\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\747b8366c95b297642d8\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\76cf04f0113493be17f1\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\7b9f921cec7af91ddcd7\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\7e93106e49372e5419ee\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -4.656612873077393e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\8b14ac58e834bafbe18a\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -4.656612873077393e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\974f6dc779e6cb89e3e0\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b0a2d9f19a7ffafbba97\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b2aa18b624c8cf2533ab\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b2d4e6e4b645c31eb3d6\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b4f2cbd2fc1f74cd957e\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        0.0,
+        -8.731149137020111e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\bc9ab7262e96306d4773\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -4.656612873077393e-10,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\bf69254b989db12db117\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\c43c524125103d2194e4\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -8.731149137020111e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\c5560a197bd499900dac\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cc0d622b9f3fe20018dd\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cdca7f5a980386fa42b2\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ce34b253a7ec9c7a2e4b\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cee0b55a06faf3621509\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -1.1641532182693481e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d3a27f0bd00d09755832\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d86246c0733f9d935651\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        -1.1641532182693481e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d9c2379d76bce15bae6d\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ddb74e0fc2575bf74dcf\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -1.1641532182693481e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ea913525b2ef198e1704\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -8.731149137020111e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\f9f924932dab9a81a750\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\fec287bfe361b11f17c3\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -2.3283064365386963e-10,
+        -5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ff88da13dfbb3572ac1c\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        4.656612873077393e-10,
+        -1.1641532182693481e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_08\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        0.0,
+        -4.656612873077393e-10,
+        5.820766091346741e-11
+      ]
+    },
+    {
+      "report": "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.369269,
+      "residual_Fz_Mx_My": [
+        -2.9103830456733704e-11,
+        -1.6298145055770874e-09,
+        -2.9103830456733704e-10
+      ]
+    },
+    {
+      "report": "runs\\fokker_fine_25ribs_20261016\\evaluations\\ribs_25\\geometry\\load_transfer.json",
+      "source_hash_match": true,
+      "Fz_N": 244274.36926900002,
+      "residual_Fz_Mx_My": [
+        2.9103830456733704e-11,
+        -4.656612873077393e-10,
+        2.0372681319713593e-10
+      ]
+    }
+  ],
+  "source_sha256": {
+    "Readme.txt": "6386796dfdce1d6ea87a82e473c775760db59541ee53ecafbaed4b6bd1bd98a7",
+    "run_aero_batch.py": "71450783dcabc9c9622fee956e60f411844017a00363a8d7010eaaa487c31b78",
+    "MATLAB\\aero_solver.m": "48d41d19767422b8362c111e317de4606a3c59eb460af61de67bcc5bfff8d522",
+    "MATLAB\\I_solver.m": "c128421534e93ee3f1d2d839d695e127fc7ed113c177ea39925893b5fb04d112",
+    "prepare_layout_geometry.py": "1df749944920157e2032a4e43324d6c03a891e09b81c8278e748dfc044861381",
+    "conservative_loads.py": "3e7dd1302e7b8f72c75eaa6d13f70268b20bf4fafa185612b68f080f94ebefaf",
+    "runs\\fokker_aero_reproduction_20261013\\input_manifest.json": "80365dea485f91d953e528c292fa06d028a1437b62a95f063b34cda629851213",
+    "runs\\fokker_aero_reproduction_20261013\\comparison.json": "4d81d15a7042510c88aafc65c7472f7cd94655295aeaf5c4843470058bf92a77",
+    "runs\\fokker_aero_reproduction_20261013\\for_ansys_1.npy": "ab1998398a54a567fd740f72d6e9d95bd43b28d32fa1f9d41ae959239075af60",
+    "runs\\fokker_aero_reproduction_20261013\\0_12.72.txt": "e44d857b8e16da799787bc4689cbd4fd04b2488ecc12e25bbf2319a8fa831f74",
+    "runs\\fokker_aero_reproduction_20261013\\matlab_runs\\config_0_fo9ls1ly\\bridge_run.m": "ff7016200bf6e57800862c024f22176a0cfab15cfc0523de8ee0bcf1ee3414cd",
+    "runs\\fokker_aero_reproduction_20261013\\matlab_runs\\config_0_fo9ls1ly\\results.tsv": "3ff365e8edc4fb7e8ed869244193ff38ebc29553d044adbd418481b5b74acaff",
+    "120_4_4_Fokker_Friendship\\untitled6.py": "17bc15a14427158334c3d8d678bdad62a3254c455740ff10821e1f10df61f826",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\0c8025d08a8a43fa1f6f\\geometry\\load_transfer.json": "4e805693c5735ccd015a46aee74d389efd9e7c42208e3a3a5db990ae35e511a0",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\0f15d6f7d5d7593dcbbe\\geometry\\load_transfer.json": "036c2db3a809611457aaf19b6adfb0e29bc47307fc43b87ef019f9e90fe295b8",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\11c408c2dea670449a67\\geometry\\load_transfer.json": "00d068d8ec0432b4155ee578ab194d81018266f5e75450acab730ebad1cf5764",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\166cdad1b7f1859ac35d\\geometry\\load_transfer.json": "28808ad52cda1bc6448b744de029d7d1d70725a32d259a5b22ad22166022d531",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\1fccb1dc57d0cbb0b360\\geometry\\load_transfer.json": "22270c6dac20162618da85ba7e326a34e128d884b49772f5f88c3602a66a98ec",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\2863eef2a0498373a71d\\geometry\\load_transfer.json": "57bf140ae01b0c59db567f9138a58f9722d1db43148f45234d9e92bd4629eab4",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\33a7b730b8b3703ce27a\\geometry\\load_transfer.json": "bae67c920ab2128f839f5317d8c318e884c4987de86a0a2e90b4617c809fd7a5",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\3acf70e8d8affd2f4eca\\geometry\\load_transfer.json": "71ad80286b90b239f2fc757d4a39a3f336577f4de81200dc88ab1be010684ea9",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\449032b150233fe0deaf\\geometry\\load_transfer.json": "a9c375c4f1dd09cc1343549176695fdbcbfeaa2912a59fd192e3ca83b0ef1fd9",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\4fb2258caeeb46cf1312\\geometry\\load_transfer.json": "52601c5df22e3700e548b0b954b560d11112f3e3a94c3105a48a2656c6a94dea",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\5d737b11577b2697b695\\geometry\\load_transfer.json": "c50481a24be8282823ab981728239588ddcab31d384e2090e60df3b6be72ce4f",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\5dbb0853a6ca9a0e547d\\geometry\\load_transfer.json": "99573a962ad3c618b86a17e261aecd599059f98091729abeee4ab48f4069b135",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\61bc9c311577a187342a\\geometry\\load_transfer.json": "ab1dea7f0a02e11f9e6e935dcdc177b9aa8e5bb88757d7e0745ea25638489549",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\6c8ae10b0bcc0f854514\\geometry\\load_transfer.json": "a9ec7b845aad2af39a80b56ac873de67e45d6356ab569c2ad0ee78f73d6197a5",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\747b8366c95b297642d8\\geometry\\load_transfer.json": "09476541102646a054eeee862320261b38a63d7d0030853c77b6b70311622f22",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\76cf04f0113493be17f1\\geometry\\load_transfer.json": "2ec9e6083c6f67905871707f27ac1d501f84e6963406de217995e4364ba5ba60",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\7b9f921cec7af91ddcd7\\geometry\\load_transfer.json": "7a61714d319939a571e6819c265a2f20e0fdc5af824adf1b73e63dea0f437194",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\7e93106e49372e5419ee\\geometry\\load_transfer.json": "df4d47ee1bb3b2bd4d0cc3b0ba1f6debe551aafb26f78af631c83cc544db3650",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\8b14ac58e834bafbe18a\\geometry\\load_transfer.json": "9e271c62e7a3fcb4160f9041a2ddb822900e1403560017aa8b6f5d1b2f957319",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\974f6dc779e6cb89e3e0\\geometry\\load_transfer.json": "c7d3345aa3a9f3930eb28153c3cd0fb02506d75031db6d56372f4cff35d7f656",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b0a2d9f19a7ffafbba97\\geometry\\load_transfer.json": "fa1fd5a2a2893edde907f0d7882c6505e19cdeba6ad72efb181cebc164ce9802",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b2aa18b624c8cf2533ab\\geometry\\load_transfer.json": "89025f37030d7f69b2cefb3792e48552eb3dd777aef0b08b95f7edbad59dc783",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b2d4e6e4b645c31eb3d6\\geometry\\load_transfer.json": "fa23f619d397e88e9b278eb31d58952a91a9ecc18b6d16950321f9391e6da230",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\b4f2cbd2fc1f74cd957e\\geometry\\load_transfer.json": "e795a77d150dc5ecd8154e2e908a4101b9f6ff158d88768bc2bd9a3e47bfd309",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\bc9ab7262e96306d4773\\geometry\\load_transfer.json": "23ab469137037cc57b176ec3f6aa513ea3a92cb38628c1d92574f3dbf459e3f3",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\bf69254b989db12db117\\geometry\\load_transfer.json": "9d342abfaac2a184c59bae87c21656fd2f9601e4063d9985447689f00c27e5bb",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\c43c524125103d2194e4\\geometry\\load_transfer.json": "6e516ae233518b39150222b16f2c20552f5789588b747e12a24df85158c8a95a",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\c5560a197bd499900dac\\geometry\\load_transfer.json": "bd5c273bd4c0c221d00418355f3fee316e4a20fabae7c3dc5042a8d4068da429",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cc0d622b9f3fe20018dd\\geometry\\load_transfer.json": "4b2cdd20a438a6dd5d1213f1bf3ab7706a900b040ed95742d156baac636526bd",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cdca7f5a980386fa42b2\\geometry\\load_transfer.json": "3620d5c777ce5c0eff9572a4adbd028c2d241685caaa4212876a6da0190ee4a2",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ce34b253a7ec9c7a2e4b\\geometry\\load_transfer.json": "b231e2f814ea36b51ed6d832d85ed6835f30ff874efbd4111002aaf35cdc69e5",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\cee0b55a06faf3621509\\geometry\\load_transfer.json": "a85b5ced73690ef64415764b75f1f3df069beaa9c40d6df15cc3e71ad26ef36b",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d3a27f0bd00d09755832\\geometry\\load_transfer.json": "2744393dfe48a47fa108c303fd058b3be7f40742493e83cab8d22500960c1f89",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d86246c0733f9d935651\\geometry\\load_transfer.json": "c456907f501c3ed1fd5b6698a1a158033cdb40dd8bdaf94c5059887f38ef88f3",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\d9c2379d76bce15bae6d\\geometry\\load_transfer.json": "455503a33a518a657bea1403f499107de8470ef25148b7ce86b6a82c8213df1f",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ddb74e0fc2575bf74dcf\\geometry\\load_transfer.json": "0a35b243aec184cc27a8546d54c5c513fe2a5accc665cb5af4656967b8a2a905",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ea913525b2ef198e1704\\geometry\\load_transfer.json": "2b7304b2afc0be708147c266fce03e4b3a7d981fc2eabc3d4ac3eb467f7bedbb",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\f9f924932dab9a81a750\\geometry\\load_transfer.json": "17a09025cddaaa7bd0eae2d4242fe16022d43ade03671cc39bf2e8a78ea8b824",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\fec287bfe361b11f17c3\\geometry\\load_transfer.json": "ad1ff44b8a40dacbd1fa06b5c8ab74eccf66a7f4ced778d2f20e203434e1814c",
+    "runs\\fokker_ccd_stage1_extra_coarse_20261015\\evaluations\\ff88da13dfbb3572ac1c\\geometry\\load_transfer.json": "2af11575810d5dc7acaf7d2fef7f34e261dae125da75c3716bcee533566d2580",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_08\\geometry\\load_transfer.json": "db716adfc42802345c4f4421527f1574381f7400372260f8997624574814f483",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\load_transfer.json": "fbf58e5f07090b6dbac17d8cf04d3f9aa66928edb92c1e5b3d5ae3e0b28541c9",
+    "runs\\fokker_fine_25ribs_20261016\\evaluations\\ribs_25\\geometry\\load_transfer.json": "5a54c08baa9f85bfd6df14445fef05dbe549c24fc2696b82c7a185627c351c83"
+  },
+  "scope": "No solver runs or source modifications. Effective n uses L/(S*stored mass wing loading*g), not a complete aircraft force balance.",
+  "selected_final_deck_audit": {
+    "path": "runs/fokker_fine_layout_comparison_20261016/evaluations/ribs_16/buckling/iteration_032/diagnostic.apdl",
+    "F_commands_exactly_equal_geometry_loads": true,
+    "other_ACEL_OMEGA_SF_SFE_Fscale_load_commands": []
+  }
+}

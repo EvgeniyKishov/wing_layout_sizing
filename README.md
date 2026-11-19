@@ -47,7 +47,7 @@ Fine sizing of the selected 16-rib layout:
 .venv/Scripts/python.exe run_layout_candidate.py --output runs/fine_16 --ribs 16 --spars 0.10 0.70 --mesh-level fine --update-rule direct --restoration-policy stagnation --mass-tolerance 0.001
 ```
 
-For the comparison layouts use 8 ribs or 25 ribs, both with spars at 0.175 and 0.70, and separate fresh output directories. The saved fine masses are 635.265 kg (8 ribs), 548.506 kg (16 ribs), and 610.661 kg (25 ribs). These are semi-wing masses after reinforcement.
+For the comparison layouts use 2, 8 or 25 ribs, both with spars at 0.175 and 0.70, and separate fresh output directories. The saved fine masses are 483.136 kg (2 ribs), 635.265 kg (8 ribs), 548.506 kg (16 ribs), and 610.661 kg (25 ribs). These are semi-wing masses after reinforcement.
 
 Plate comparison:
 
@@ -78,3 +78,7 @@ Before publishing, the repository owner should confirm redistribution rights for
 ## Viewing saved results
 
 Run `python plot_reference_results.py` to regenerate the fine sizing history figure without either external solver. NPZ files contain named arrays and can be read with `numpy.load(..., allow_pickle=False)`. Each fine layout includes its mesh and the final FSD and reinforced fields; JSON histories contain every solved iteration. Plate stage text exports and CCD JSON records are included separately. This compact snapshot does not include every exploratory study or all manuscript figure generators.
+
+## Manuscript revision 29 (19 November 2026)
+
+This package accompanies manuscript revision 29 (19 November 2026). Start with [the supplementary reproduction guide](supplement/reproduction_guide.html) or its [PDF](supplement/reproduction_guide.pdf). The two-rib layout is the lightest of the four evaluated fine candidates under the stated single-load numerical criteria. The 16-rib studies remain reference assessments and do not validate the two-rib design. Native archives and all intermediate fields are not bundled. Evidence scripts may retain original-project dependencies; see the guide before attempting execution. Use the commit containing this revision as the fixed reproduction reference.

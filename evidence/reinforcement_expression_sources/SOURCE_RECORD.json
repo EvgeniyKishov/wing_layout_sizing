@@ -1,0 +1,10 @@
+{
+  "purpose": "Read-only implementation provenance for the expression explanation; copies are not new calculations or new scientific evidence.",
+  "sha256": {
+    "run_fine_fsd_buckling.py": "057a62d180e43c5bdbb6523bdc5001d43cb84a0fb61b18162755a6b570224e33",
+    "run_layout_candidate.py": "10668671a552f31b55801d12448c62cb6097970ce814c31017cf805fe3416315",
+    "buckling_restoration_policy.py": "5ffd3ba4413983317b5e2a1c49553d91bf9baf6273388f0f42e4caf317865478",
+    "core_reinforcement.py": "cf539cbfbd7049794c1c7deadf171655d5a127c7855078ff8efd2a24bcfc2b77"
+  },
+  "saved_audit": "supplement/reinforcement_patterns/audit.json"
+}

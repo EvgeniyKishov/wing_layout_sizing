@@ -1,0 +1,538 @@
+{
+  "cases": [
+    {
+      "n": 20,
+      "elements": 500,
+      "solver_errors": 0,
+      "peak_MPa": 78.33798271172701,
+      "reaction_residual_force_N": [
+        1.6413537196058314e-11,
+        -5.574229255955743e-08,
+        -3.131790435872972e-07
+      ],
+      "reaction_residual_moment_Nm": [
+        -1.4324632502393797e-07,
+        3.246128699174733e-09,
+        -4.014566457044566e-12
+      ],
+      "seconds": 3.5688262000039686,
+      "max_displacement_m": 0.00838255117768104,
+      "fields": [
+        {
+          "radius_m": null,
+          "global": {
+            "peak_MPa": 78.33798271172701,
+            "element": 90,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.225,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 78.33798271172701,
+            "element": 90,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.225,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 78.33798271172701,
+            "element": 90,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.225,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.075,
+          "global": {
+            "peak_MPa": 69.87723907215735,
+            "element": 310,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.7749999999999999,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 69.87723907215735,
+            "element": 310,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.7749999999999999,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 69.87723907215735,
+            "element": 310,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.7749999999999999,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.15,
+          "global": {
+            "peak_MPa": 59.20033809718708,
+            "element": 290,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.725,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 59.20033809718708,
+            "element": 290,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.725,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 59.20033809718708,
+            "element": 290,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.725,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.25,
+          "global": {
+            "peak_MPa": 47.88153277933461,
+            "element": 130,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.32499999999999996,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 47.88153277933461,
+            "element": 130,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.32499999999999996,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 47.88153277933461,
+            "element": 130,
+            "group": 0,
+            "xyz": [
+              -0.025,
+              0.32499999999999996,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "elements": 2000,
+      "solver_errors": 0,
+      "peak_MPa": 96.44459224482338,
+      "reaction_residual_force_N": [
+        1.5802470443304628e-11,
+        -6.509672951793277e-07,
+        8.958468242781237e-07
+      ],
+      "reaction_residual_moment_Nm": [
+        6.269783625612035e-07,
+        1.0455494248162722e-09,
+        -1.6971313243629993e-11
+      ],
+      "seconds": 4.826538000001165,
+      "max_displacement_m": 0.008469819646449935,
+      "fields": [
+        {
+          "radius_m": null,
+          "global": {
+            "peak_MPa": 96.44459224482338,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 96.44459224482338,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 96.44459224482338,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.075,
+          "global": {
+            "peak_MPa": 75.51178043850022,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 75.51178043850022,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 75.51178043850022,
+            "element": 380,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.2375,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.15,
+          "global": {
+            "peak_MPa": 60.619142974413855,
+            "element": 1180,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.7375,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 60.619142974413855,
+            "element": 1180,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.7375,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 60.619142974413855,
+            "element": 1180,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.7375,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.25,
+          "global": {
+            "peak_MPa": 48.60813013201233,
+            "element": 500,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.3125,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 48.60813013201233,
+            "element": 500,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.3125,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 48.60813013201233,
+            "element": 500,
+            "group": 0,
+            "xyz": [
+              -0.0125,
+              0.3125,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "elements": 8000,
+      "solver_errors": 0,
+      "peak_MPa": 114.3564294441869,
+      "reaction_residual_force_N": [
+        -2.064126647383091e-12,
+        -2.9082477737141232e-06,
+        1.4015313354320824e-07
+      ],
+      "reaction_residual_moment_Nm": [
+        7.953558451845311e-07,
+        -8.345466540049529e-10,
+        3.325340003357269e-12
+      ],
+      "seconds": 5.322819399996661,
+      "max_displacement_m": 0.008497615910515621,
+      "fields": [
+        {
+          "radius_m": null,
+          "global": {
+            "peak_MPa": 114.3564294441869,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 114.3564294441869,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 114.3564294441869,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.075,
+          "global": {
+            "peak_MPa": 76.87949922175427,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 76.87949922175427,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 76.87949922175427,
+            "element": 1640,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.25625,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.15,
+          "global": {
+            "peak_MPa": 61.08649489752216,
+            "element": 1720,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.26875000000000004,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 61.08649489752216,
+            "element": 1720,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.26875000000000004,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 61.08649489752216,
+            "element": 1720,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.26875000000000004,
+              0.0
+            ]
+          }
+        },
+        {
+          "radius_m": 0.25,
+          "global": {
+            "peak_MPa": 48.85464062614823,
+            "element": 2040,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.31875,
+              0.0
+            ]
+          },
+          "joint": {
+            "peak_MPa": 48.85464062614823,
+            "element": 2040,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.31875,
+              0.0
+            ]
+          },
+          "away_from_support_and_load": {
+            "peak_MPa": 48.85464062614823,
+            "element": 2040,
+            "group": 0,
+            "xyz": [
+              -0.00625,
+              0.31875,
+              0.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "radii_m": [
+    0.075,
+    0.15,
+    0.25
+  ],
+  "source_sha256_before": {
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\mesh.npz": "753fa8b518f4ae57afe689799ff1bfd07514be13b7e101bf77378a4e6d1c5a94",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\raw_stress.txt": "33a3b2723b12ef1d617acd33dd5e248e34591ac069beae0acb10d5bed2dc568f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\areas.txt": "bc29d7b3126b70b7d5e932d8783c35b4d13347f494de20e2b764cbc65bf5387f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\tjoint.apdl": "332452477ca10591d9941157803b6f53c481ce009d02482640507876dc24b5ec",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\displacements.txt": "1f9415523226dc531ec3c260feb3c2635f99bb0c887911b5915ffee27ccd414d",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\reactions.txt": "33df401ab1b931e359e95330d3023f7cee1da2138cc3466c6e3fdf30a82a9ccb",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\result.json": "c361615fc2dd26a57196f935eef07d5761ed9e277dc17705fb725042552826be",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\mesh.npz": "27f0319009d76c14edef2411503664134957dfcda2a2e77da651e16a16129bd8",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\raw_stress.txt": "1a8ec8ca58df1e3abb2eaa843b96819c7f8ea4a44106324fa377c041d680fa75",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\areas.txt": "c0b66a0be357d0a9ec79e3527b4d75639dceb0969aa015fd268dc5e4ce37089a",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\tjoint.apdl": "c6e00694443b7a68f55c7927ac74bf26e4373961ec2ae73fe0c77f9ea214db80",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\displacements.txt": "a908e8efbe66ff26786016ef652a9882bf714b233d61250b6ecf598c1e596ccf",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\reactions.txt": "b0e8331e52a8e2c33e5b00346f0b7759cf237c370aa7d348f155ac7c6c8b87f4",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\result.json": "963bdfb58991116e4c775a2c8f39eea5c8f493107a77fb210e3474577fa34b69",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\mesh.npz": "64755da8194a2ce9bc081d75985eadc10c32c6de6bad33acf32c21588e426c54",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\raw_stress.txt": "756d8f81472e115e1206fce751fae51d926913939c83470cc5d92c2ee977bd91",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\areas.txt": "e645926a371245a206f5b178f26135d4e4f9d0d24459afe78e7e0f0ce9bf8766",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\tjoint.apdl": "dfb9bea4ea6c8552af3a182cd821ebbb59941625afecba7d1f06130c7fcb6773",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\displacements.txt": "4635a7a84d25838292058ad08ca6dbed43a146e82a8c77295ce206c527555f8f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\reactions.txt": "b0aeb169edabf89ff1de71b47c32cd704fe89f633e9ce30b0b51fc93fe537730",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\result.json": "399904e8c668fce71f05e9145dcb57162b16f25749d10180704b735447288f90"
+  },
+  "source_sha256_after": {
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\mesh.npz": "753fa8b518f4ae57afe689799ff1bfd07514be13b7e101bf77378a4e6d1c5a94",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\raw_stress.txt": "33a3b2723b12ef1d617acd33dd5e248e34591ac069beae0acb10d5bed2dc568f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\areas.txt": "bc29d7b3126b70b7d5e932d8783c35b4d13347f494de20e2b764cbc65bf5387f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\tjoint.apdl": "332452477ca10591d9941157803b6f53c481ce009d02482640507876dc24b5ec",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\displacements.txt": "1f9415523226dc531ec3c260feb3c2635f99bb0c887911b5915ffee27ccd414d",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\reactions.txt": "33df401ab1b931e359e95330d3023f7cee1da2138cc3466c6e3fdf30a82a9ccb",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_20\\result.json": "c361615fc2dd26a57196f935eef07d5761ed9e277dc17705fb725042552826be",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\mesh.npz": "27f0319009d76c14edef2411503664134957dfcda2a2e77da651e16a16129bd8",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\raw_stress.txt": "1a8ec8ca58df1e3abb2eaa843b96819c7f8ea4a44106324fa377c041d680fa75",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\areas.txt": "c0b66a0be357d0a9ec79e3527b4d75639dceb0969aa015fd268dc5e4ce37089a",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\tjoint.apdl": "c6e00694443b7a68f55c7927ac74bf26e4373961ec2ae73fe0c77f9ea214db80",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\displacements.txt": "a908e8efbe66ff26786016ef652a9882bf714b233d61250b6ecf598c1e596ccf",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\reactions.txt": "b0e8331e52a8e2c33e5b00346f0b7759cf237c370aa7d348f155ac7c6c8b87f4",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_40\\result.json": "963bdfb58991116e4c775a2c8f39eea5c8f493107a77fb210e3474577fa34b69",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\mesh.npz": "64755da8194a2ce9bc081d75985eadc10c32c6de6bad33acf32c21588e426c54",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\raw_stress.txt": "756d8f81472e115e1206fce751fae51d926913939c83470cc5d92c2ee977bd91",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\areas.txt": "e645926a371245a206f5b178f26135d4e4f9d0d24459afe78e7e0f0ce9bf8766",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\tjoint.apdl": "dfb9bea4ea6c8552af3a182cd821ebbb59941625afecba7d1f06130c7fcb6773",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\displacements.txt": "4635a7a84d25838292058ad08ca6dbed43a146e82a8c77295ce206c527555f8f",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\reactions.txt": "b0aeb169edabf89ff1de71b47c32cd704fe89f633e9ce30b0b51fc93fe537730",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\tjoint_filter_v3_20261014\\mesh_80\\result.json": "399904e8c668fce71f05e9145dcb57162b16f25749d10180704b735447288f90"
+  },
+  "originals_unchanged": true,
+  "medium_to_fine_percent": {
+    "global": {
+      "None": 18.57215296622805,
+      "0.075": 1.8112654413809937,
+      "0.15": 0.7709642534958983,
+      "0.25": 0.5071384014699198
+    },
+    "joint": {
+      "None": 18.57215296622805,
+      "0.075": 1.8112654413809937,
+      "0.15": 0.7709642534958983,
+      "0.25": 0.5071384014699198
+    },
+    "away_from_support_and_load": {
+      "None": 18.57215296622805,
+      "0.075": 1.8112654413809937,
+      "0.15": 0.7709642534958983,
+      "0.25": 0.5071384014699198
+    }
+  },
+  "regions": {
+    "joint": "abs(x)<=0.1 m, z<=0.1 m, 0.15<=y<=0.85 m",
+    "away_from_support_and_load": "abs(x)<=0.4 m, z<=0.4 m"
+  },
+  "scope": "Fixed physical model. Static scalar stress postprocessing only. No buckling or optimization.",
+  "filter_groups": "0 base plate, 1 web. No cross-junction averaging; base remains one continuous plane across junction."
+}

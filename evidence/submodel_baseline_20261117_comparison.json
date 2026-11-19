@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "metrics": {
+    "raw_vs_saved": {
+      "max_absolute": 3.481823980808258,
+      "max_error_over_parent_peak_percent": 6.877292434548884e-07,
+      "relative_L2_percent": 2.6951097090485117e-08
+    },
+    "raw_vs_replay": {
+      "max_absolute": 0.9800038188695908,
+      "max_error_over_parent_peak_percent": 1.935701771970766e-07,
+      "relative_L2_percent": 8.362250754662156e-09
+    },
+    "translations": {
+      "max_absolute": 1.5390466678866233e-13,
+      "max_error_over_parent_peak_percent": 6.668934193147332e-11,
+      "relative_L2_percent": 2.171046035901686e-11
+    },
+    "rotations": {
+      "max_absolute": 1.2691445117063438e-12,
+      "max_error_over_parent_peak_percent": 6.324243039105751e-10,
+      "relative_L2_percent": 1.9476013689699e-10
+    },
+    "six_face_values": {
+      "max_absolute": 6.58959299325943,
+      "max_error_over_parent_peak_percent": 1.3015752171590056e-06,
+      "relative_L2_percent": 3.7741652592686856e-08
+    },
+    "resultants": {
+      "N11": {
+        "max_absolute": 0.0009765625,
+        "max_error_over_parent_peak_percent": 3.499743270032889e-08,
+        "relative_L2_percent": 5.253135205304377e-09
+      },
+      "N22": {
+        "max_absolute": 0.00048828125,
+        "max_error_over_parent_peak_percent": 1.7320722266026252e-08,
+        "relative_L2_percent": 2.803740820825221e-09
+      },
+      "N12": {
+        "max_absolute": 0.0009765625,
+        "max_error_over_parent_peak_percent": 5.941482010951149e-07,
+        "relative_L2_percent": 2.9711745278229183e-08
+      },
+      "M11": {
+        "max_absolute": 3.0517578125e-05,
+        "max_error_over_parent_peak_percent": 2.3993342242937865e-08,
+        "relative_L2_percent": 2.7130860625276766e-09
+      },
+      "M22": {
+        "max_absolute": 5.960464477539063e-08,
+        "max_error_over_parent_peak_percent": 4.619693391049569e-11,
+        "relative_L2_percent": 5.485711002123079e-12
+      },
+      "M12": {
+        "max_absolute": 4.656612873077393e-10,
+        "max_error_over_parent_peak_percent": 1.113944144079888e-11,
+        "relative_L2_percent": 6.413183613535916e-13
+      },
+      "Q13": {
+        "max_absolute": 1.5258789005656581e-05,
+        "max_error_over_parent_peak_percent": 1.0080941048135502e-07,
+        "relative_L2_percent": 8.426057621474283e-09
+      },
+      "Q23": {
+        "max_absolute": 3.0517578125e-05,
+        "max_error_over_parent_peak_percent": 1.8828538352316718e-07,
+        "relative_L2_percent": 1.685261181809149e-08
+      }
+    }
+  },
+  "comparison_gates": {
+    "raw_stress_max_error_over_parent_peak": 0.001,
+    "translation_max_error_over_parent_peak": 0.0001,
+    "rotation_max_error_over_parent_peak": 0.0001
+  },
+  "components": [
+    {
+      "component": "Upper skin",
+      "parent_peak_MPa": 506.2783084978192,
+      "submodel_peak_MPa": 506.2783084978192,
+      "parent_peak_element": 3338,
+      "max_absolute_error_MPa": 3.481823980808258e-06
+    },
+    {
+      "component": "Lower skin",
+      "parent_peak_MPa": 452.7235532649339,
+      "submodel_peak_MPa": 452.7235532649339,
+      "parent_peak_element": 3624,
+      "max_absolute_error_MPa": 1.7280161678791047e-06
+    },
+    {
+      "component": "Front spar",
+      "parent_peak_MPa": 320.6444977814789,
+      "submodel_peak_MPa": 320.6444977814789,
+      "parent_peak_element": 13823,
+      "max_absolute_error_MPa": 5.255162715911865e-09
+    },
+    {
+      "component": "Rear spar",
+      "parent_peak_MPa": 309.4123270394727,
+      "submodel_peak_MPa": 309.4123270394727,
+      "parent_peak_element": 16678,
+      "max_absolute_error_MPa": 3.625950217247009e-08
+    },
+    {
+      "component": "Rib 4",
+      "parent_peak_MPa": 190.44661000409388,
+      "submodel_peak_MPa": 190.44661000409388,
+      "parent_peak_element": 23680,
+      "max_absolute_error_MPa": 4.1719600930809974e-07
+    },
+    {
+      "component": "Rib 5",
+      "parent_peak_MPa": 213.756967996012,
+      "submodel_peak_MPa": 213.756967996012,
+      "parent_peak_element": 25136,
+      "max_absolute_error_MPa": 1.672307178378105e-07
+    },
+    {
+      "component": "Rib 6",
+      "parent_peak_MPa": 225.0392926325296,
+      "submodel_peak_MPa": 225.0392926325296,
+      "parent_peak_element": 26592,
+      "max_absolute_error_MPa": 9.800038188695907e-07
+    }
+  ],
+  "hotspot": {
+    "parent_element": 3338,
+    "parent_raw_MPa": 506.2783084978192,
+    "submodel_raw_MPa": 506.2783084978192,
+    "parent_face_values_MPa": [
+      506.2783084978192,
+      504.7122578060867,
+      503.14706469826564,
+      312.0017028279994,
+      312.0017028279994,
+      312.0017028279994
+    ],
+    "submodel_face_values_MPa": [
+      506.2783084978192,
+      504.7122578060867,
+      503.14706469826564,
+      312.0017028279994,
+      312.0017028279994,
+      312.0017028279994
+    ]
+  },
+  "face_value_order": [
+    "layer1 BOT",
+    "layer1 MID",
+    "layer1 TOP",
+    "layer3 BOT",
+    "layer3 MID",
+    "layer3 TOP"
+  ],
+  "solver_messages": {
+    "parent_static_replay": {
+      "warning_count": 875,
+      "error_count": 0
+    },
+    "submodel_original_mesh": {
+      "warning_count": 85,
+      "error_count": 0
+    }
+  },
+  "sha256": {
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\diagnostic.apdl": "f064438bc6aaf3b0453e95367673c1796194b37c9ddbe511dfa3b6dde66238e6",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\fields.npz": "7651ba4aa5048aa54db6adc341f9385735f3dc489e366e02110c9591a45c89bf",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\static_u.txt": "0fb42c05cdc5669fd3bb409d2ad2493f945de28fdc317b540d0819893a1b56ca",
+    "runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\mesh.npz": "55dd7475805bceb6ce146e1007e51fa1a66aa76ac0dfb8404e0448468a8ee6a6",
+    "runs\\skin_front_spar_submodel_baseline_20261117\\parent_static_replay\\input.apdl": "41084db57a997df5bdf2ea7cc44aad72d83e2728c9cde1b2807ceead67dd92a6",
+    "runs\\skin_front_spar_submodel_baseline_20261117\\submodel_original_mesh\\input.apdl": "b32ec10f259bcb4f1016d62b3d2b08af5b88422644a6d9383c081ea18a3c715b",
+    "runs\\skin_front_spar_submodel_baseline_20261117\\mapping.npz": "1b14d55a4ef4cfd8cc11dcec884dde814003158e3b55af1b3dbd1544c6ff3b27",
+    "article_results\\layout_sizing_review3_mdpi_draft_20261020\\layout_sizing_draft.tex": "357aef54a9b371e1ce3117b18c5b8512e34594b67ed461045fe48958fa32f9b3"
+  },
+  "original_audit_sources_unchanged": true,
+  "refinements_run": 0
+}

@@ -1,0 +1,398 @@
+{
+  "endpoint": {
+    "element": 249716,
+    "raw_MPa": 1320.0092171963129,
+    "previous_MPa": 765.2334683501989,
+    "change_percent": 72.49758038447793,
+    "centroid_distance_mm": 0.8658720483521687,
+    "geometry": {
+      "edge_ratio": 6.366101866722221,
+      "min_angle_deg": 47.83262532424522,
+      "max_angle_deg": 132.1673746757548,
+      "min_scaled_corner_jacobian": 0.74118696685376,
+      "jacobian_det_ratio": 0.9826774858189807,
+      "max_jacobian_condition": 8.685866894628571,
+      "min_signed_jacobian": 1.0745232373047251e-07,
+      "area_m2": 4.3359760681146303e-07,
+      "max_edge_m": 0.0019213691196501774
+    }
+  },
+  "global_peak": {
+    "element": 249716,
+    "component": "Rib 4",
+    "raw_MPa": 1320.0092171963129,
+    "wing_parent": 23344,
+    "centroid_xyz_m": [
+      0.131871046875,
+      2.95973,
+      0.08415966992187499
+    ]
+  },
+  "fixed_points": [
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 5.0,
+      "previous_MPa": 160.4754605570088,
+      "targeted_MPa": 114.2628681879967,
+      "change_percent": -28.79729536753385,
+      "elements": [
+        249807
+      ],
+      "max_element_edge_mm": 1.8721820050959403
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 10.0,
+      "previous_MPa": 61.37088957958322,
+      "targeted_MPa": 54.090971624338785,
+      "change_percent": -11.862167886297525,
+      "elements": [
+        249210
+      ],
+      "max_element_edge_mm": 1.8313817937989283
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 20.0,
+      "previous_MPa": 31.50087599950609,
+      "targeted_MPa": 34.33793930454252,
+      "change_percent": 9.006299713953725,
+      "elements": [
+        248543
+      ],
+      "max_element_edge_mm": 1.760133979067376
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 30.0,
+      "previous_MPa": 26.286663940831822,
+      "targeted_MPa": 27.625173202263323,
+      "change_percent": 5.091970835265847,
+      "elements": [
+        248007
+      ],
+      "max_element_edge_mm": 3.4170778512143776
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 50.0,
+      "previous_MPa": 21.88072354719262,
+      "targeted_MPa": 22.20350482173853,
+      "change_percent": 1.475185561618808,
+      "elements": [
+        252810
+      ],
+      "max_element_edge_mm": 3.826478734520934
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 75.0,
+      "previous_MPa": 19.132211751578712,
+      "targeted_MPa": 19.29992015044194,
+      "change_percent": 0.8765761169739816,
+      "elements": [
+        252702
+      ],
+      "max_element_edge_mm": 3.7593514311218645
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 100.0,
+      "previous_MPa": 17.671700984815512,
+      "targeted_MPa": 17.760123231456458,
+      "change_percent": 0.5003606993855492,
+      "elements": [
+        252596
+      ],
+      "max_element_edge_mm": 3.708336378137803
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 150.0,
+      "previous_MPa": 16.53432030177369,
+      "targeted_MPa": 16.52253454542146,
+      "change_percent": -0.07128056150553785,
+      "elements": [
+        256703
+      ],
+      "max_element_edge_mm": 4.126414211117774
+    },
+    {
+      "path": "Into rib, horizontal",
+      "distance_mm": 200.0,
+      "previous_MPa": 15.612792961967111,
+      "targeted_MPa": 15.57127364941565,
+      "change_percent": -0.26593135931926026,
+      "elements": [
+        260969
+      ],
+      "max_element_edge_mm": 4.506307484465128
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 5.0,
+      "previous_MPa": 150.7811744693649,
+      "targeted_MPa": 107.2323803625116,
+      "change_percent": -28.88211625895073,
+      "elements": [
+        249374
+      ],
+      "max_element_edge_mm": 1.851619118860064
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 10.0,
+      "previous_MPa": 70.93731873437714,
+      "targeted_MPa": 69.29366845278034,
+      "change_percent": -2.3170459652575914,
+      "elements": [
+        248956
+      ],
+      "max_element_edge_mm": 1.7919242149670251
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 20.0,
+      "previous_MPa": 45.04257489512609,
+      "targeted_MPa": 45.47801403786179,
+      "change_percent": 0.9667279096489123,
+      "elements": [
+        248344
+      ],
+      "max_element_edge_mm": 1.6939867861614075
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 30.0,
+      "previous_MPa": 33.82117209088949,
+      "targeted_MPa": 33.49485374203604,
+      "change_percent": -0.9648345361199073,
+      "elements": [
+        247417
+      ],
+      "max_element_edge_mm": 3.2464951546340908
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 50.0,
+      "previous_MPa": 22.835955161865083,
+      "targeted_MPa": 22.73286686534803,
+      "change_percent": -0.4514297553412927,
+      "elements": [
+        247056
+      ],
+      "max_element_edge_mm": 3.057260251772859
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 75.0,
+      "previous_MPa": 16.71240750459825,
+      "targeted_MPa": 16.62741712828247,
+      "change_percent": -0.5085465771008435,
+      "elements": [
+        252250
+      ],
+      "max_element_edge_mm": 3.5877053397504417
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 100.0,
+      "previous_MPa": 14.592093817870369,
+      "targeted_MPa": 14.48276950735965,
+      "change_percent": -0.7492023548864024,
+      "elements": [
+        251936
+      ],
+      "max_element_edge_mm": 3.538575635532088
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 150.0,
+      "previous_MPa": 16.37603476924674,
+      "targeted_MPa": 16.2757629714351,
+      "change_percent": -0.6123081638782613,
+      "elements": [
+        255869
+      ],
+      "max_element_edge_mm": 4.013332879618558
+    },
+    {
+      "path": "Into rib, 30 degrees down",
+      "distance_mm": 200.0,
+      "previous_MPa": 20.80573411924352,
+      "targeted_MPa": 20.75274294170664,
+      "change_percent": -0.2546950625879063,
+      "elements": [
+        259926
+      ],
+      "max_element_edge_mm": 4.44117604577558
+    }
+  ],
+  "fixed_patches": [
+    {
+      "center_x_offset_mm": 30.0,
+      "previous_MPa": 28.87677017667713,
+      "targeted_MPa": 29.654209964163982,
+      "change_percent": 2.6922671155057643,
+      "area_m2": 0.00019999999999997103
+    },
+    {
+      "center_x_offset_mm": 50.0,
+      "previous_MPa": 21.910221470511974,
+      "targeted_MPa": 22.269606280006094,
+      "change_percent": 1.640260962116713,
+      "area_m2": 0.00020000000000000573
+    },
+    {
+      "center_x_offset_mm": 100.0,
+      "previous_MPa": 17.060810438916068,
+      "targeted_MPa": 17.127193242465868,
+      "change_percent": 0.3890952530506864,
+      "area_m2": 0.00020000000000002655
+    },
+    {
+      "center_x_offset_mm": 200.0,
+      "previous_MPa": 15.168465379597588,
+      "targeted_MPa": 15.13096477399679,
+      "change_percent": -0.2472274199289637,
+      "area_m2": 0.00020000000000000573
+    }
+  ],
+  "near_skin_5mm": [
+    {
+      "x_offset_mm": 5.0,
+      "previous_MPa": 160.4754605570088,
+      "targeted_MPa": 107.8351089572276,
+      "change_percent": -32.8027421869157
+    },
+    {
+      "x_offset_mm": 10.0,
+      "previous_MPa": 70.41240032641872,
+      "targeted_MPa": 68.67052226004915,
+      "change_percent": -2.4738228753664715
+    },
+    {
+      "x_offset_mm": 20.0,
+      "previous_MPa": 33.97223425543718,
+      "targeted_MPa": 32.91510103609487,
+      "change_percent": -3.1117565344502496
+    },
+    {
+      "x_offset_mm": 30.0,
+      "previous_MPa": 20.570582351499592,
+      "targeted_MPa": 20.9704345217116,
+      "change_percent": 1.9438057872136927
+    },
+    {
+      "x_offset_mm": 50.0,
+      "previous_MPa": 89.52020843794371,
+      "targeted_MPa": 80.57825079662355,
+      "change_percent": -9.988758736546966
+    },
+    {
+      "x_offset_mm": 75.0,
+      "previous_MPa": 27.83510135451369,
+      "targeted_MPa": 27.93837200600201,
+      "change_percent": 0.3710087136850726
+    },
+    {
+      "x_offset_mm": 100.0,
+      "previous_MPa": 65.97874335573962,
+      "targeted_MPa": 59.353640270254644,
+      "change_percent": -10.041268973196726
+    },
+    {
+      "x_offset_mm": 150.0,
+      "previous_MPa": 34.29510071413556,
+      "targeted_MPa": 33.390555716605164,
+      "change_percent": -2.6375341628828153
+    },
+    {
+      "x_offset_mm": 200.0,
+      "previous_MPa": 40.30858160555854,
+      "targeted_MPa": 40.550345783295334,
+      "change_percent": 0.5997833912951611
+    }
+  ],
+  "component_peaks": [
+    {
+      "component": "Upper skin",
+      "previous_MPa": 597.0108983021344,
+      "targeted_MPa": 598.8920040102105
+    },
+    {
+      "component": "Lower skin",
+      "previous_MPa": 533.379433244033,
+      "targeted_MPa": 533.4210791785312
+    },
+    {
+      "component": "Front spar",
+      "previous_MPa": 343.0727137312112,
+      "targeted_MPa": 344.1226865253785
+    },
+    {
+      "component": "Rear spar",
+      "previous_MPa": 325.2634743217306,
+      "targeted_MPa": 340.6554267968578
+    },
+    {
+      "component": "Rib 4",
+      "previous_MPa": 765.2334683501989,
+      "targeted_MPa": 1320.0092171963129
+    },
+    {
+      "component": "Rib 5",
+      "previous_MPa": 742.4551643254619,
+      "targeted_MPa": 1313.735615931427
+    },
+    {
+      "component": "Rib 6",
+      "previous_MPa": 694.2011993121641,
+      "targeted_MPa": 1247.5559611838469
+    }
+  ],
+  "mass_kg": 173.03906189207297,
+  "area_conservation_relative_error": 2.299378641815747e-13,
+  "common_translation_L2_change_percent": 0.0008704713496601553,
+  "maximum_common_translation_difference_m": 1.245571074164235e-05,
+  "invalid_jacobians_rib": 0,
+  "execution": {
+    "exit_code": 0,
+    "seconds": 373.2830690999981,
+    "error_counts": [
+      "0"
+    ]
+  },
+  "source_files_and_article_unchanged": true,
+  "manifest": {
+    "elements": 588721,
+    "nodes": 587800,
+    "seed_radius_m": 0.025,
+    "seed_element_count": 395,
+    "unchanged_previous_elements": 413937,
+    "bisected_previous_elements": 84158,
+    "quartered_previous_elements": 1617,
+    "force_Fz_Mx_My": [
+      63394.862437486794,
+      249115.918363018,
+      -63548.5784830614
+    ],
+    "residual": [
+      1.0186340659856796e-10,
+      3.7834979593753815e-10,
+      -1.3096723705530167e-10
+    ],
+    "source_sha256": {
+      "runs\\skin_front_spar_submodel_refinement3_20261117\\mesh.npz": "36e635a80d11bea1159b1d937badbd622587f1923e9bcc9e0dd5b61eb32d31cb",
+      "runs\\submodel_distributed_load_sweep_20261118\\mesh_3\\static\\input.apdl": "82b94ef344ce40ac93ba603219a0879a618e69188f9743a2ebf79f7d5e8eea1a",
+      "runs\\submodel_distributed_load_sweep_20261118\\fixed_surface_field.npz": "715ba5933eaac2bea89b6a5e982d8c672ff976c9127137e3bd53cc9c1fa494eb",
+      "runs\\submodel_distributed_load_sweep_20261118\\manifest.json": "a97858e57ee8d7287a2923b5b123fc512845352eb71349a55fa11bba4af4ca0d",
+      "runs\\skin_front_spar_submodel_baseline_20261117\\mapping.npz": "1b14d55a4ef4cfd8cc11dcec884dde814003158e3b55af1b3dbd1544c6ff3b27",
+      "runs\\skin_front_spar_submodel_baseline_20261117\\submodel_original_mesh\\input.apdl": "b32ec10f259bcb4f1016d62b3d2b08af5b88422644a6d9383c081ea18a3c715b",
+      "article_results\\layout_sizing_review3_mdpi_draft_20261020\\layout_sizing_draft.tex": "357aef54a9b371e1ce3117b18c5b8512e34594b67ed461045fe48958fa32f9b3",
+      "journal_reviews\\stress_audit_20261117\\run_targeted_rib_refinement.py": "3bd2556dc26a3838b596b7373c46295a129ccd6d0f53806dcf8e48d36396ae25"
+    },
+    "mesh_policy": "25 mm centroid-distance target around node 465; opposite-edge closure extends directional compatibility strips across connected surfaces. All quadrilaterals, no hanging nodes, no triangles, no constraint equations. Original bilinear geometry and section boundaries retained.",
+    "scope": "One static solve; same fixed reconstructed load field and inherited cut motion; no article edit."
+  }
+}

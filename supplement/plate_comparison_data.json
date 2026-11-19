@@ -1,0 +1,165 @@
+{
+  "mesh": [
+    40,
+    40
+  ],
+  "side_m": 2,
+  "edge_compression_N_per_m": 200000,
+  "stress_allowable_MPa": 300,
+  "fsd_target_MPa": 294,
+  "physical_buckling_limit": 1,
+  "sizing_buckling_acceptance": 1.02,
+  "rows": [
+    {
+      "design": "Monolithic",
+      "stage": "After FSD sizing",
+      "step": 3,
+      "mass_kg": 7.28611783672933,
+      "stress_MPa": 296.454176,
+      "buckling_factor": 9.785867302221115e-05,
+      "metal_or_each_face_mm": [
+        0.6746405404379108,
+        0.6746405404379108
+      ],
+      "core_mm": [
+        0.0,
+        0.0
+      ],
+      "total_mm": [
+        0.6746405404379108,
+        0.6746405404379108
+      ],
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\field_3.txt"
+    },
+    {
+      "design": "Monolithic",
+      "stage": "After buckling correction",
+      "step": 10,
+      "mass_kg": 150.3491950084582,
+      "stress_MPa": 53.39554426512493,
+      "buckling_factor": 1.029243042140291,
+      "metal_or_each_face_mm": [
+        3.16051111065394,
+        17.39702019232342
+      ],
+      "core_mm": [
+        0.0,
+        0.0
+      ],
+      "total_mm": [
+        3.16051111065394,
+        17.39702019232342
+      ],
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\field_10.txt"
+    },
+    {
+      "design": "Sandwich",
+      "stage": "After FSD sizing",
+      "step": 3,
+      "mass_kg": 7.320814018011801,
+      "stress_MPa": 296.4571740922684,
+      "buckling_factor": 0.000149799612447221,
+      "metal_or_each_face_mm": [
+        0.3371904637966973,
+        0.337190463798334
+      ],
+      "core_mm": [
+        0.125,
+        0.125
+      ],
+      "total_mm": [
+        0.7993809275933946,
+        0.799380927596668
+      ],
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\field_3.txt"
+    },
+    {
+      "design": "Sandwich",
+      "stage": "After buckling correction",
+      "step": 13,
+      "mass_kg": 19.18530178164518,
+      "stress_MPa": 274.94957093489245,
+      "buckling_factor": 1.032637446973106,
+      "metal_or_each_face_mm": [
+        0.3371904637966973,
+        0.337190463798334
+      ],
+      "core_mm": [
+        25.71173563961159,
+        45.55220346317083
+      ],
+      "total_mm": [
+        26.386116567205264,
+        46.22658439076451
+      ],
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\field_13.txt"
+    }
+  ],
+  "frozen_80_checks": [
+    {
+      "design": "Monolithic",
+      "passed": true,
+      "mass_kg": 150.3491950084581,
+      "stress_Pa": 57942529.82236641,
+      "buckling_factor": 1.025309186578198,
+      "updates": 0,
+      "stress_updates": 0,
+      "buckling_updates": 0,
+      "face_min_max_m": [
+        0.00316051111065394,
+        0.01739702019232342
+      ],
+      "core_min_max_m": [
+        0.0,
+        0.0
+      ],
+      "elapsed_seconds": 10.537066600000799,
+      "messages": {
+        "warning": 0,
+        "error": 0
+      },
+      "method": "variable_monolithic",
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\field_10.txt",
+      "mass_change_percent": -5.551115123125783e-14,
+      "stress_change_percent": 8.515664780312626,
+      "buckling_change_percent": -0.38220861361496494
+    },
+    {
+      "design": "Sandwich",
+      "passed": true,
+      "mass_kg": 19.18530178164528,
+      "stress_Pa": 275044188.4850904,
+      "buckling_factor": 1.030051912100953,
+      "updates": 0,
+      "stress_updates": 0,
+      "buckling_updates": 0,
+      "face_min_max_m": [
+        0.0003371904637966974,
+        0.000337190463798334
+      ],
+      "core_min_max_m": [
+        0.02571173563961159,
+        0.04555220346317082
+      ],
+      "elapsed_seconds": 12.596939799999745,
+      "messages": {
+        "warning": 0,
+        "error": 0
+      },
+      "method": "variable_sandwich",
+      "source": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\field_13.txt",
+      "mass_change_percent": 5.10702591327572e-13,
+      "stress_change_percent": 0.034412692435270564,
+      "buckling_change_percent": -0.250381668777544
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\field_3.txt": "d3aa604b7ecdadd2a2e435b73b341e97fcd7591cff396a3ec204e8c94e68f30c",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\field_10.txt": "782d8a7bfb913d2e4335e725fef62ad02ceeb562c8ebf8b589b30819b1f0a9bc",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\variable_monolithic_20261014\\variable_monolithic_40\\history.txt": "df74532aec7521d5b843ccb27c8f8275769fd32b28ab2f9842220a699ea74ed7",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\field_3.txt": "a1fdf602869153706e6fcb36361243b0b7edddb451bae7e27b8ffdda7e8b9b19",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\field_13.txt": "de7bb786f5ecc9ec5e61413289c77cb1dc6fe7db88b2449f02af8b6ff2085abc",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\combined_plate_guarded_20261014\\variable_sandwich_40\\history.txt": "dacafbaccbfd9754c6f842d66e0a1c2ac1e848e99a7b419012edf19a566d33e7"
+  },
+  "final_mass_saving_percent": 87.2395048203844
+}

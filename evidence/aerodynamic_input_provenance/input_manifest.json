@@ -1,0 +1,24 @@
+{
+  "purpose": "Reproduce recovered Fokker aerodynamic case only; no structural or optimization validation",
+  "python": "C:\\Users\\Evgeniy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "source_folder": "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\120_4_4_Fokker_Friendship",
+  "sha256": {
+    "run_aero_batch.py": "71450783dcabc9c9622fee956e60f411844017a00363a8d7010eaaa487c31b78",
+    "matlab_bridge.py": "541b3439a5b06d6dd4ea1490b5e108e4108880955c4940acd300b45858585f00",
+    "MATLAB\\A_Prof.m": "914c808e2bf63dbea2c4c3ecb68d8c3533f056add81415ed561fb722a45ae9fd",
+    "MATLAB\\AERO.m": "a13bcfafad0390a17e058fa2ce204dd6cb284d15e2078e7578fae83abe7e847a",
+    "MATLAB\\aero_solver.m": "48d41d19767422b8362c111e317de4606a3c59eb460af61de67bcc5bfff8d522",
+    "MATLAB\\B_node_aero.m": "5a31506b481cdb1e78824436aa7ff63a19e008d95eeafe389a5606ea079dd6c4",
+    "MATLAB\\C_Elem_aero.m": "c7a958f1e126280084fdfee9b0b17cfb25339a31b848b469bc8d1465d3e298c2",
+    "MATLAB\\D_aero_twist_aero.m": "5c76831cfac8bbc5485aeab455c3eb543653a79f339a5f9b4f75b8dbc09a2dd7",
+    "MATLAB\\E_Normal_aero.m": "f99682db5390040f4f40b6b638d139494132fb64011c7de23131af84e976cd16",
+    "MATLAB\\F_twist_aero.m": "b3b7ac6836b46724fa3756d3ba71962ecabc5aee612c4e75d2b4de7972b11c20",
+    "MATLAB\\G_dopnode_aero.m": "d4a23b4ca7bd4cebd2ed70a82437344b75460e7bc80177a4a6e76733e1394668",
+    "MATLAB\\H_aero_matrix.m": "9d4b2279c47ca139a07fa868dd44674f388ebec9e654bd2163faae7f8dd73ca3",
+    "MATLAB\\I_solver.m": "c128421534e93ee3f1d2d839d695e127fc7ed113c177ea39925893b5fb04d112",
+    "MATLAB\\Z_INP.m": "8575ddeca2eed7367a62640b6c79871da37e141a3d634624fadabb3c7a285b58",
+    "120_4_4_Fokker_Friendship\\A_prof.txt": "b2759821a56d89677ca5819d2ebcdd1ff5d668fabff125f3cc346a4bb564b003",
+    "120_4_4_Fokker_Friendship\\for_ansys_1.npy": "ab1998398a54a567fd740f72d6e9d95bd43b28d32fa1f9d41ae959239075af60"
+  }
+}

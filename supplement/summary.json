@@ -1,0 +1,83 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\geometry\\mesh.npz": "55dd7475805bceb6ce146e1007e51fa1a66aa76ac0dfb8404e0448468a8ee6a6",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\fsd\\iteration_023\\fields.npz": "ab3fdeb01ac4863a01d95371b0d43b0ecdd8edc8397de72803bca672985e3f04",
+    "C:\\Users\\Evgeniy\\Desktop\\AvtomatRep-main\\runs\\fokker_fine_layout_comparison_20261016\\evaluations\\ribs_16\\buckling\\iteration_032\\fields.npz": "7651ba4aa5048aa54db6adc341f9385735f3dc489e366e02110c9591a45c89bf"
+  },
+  "statistics": {
+    "skin": {
+      "total_m": {
+        "FSD_min_mm": 0.625,
+        "FSD_max_mm": 19.104685299447617,
+        "reinforced_min_mm": 7.411676738299009,
+        "reinforced_max_mm": 117.89535982869423,
+        "logarithmic_color_scale": true
+      },
+      "face_m": {
+        "FSD_min_mm": 0.25,
+        "FSD_max_mm": 7.641874119779047,
+        "reinforced_min_mm": 0.25,
+        "reinforced_max_mm": 8.94767991434711,
+        "logarithmic_color_scale": true
+      },
+      "core_m": {
+        "FSD_min_mm": 0.125,
+        "FSD_max_mm": 3.8209370598895234,
+        "reinforced_min_mm": 6.911676738299009,
+        "reinforced_max_mm": 100.0,
+        "logarithmic_color_scale": true
+      }
+    },
+    "spars": {
+      "total_m": {
+        "FSD_min_mm": 0.625,
+        "FSD_max_mm": 3.4811061037437683,
+        "reinforced_min_mm": 3.051142880421253,
+        "reinforced_max_mm": 17.732177732966953,
+        "logarithmic_color_scale": true
+      },
+      "face_m": {
+        "FSD_min_mm": 0.25,
+        "FSD_max_mm": 1.3924424414975072,
+        "reinforced_min_mm": 0.25,
+        "reinforced_max_mm": 1.6311544988168942,
+        "logarithmic_color_scale": false
+      },
+      "core_m": {
+        "FSD_min_mm": 0.125,
+        "FSD_max_mm": 0.6962212207487536,
+        "reinforced_min_mm": 2.551142880421253,
+        "reinforced_max_mm": 14.469868735333165,
+        "logarithmic_color_scale": true
+      }
+    },
+    "ribs": {
+      "total_m": {
+        "FSD_min_mm": 0.625,
+        "FSD_max_mm": 0.625,
+        "reinforced_min_mm": 3.0511331872806395,
+        "reinforced_max_mm": 6.578773427578998,
+        "logarithmic_color_scale": true
+      },
+      "face_m": {
+        "FSD_min_mm": 0.25,
+        "FSD_max_mm": 0.25,
+        "reinforced_min_mm": 0.25,
+        "reinforced_max_mm": 0.25,
+        "logarithmic_color_scale": false
+      },
+      "core_m": {
+        "FSD_min_mm": 0.125,
+        "FSD_max_mm": 0.125,
+        "reinforced_min_mm": 2.5511331872806395,
+        "reinforced_max_mm": 6.078773427578998,
+        "logarithmic_color_scale": true
+      }
+    }
+  },
+  "iterations": [
+    23,
+    32
+  ],
+  "definition": "Total = two equal metal faces + lightweight core. Face plots show ONE face. Shared color scale across stages within each figure. Unsmoothed element thicknesses; projected geometry; height enlarged in spar/rib views."
+}

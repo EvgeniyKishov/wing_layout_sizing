@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "ribs": 2,
+      "spars": [
+        0.175,
+        0.7
+      ],
+      "status": "feasible",
+      "feasible": true,
+      "elements": 23552,
+      "screening_mass_kg": 461.146535841635,
+      "fsd_mass_kg": 341.3730168629596,
+      "last_mass_kg": 483.13622544449606,
+      "final_feasible_mass_kg": 483.13622544449606,
+      "added_mass_kg": 141.76320858153645,
+      "filtered_MPa": 298.9170959023001,
+      "raw_MPa": 497.7275035847559,
+      "BLF": 1.023087379647195,
+      "max_face_mm": 26.738607915634777,
+      "max_core_mm": 100.0,
+      "max_total_mm": 150.0,
+      "fsd_states": 103,
+      "buckling_states": 23,
+      "fsd_stop": "feasible_mass_stagnation",
+      "solver_minutes": 86.77713959000248,
+      "wall_minutes": 89.24833015333327
+    },
+    {
+      "ribs": 8,
+      "spars": [
+        0.175,
+        0.7
+      ],
+      "status": "feasible",
+      "feasible": true,
+      "elements": 30912,
+      "screening_mass_kg": 370.30480928091043,
+      "fsd_mass_kg": 301.36808214386593,
+      "last_mass_kg": 635.2651244464281,
+      "final_feasible_mass_kg": 635.2651244464281,
+      "added_mass_kg": 333.89704230256217,
+      "filtered_MPa": 296.96705945007557,
+      "raw_MPa": 494.7127579544935,
+      "BLF": 1.025383617873898,
+      "max_face_mm": 8.445930762786443,
+      "max_core_mm": 100.0,
+      "max_total_mm": 116.89186152557289,
+      "fsd_states": 23,
+      "buckling_states": 43,
+      "fsd_stop": "feasible_mass_stagnation",
+      "solver_minutes": 65.86507432166496,
+      "wall_minutes": 67.16486073000027
+    },
+    {
+      "ribs": 16,
+      "spars": [
+        0.1,
+        0.7
+      ],
+      "status": "feasible",
+      "feasible": true,
+      "elements": 42216,
+      "screening_mass_kg": 372.02904242939496,
+      "fsd_mass_kg": 308.8415968372034,
+      "last_mass_kg": 548.5060187578904,
+      "final_feasible_mass_kg": 548.5060187578904,
+      "added_mass_kg": 239.664421920687,
+      "filtered_MPa": 298.0273504173681,
+      "raw_MPa": 506.2783084978192,
+      "BLF": 1.024109559268217,
+      "max_face_mm": 8.94767991434711,
+      "max_core_mm": 100.0,
+      "max_total_mm": 117.89535982869423,
+      "fsd_states": 24,
+      "buckling_states": 33,
+      "fsd_stop": "feasible_mass_stagnation",
+      "solver_minutes": 78.03629091166367,
+      "wall_minutes": 79.60907230333348
+    },
+    {
+      "ribs": 25,
+      "spars": [
+        0.175,
+        0.7
+      ],
+      "status": "feasible",
+      "feasible": true,
+      "elements": 52912,
+      "screening_mass_kg": 389.14505722537115,
+      "fsd_mass_kg": 312.8894501516512,
+      "last_mass_kg": 610.6608825060937,
+      "final_feasible_mass_kg": 610.6608825060937,
+      "added_mass_kg": 297.7714323544425,
+      "filtered_MPa": 298.3672588138357,
+      "raw_MPa": 440.1812085493428,
+      "BLF": 1.026006851653782,
+      "max_face_mm": 6.407352087654097,
+      "max_core_mm": 100.0,
+      "max_total_mm": 112.8147041753082,
+      "fsd_states": 8,
+      "buckling_states": 35,
+      "fsd_stop": "active_fraction",
+      "solver_minutes": 94.56101414999964,
+      "wall_minutes": 96.16454317333313
+    }
+  ],
+  "best_ribs": 2,
+  "protected_files_unchanged": 149,
+  "scope": "Four fixed screened layouts, independently sized on fine meshes; prescribed load and numerical criteria only. No global or continuous-layout optimum established."
+}

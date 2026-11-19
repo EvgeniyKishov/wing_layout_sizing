@@ -5,7 +5,7 @@ DEFAULT FOKKER SIZING OPTIMIZATION SETUP
 Accepted by user: 15 October 2026
 
 Operational entry point: run_layout_candidate.py.
-The outer layout optimizer inherits these sizing defaults. CCD remains on hold.
+The outer layout optimizer inherits these sizing defaults. The reported experiment completed one CCD stage for each of the four tested rib counts.
 Historical standalone study drivers and archived sources are retained for reproduction.
 
 FSD
