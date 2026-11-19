@@ -1,3 +1,8 @@
+CONSOLIDATED JOURNAL SUPPLEMENT
+
+supplementary_materials.pdf: Figures S1-S12 and Tables S1-S4, 15 pages.
+reproduction_guide.pdf: separate study-to-file guide.
+
 SUPPLEMENTARY EVIDENCE
 
 plate_benchmark_draft.pdf: preserved complete plate benchmark draft.

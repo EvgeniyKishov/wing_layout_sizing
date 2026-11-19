@@ -9,3 +9,7 @@ The checks above describe the original package. For revision29, guide links, cop
 ## Revision 36 supplementary publication checks
 
 Verified relative guide links, unchanged saved mesh-check source records, the scoped publication file list and repository-blob checksums. The updated guide PDF was rendered for layout inspection. No solver, scientific calculation or plot regeneration was run. Reviewer responses and private author notes were excluded. The earlier solver/software checks were not rerun for this documentation update.
+
+## Revision 40 publication checks
+
+The consolidated PDF is byte-identical to the visually checked local review40 PDF (15 pages, Figures S1-S12, Tables S1-S4). Checked guide links, regenerated guide layout, staged publication scope and repository-blob manifests. No scientific calculations, solver runs or plot regeneration were performed.
