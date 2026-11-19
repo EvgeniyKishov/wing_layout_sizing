@@ -14,3 +14,5 @@ radius_sensitivity/radius_sensitivity_supplement.pdf: Tables S1-S2 and Figures S
 four_layouts/four_layouts_supplement.pdf: Tables S3-S4 and Figures S9-S10 for all four fine-sized layouts. All other wing validation supplements concern the 16-rib reference unless explicitly stated otherwise.
 
 reproduction_guide.pdf and reproduction_guide.html: study-to-file guide; HTML includes linked file inventory.
+
+Fine-FSD frozen mesh check: fine_fsd_mesh_check/STUDY_SUMMARY.txt and ACCEPTED_STUDY.json. Added in review36 and included in this repository update; absent from the preceding 319021c snapshot.

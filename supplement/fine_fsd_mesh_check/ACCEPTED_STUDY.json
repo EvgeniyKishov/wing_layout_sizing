@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "status": "Mesh study closed by user; retained for future article",
+  "metric": "Maximum filtered face equivalent stress, R=0.30 m",
+  "relative_change_definition": "100*abs(refined_peak/base_peak - 1)",
+  "tolerance_percent": 10,
+  "tolerance_selected_after_results": true,
+  "base_elements": 48728,
+  "refined_elements": 194912,
+  "design": "Fine FSD iteration037, unchanged during third-mesh verification",
+  "measured_change_percent": 9.588074629382959,
+  "mesh_tolerance_passed": true,
+  "refined_300_MPa_requirement_passed": false,
+  "refined_stress_excess_percent": 8.768737678578864,
+  "buckling_verified_in_this_study": false,
+  "frozen_run": "runs/fine_fsd_relaxed285_active5_20261015",
+  "previous_design_run": "runs/filtered_wing_fsd_relaxed285_active5_20261014"
+}

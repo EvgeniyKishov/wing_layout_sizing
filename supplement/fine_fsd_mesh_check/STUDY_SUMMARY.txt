@@ -1,0 +1,81 @@
+FOKKER FILTERED-STRESS MESH STUDY: CLOSED FOR THE CURRENT ARTICLE DATASET
+User decision: 15 October 2026. No further refinement requested.
+
+ACCEPTED CONCLUSION
+The 0.30 m area-weighted conical scalar stress filter reduces mesh sensitivity
+of the monitored peak in the investigated models and supports practical FSD
+sizing. For the fine-optimized design, one frozen-design refinement meets the
+user-adopted 10% tolerance. This tolerance was adopted after reviewing results;
+it is an engineering acceptance choice, not a predeclared validation standard.
+
+NUMERICAL EVIDENCE (MPa; mass is for the modeled semi-wing)
+Design A: coarse FSD iteration023, unchanged in its fine static check.
+Elements       Raw peak       Filtered peak       Mass kg
+12182          422.680866     296.373165          307.105252
+48728          587.489431     375.221012          307.105252
+Filtered increase: 26.604247%.
+
+Design B: fine FSD iteration037, unchanged in its third static check.
+Elements       Raw peak       Filtered peak       Mass kg
+48728          489.778526     297.757045          309.417902
+194912         673.012819     326.306213          309.417902
+Filtered increase: 9.588075% (passes 10% tolerance).
+Raw increase for this same pair: 37.411663%.
+Refined filtered stress exceeds 300 MPa by 8.768738%.
+Mass is conserved to numerical precision within each frozen-design pair.
+
+FSD RULES AND STOPPING
+Start: uniform total thickness 10 mm. Each fine element has an independent
+thickness variable. Update in SI: clip(0.5*t*(1+sigma_filtered/285e6),
+0.000625,0.15). Face/core/face proportions 0.4/0.2/0.4.
+Active: thickness strictly inside physical bounds AND filtered stress outside
+inclusive 285..315 MPa. Denominator: all thickness variables.
+Stop: peak filtered stress <=300 MPa AND (active fraction <5% OR proposed
+maximum relative thickness change <=1%). Fine run stopped at iteration37
+(38 solved states): 2413/48728 active =4.951978%; proposed change4.318305%.
+It stopped by active fraction, not by the 1% thickness-change criterion.
+
+FILTER AND SOLVER
+Area-weighted conical kernel max(0,1-d/R), R=0.30 m, row normalized, actual3D
+centroid distances. Filter separately over upper/lower skin, front/rear spar,
+and each20 ribs (24 groups). Input: per-element maximum of element-averaged
+von Mises stress at BOT/MID/TOP of both metal face layers. Raw stresses retained.
+This regularizes the scalar sizing measure; it does not modify the FE stiffness,
+equilibrium solution, stress tensor, or geometric stiffness/buckling prestress.
+SHELL181 full integration; ANSYS SMP four cores. Four third-mesh children
+inherit every fine section. Connectivity, support nodes, load resultants,
+native element areas and mass conservation checked. All39 new analyses had
+zero solver errors. Existing15 FSD/filter tests passed.
+
+ARTICLE-READY WORDING
+"A fixed-radius, surface-separated stress filter was used as the sizing
+measure in the fully stressed design iteration. For the design optimized on
+48,728 elements, refinement to194,912 elements without changing thicknesses
+increased the maximum filtered equivalent stress from297.76 to326.31 MPa
+(9.59%), while mass remained309.42 kg. This satisfies the practical10%
+mesh-refinement tolerance adopted in this study. The corresponding raw peak
+increased from489.78 to673.01 MPa. These results support reduced mesh
+sensitivity of the filtered sizing measure for the tested case. Nevertheless,
+the refined filtered stress exceeded the300 MPa limit by8.77%; mesh agreement
+therefore does not imply satisfaction of the refined strength constraint."
+
+LIMITS TO KEEP IN THE DRAFT
+- The26.60% and9.59% jumps belong to DIFFERENT optimized thickness fields;
+  do not connect them as a three-point convergence curve for one fixed design.
+- A single accepted refinement pair does not establish asymptotic convergence
+  or guarantee that further refinement will produce smaller changes.
+- Raw peak stresses remain high; averaging is not proof of local strength.
+- No buckling solve/correction for this fine FSD design was performed here.
+  Do not claim buckling convergence or full structural feasibility.
+- All20 ribs have0.625 mm total thickness; front spar0.625..4.930857 mm,
+  rear spar0.625..0.821989 mm. These are FSD-stage results before reinforcement.
+
+ARCHIVE CONTENTS
+Copied reports, numerical summaries, plotting scripts and figures preserve
+the historical fixed-design filter study, both optimized-design refinement
+checks, fine FSD histories and internal thickness figures. Large NPZ fields
+remain in their original locations with hashes in source_sha256.json.
+The solver run folders remain untouched; all iterations retain input and output.
+Use the historical fixed-design three-mesh filter plots only for that historical
+design. Use each optimized-design pair separately in the future article.
+No existing manuscript or accepted plate benchmark draft was modified.
